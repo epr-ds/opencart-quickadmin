@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFA46D67-05FD-4E4C-B0FC-C272C5DD0904}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WinForms</RootNamespace>
+    <AssemblyName>OpenCart QuickAdmin</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WinForms.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bindery">
+      <HintPath>..\..\..\resources\libs\.net\Bindery.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.9.3.0\lib\net461\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="HTMLWYSIWYG">
+      <HintPath>..\..\..\resources\libs\.net\HTMLWYSIWYG.dll</HintPath>
+    </Reference>
+    <Reference Include="INIFileParser, Version=2.5.2.0, Culture=neutral, PublicKeyToken=79af7b307b65cf3c, processorArchitecture=MSIL">
+      <HintPath>..\packages\ini-parser.2.5.2\lib\net20\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.1.3\lib\net461\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MVVMLight.Messaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MVVMLight.Messaging.1.0.0.0\lib\net40\MVVMLight.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="RestEase, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestEase.1.5.0\lib\net45\RestEase.dll</HintPath>
+    </Reference>
+    <Reference Include="Select.HtmlToPdf, Version=20.2.0.0, Culture=neutral, PublicKeyToken=e0ae9f6e27a97018, processorArchitecture=MSIL">
+      <HintPath>..\packages\Select.HtmlToPdf.20.2.0\lib\net40\Select.HtmlToPdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat, Version=9.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Splat.9.7.1\lib\net461\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Reactive, Version=5.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.5.0.0\lib\net472\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tools">
+      <HintPath>..\..\..\resources\libs\.net\Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Cache\ApiManager.cs" />
+    <Compile Include="Cache\CacheableApi.cs" />
+    <Compile Include="Commands\CommandHandler.cs" />
+    <Compile Include="Controls\HTMLWYSIWYG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HTMLWYSIWYG.Designer.cs">
+      <DependentUpon>HTMLWYSIWYG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImageFlowPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageFlowPanel.Designer.cs">
+      <DependentUpon>ImageFlowPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LollipopButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopFileInput.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopFlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopFolderInPut.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopSmallCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\LollipopToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\PdfService.cs" />
+    <Compile Include="Services\TicketService.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UIManagers\DrawHelper.cs" />
+    <Compile Include="UIManagers\FontManager.cs" />
+    <Compile Include="Validators\AddressValidator.cs" />
+    <Compile Include="Validators\CustomerValidator.cs" />
+    <Compile Include="Validators\OrderValidator.cs" />
+    <Compile Include="Validators\ProductValidator.cs" />
+    <Compile Include="Validators\SettingsValidator.cs" />
+    <Compile Include="ViewModels\CustomersViewModel.cs" />
+    <Compile Include="ViewModels\CustomerViewModel.cs" />
+    <Compile Include="ViewModels\OrderReviewViewModel.cs" />
+    <Compile Include="ViewModels\OrdersViewModel.cs" />
+    <Compile Include="ViewModels\OrderViewModel.cs" />
+    <Compile Include="ViewModels\ProductTabViewModel\DataViewModel.cs" />
+    <Compile Include="ViewModels\ProductTabViewModel\DiscountsViewModel.cs" />
+    <Compile Include="ViewModels\ProductTabViewModel\GeneralViewModel.cs" />
+    <Compile Include="ViewModels\ProductTabViewModel\ImagesViewModel.cs" />
+    <Compile Include="ViewModels\ProductTabViewModel\LinksViewModel.cs" />
+    <Compile Include="ViewModels\ProductTabViewModel\OffersViewModel.cs" />
+    <Compile Include="ViewModels\ProductViewModel.cs" />
+    <Compile Include="ViewModels\SettingsViewModel.cs" />
+    <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="ViewModels\StockViewModel.cs" />
+    <Compile Include="ViewModels\ViewModel.cs" />
+    <Compile Include="Views\CustomersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomersView.Designer.cs">
+      <DependentUpon>CustomersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CustomerView.Designer.cs">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrderReviewView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\OrderReviewView.Designer.cs">
+      <DependentUpon>OrderReviewView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrdersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\OrdersView.Designer.cs">
+      <DependentUpon>OrdersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrderView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\OrderView.Designer.cs">
+      <DependentUpon>OrderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProductView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ProductView.Designer.cs">
+      <DependentUpon>ProductView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SettingsView.Designer.cs">
+      <DependentUpon>SettingsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShellView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ShellView.Designer.cs">
+      <DependentUpon>ShellView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StockView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\StockView.Designer.cs">
+      <DependentUpon>StockView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tabs\ProductGeneralView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Tabs\ProductGeneralView.Designer.cs">
+      <DependentUpon>ProductGeneralView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\View.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\CustomersView.resx">
+      <DependentUpon>CustomersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomerView.resx">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\OrderReviewView.resx">
+      <DependentUpon>OrderReviewView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\OrdersView.resx">
+      <DependentUpon>OrdersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\OrderView.resx">
+      <DependentUpon>OrderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProductView.resx">
+      <DependentUpon>ProductView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SettingsView.resx">
+      <DependentUpon>SettingsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShellView.es-419.resx">
+      <DependentUpon>ShellView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ShellView.resx">
+      <DependentUpon>ShellView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StockView.resx">
+      <DependentUpon>StockView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Tabs\ProductGeneralView.resx">
+      <DependentUpon>ProductGeneralView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <EmbeddedResource Include="Resources\font\Roboto-Medium.ttf" />
+    <EmbeddedResource Include="Resources\font\Roboto-Regular.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif\loading_squares.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\AddImage_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Address_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\AddTag_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\AddUserMale_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\AvailableUpdates_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Back_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\BackTo_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\BankCards_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\BulletedList_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Calendar_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Checkmark_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\ContactDetails_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\CurrencyExchange_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Customer_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\CustomerOrder_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Denied_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Document_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\DownloadFromCloud_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Edit_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Envelope_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Export_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Eye_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Forward_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Import_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Info_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\logotipo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\MultipleDevices_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\NewPost_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\NewProduct_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\NoEntry_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Open_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\OpenCart_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Options_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Password_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\People_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Phone_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\PriceComparison_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Pricing_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\print_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Prize_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Product_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\PurchaseOrder_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Refresh_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Registration_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Save_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Search_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Services_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\ShoppingCart_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\ShoppingCartDetails_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Trash_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\Truck_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img\UserGroups_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{018f214f-2f39-43d0-aca0-4574d7afa4ab}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\REST\REST.csproj">
+      <Project>{6f63172d-a4f7-4366-8c38-e1831e87b416}</Project>
+      <Name>REST</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico\opencart.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
