@@ -127,7 +127,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblOrdersStatus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12px</value>
+    <value>Roboto, 12px</value>
   </data>
   <data name="lblOrdersStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -319,7 +319,7 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="txtBxSearchOrder.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBxSearchOrder.Location" type="System.Drawing.Point, System.Drawing">
     <value>118, 18</value>
@@ -622,7 +622,7 @@
     <value>True</value>
   </data>
   <data name="lblStockStatus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12px</value>
+    <value>Roboto, 12px</value>
   </data>
   <data name="lblStockStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -790,7 +790,7 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="txtBxSearchProduct.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBxSearchProduct.Location" type="System.Drawing.Point, System.Drawing">
     <value>118, 18</value>
@@ -1078,7 +1078,7 @@
     <value>True</value>
   </data>
   <data name="lblCustomersStatus.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12px</value>
+    <value>Roboto, 12px</value>
   </data>
   <data name="lblCustomersStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1138,7 +1138,7 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="txtBxSearchCustomers.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBxSearchCustomers.Location" type="System.Drawing.Point, System.Drawing">
     <value>118, 18</value>
@@ -1767,7 +1767,7 @@
     <value>2</value>
   </data>
   <data name="txtBx_printer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_printer.Location" type="System.Drawing.Point, System.Drawing">
     <value>677, 93</value>
@@ -2576,7 +2576,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>10</value>
   </data>
   <data name="txtBx_nItems.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_nItems.Location" type="System.Drawing.Point, System.Drawing">
     <value>632, 135</value>
@@ -2653,7 +2653,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>12</value>
   </data>
   <data name="txtBx_APIkey.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_APIkey.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 305</value>
@@ -2686,7 +2686,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>13</value>
   </data>
   <data name="txtBxUrl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBxUrl.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 135</value>
@@ -2719,7 +2719,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>14</value>
   </data>
   <data name="txtBx_APIusr.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_APIusr.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 249</value>
@@ -2998,7 +2998,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>3</value>
   </data>
   <data name="txtBx_mailPort.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_mailPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>338, 103</value>
@@ -3031,7 +3031,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>4</value>
   </data>
   <data name="txtBx_mailSubject.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_mailSubject.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 217</value>
@@ -3064,7 +3064,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>5</value>
   </data>
   <data name="txtBx_mailHost.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_mailHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 103</value>
@@ -3097,7 +3097,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>6</value>
   </data>
   <data name="txtBx_mailPwd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_mailPwd.Location" type="System.Drawing.Point, System.Drawing">
     <value>750, 177</value>
@@ -3130,7 +3130,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>7</value>
   </data>
   <data name="txtBx_mailEmail.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Roboto, 12pt</value>
   </data>
   <data name="txtBx_mailEmail.Location" type="System.Drawing.Point, System.Drawing">
     <value>750, 103</value>
@@ -3253,7 +3253,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>Top</value>
   </data>
   <data name="tabSelectorSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px</value>
+    <value>Roboto, 14px</value>
   </data>
   <data name="tabSelectorSettings.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -3320,7 +3320,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB+
-        FgAAAk1TRnQBSQFMAgEBBAEAAYABAwGAAQMBGAEAARgBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFg
+        FgAAAk1TRnQBSQFMAgEBBAEAAYgBAwGIAQMBGAEAARgBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFg
         AwABMAMAAQEBAAEgBgABSP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
         /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A3wADCgENAwUBB/8ACAABAQMDBAQBBgMAAQEEAAMD
         AQQDAwEEWAADMAFMAx0BKf8ABQADAwEEAxIEGAEhAwUBBwQAAxABFgMTARpMAAMHAQoDJAE2A0wBkgNZ
@@ -3659,9 +3659,6 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
         /////wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP///////wAA////////
         AAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1150, 600</value>

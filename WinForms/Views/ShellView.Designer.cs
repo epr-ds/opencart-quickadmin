@@ -109,6 +109,8 @@
             this.tabSettings = new MaterialSkin.Controls.MaterialTabControl();
             this.tabGeneral = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.folderInput = new LollipopFolderInPut();
+            this.fileInput = new LollipopFileInput();
             this.txtBx_printer = new MaterialSkin.Controls.MaterialTextBox();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.btExport = new MaterialSkin.Controls.MaterialButton();
@@ -142,6 +144,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.tabMail = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.MailContent = new WinForms.Controls.HTMLWYSIWYG();
             this.label7 = new System.Windows.Forms.Label();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
@@ -157,9 +160,6 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.folderInput = new LollipopFolderInPut();
-            this.fileInput = new LollipopFileInput();
-            this.MailContent = new WinForms.Controls.HTMLWYSIWYG();
             this.materialTabMenu.SuspendLayout();
             this.tabPageOrders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_iconSearch)).BeginInit();
@@ -944,6 +944,31 @@
             resources.ApplyResources(this.panel6, "panel6");
             this.panel6.Name = "panel6";
             // 
+            // folderInput
+            // 
+            this.folderInput.FocusedColor = "#508ef5";
+            this.folderInput.FontColor = "#999999";
+            this.folderInput.IsEnabled = true;
+            resources.ApplyResources(this.folderInput, "folderInput");
+            this.folderInput.MaxLength = 32767;
+            this.folderInput.Name = "folderInput";
+            this.folderInput.ReadOnly = false;
+            this.folderInput.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.folderInput.UseSystemPasswordChar = false;
+            // 
+            // fileInput
+            // 
+            this.fileInput.Filter = "HTML Files (*.html)|*.*";
+            this.fileInput.FocusedColor = "#508ef5";
+            this.fileInput.FontColor = "#999999";
+            this.fileInput.IsEnabled = true;
+            resources.ApplyResources(this.fileInput, "fileInput");
+            this.fileInput.MaxLength = 32767;
+            this.fileInput.Name = "fileInput";
+            this.fileInput.ReadOnly = false;
+            this.fileInput.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.fileInput.UseSystemPasswordChar = false;
+            // 
             // txtBx_printer
             // 
             this.txtBx_printer.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -1252,6 +1277,37 @@
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
+            // MailContent
+            // 
+            resources.ApplyResources(this.MailContent, "MailContent");
+            this.MailContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MailContent.Changed = false;
+            this.MailContent.HTML = null;
+            this.MailContent.Name = "MailContent";
+            this.MailContent.ShowAlignCenterButton = false;
+            this.MailContent.ShowAlignLeftButton = false;
+            this.MailContent.ShowAlignRightButton = false;
+            this.MailContent.ShowBackColorButton = false;
+            this.MailContent.ShowBolButton = false;
+            this.MailContent.ShowBulletButton = false;
+            this.MailContent.ShowCopyButton = false;
+            this.MailContent.ShowCutButton = false;
+            this.MailContent.ShowFontFamilyButton = false;
+            this.MailContent.ShowFontSizeButton = false;
+            this.MailContent.ShowIndentButton = false;
+            this.MailContent.ShowItalicButton = false;
+            this.MailContent.ShowJustifyButton = false;
+            this.MailContent.ShowLinkButton = false;
+            this.MailContent.ShowNewButton = false;
+            this.MailContent.ShowOrderedListButton = false;
+            this.MailContent.ShowOutdentButton = false;
+            this.MailContent.ShowPasteButton = false;
+            this.MailContent.ShowPrintButton = false;
+            this.MailContent.ShowTxtBGButton = false;
+            this.MailContent.ShowTxtColorButton = false;
+            this.MailContent.ShowUnderlineButton = false;
+            this.MailContent.ShowUnlinkButton = false;
+            // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
@@ -1362,62 +1418,6 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog1";
-            // 
-            // folderInput
-            // 
-            this.folderInput.FocusedColor = "#508ef5";
-            this.folderInput.FontColor = "#999999";
-            this.folderInput.IsEnabled = true;
-            resources.ApplyResources(this.folderInput, "folderInput");
-            this.folderInput.MaxLength = 32767;
-            this.folderInput.Name = "folderInput";
-            this.folderInput.ReadOnly = false;
-            this.folderInput.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.folderInput.UseSystemPasswordChar = false;
-            // 
-            // fileInput
-            // 
-            this.fileInput.Filter = "HTML Files (*.html)|*.*";
-            this.fileInput.FocusedColor = "#508ef5";
-            this.fileInput.FontColor = "#999999";
-            this.fileInput.IsEnabled = true;
-            resources.ApplyResources(this.fileInput, "fileInput");
-            this.fileInput.MaxLength = 32767;
-            this.fileInput.Name = "fileInput";
-            this.fileInput.ReadOnly = false;
-            this.fileInput.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.fileInput.UseSystemPasswordChar = false;
-            // 
-            // MailContent
-            // 
-            resources.ApplyResources(this.MailContent, "MailContent");
-            this.MailContent.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.MailContent.Changed = false;
-            this.MailContent.HTML = null;
-            this.MailContent.Name = "MailContent";
-            this.MailContent.ShowAlignCenterButton = false;
-            this.MailContent.ShowAlignLeftButton = false;
-            this.MailContent.ShowAlignRightButton = false;
-            this.MailContent.ShowBackColorButton = false;
-            this.MailContent.ShowBolButton = false;
-            this.MailContent.ShowBulletButton = false;
-            this.MailContent.ShowCopyButton = false;
-            this.MailContent.ShowCutButton = false;
-            this.MailContent.ShowFontFamilyButton = false;
-            this.MailContent.ShowFontSizeButton = false;
-            this.MailContent.ShowIndentButton = false;
-            this.MailContent.ShowItalicButton = false;
-            this.MailContent.ShowJustifyButton = false;
-            this.MailContent.ShowLinkButton = false;
-            this.MailContent.ShowNewButton = false;
-            this.MailContent.ShowOrderedListButton = false;
-            this.MailContent.ShowOutdentButton = false;
-            this.MailContent.ShowPasteButton = false;
-            this.MailContent.ShowPrintButton = false;
-            this.MailContent.ShowTxtBGButton = false;
-            this.MailContent.ShowTxtColorButton = false;
-            this.MailContent.ShowUnderlineButton = false;
-            this.MailContent.ShowUnlinkButton = false;
             // 
             // ShellView
             // 
