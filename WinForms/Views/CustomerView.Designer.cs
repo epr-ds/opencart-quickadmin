@@ -48,6 +48,9 @@
             this.switchStatus = new MaterialSkin.Controls.MaterialSwitch();
             this.switchNewsletter = new MaterialSkin.Controls.MaterialSwitch();
             this.cmbBxGroupCustomers = new MaterialSkin.Controls.MaterialComboBox();
+            this.lollipopLabel3 = new LollipopLabel();
+            this.lollipopLabel2 = new LollipopLabel();
+            this.lollipopLabel1 = new LollipopLabel();
             this.txtBx_telephone = new MaterialSkin.Controls.MaterialTextBox();
             this.txtBx_email = new MaterialSkin.Controls.MaterialTextBox();
             this.txtBxCLastname = new MaterialSkin.Controls.MaterialTextBox();
@@ -57,9 +60,6 @@
             this.picLoading = new System.Windows.Forms.PictureBox();
             this.btBackTo = new MaterialSkin.Controls.MaterialButton();
             this.btSave = new MaterialSkin.Controls.MaterialButton();
-            this.lollipopLabel3 = new LollipopLabel();
-            this.lollipopLabel2 = new LollipopLabel();
-            this.lollipopLabel1 = new LollipopLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -135,7 +135,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1050, 538);
-            this.panel2.TabIndex = 4;
+            this.panel2.TabIndex = 0;
             // 
             // pictureBox2
             // 
@@ -151,7 +151,7 @@
             // 
             this.txtBx_AFirstname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBx_AFirstname.Depth = 0;
-            this.txtBx_AFirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBx_AFirstname.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBx_AFirstname.Hint = "Nombre";
             this.txtBx_AFirstname.Location = new System.Drawing.Point(492, 97);
             this.txtBx_AFirstname.MaxLength = 32767;
@@ -159,7 +159,7 @@
             this.txtBx_AFirstname.Multiline = false;
             this.txtBx_AFirstname.Name = "txtBx_AFirstname";
             this.txtBx_AFirstname.Size = new System.Drawing.Size(171, 36);
-            this.txtBx_AFirstname.TabIndex = 8;
+            this.txtBx_AFirstname.TabIndex = 11;
             this.txtBx_AFirstname.TabStop = false;
             this.txtBx_AFirstname.Text = "";
             this.txtBx_AFirstname.UseTallSize = false;
@@ -184,7 +184,7 @@
             this.cmbBxZones.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBxZones.Name = "cmbBxZones";
             this.cmbBxZones.Size = new System.Drawing.Size(177, 35);
-            this.cmbBxZones.TabIndex = 16;
+            this.cmbBxZones.TabIndex = 19;
             this.cmbBxZones.UseTallSize = false;
             // 
             // cmbBxCountries
@@ -207,14 +207,14 @@
             this.cmbBxCountries.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBxCountries.Name = "cmbBxCountries";
             this.cmbBxCountries.Size = new System.Drawing.Size(171, 35);
-            this.cmbBxCountries.TabIndex = 15;
+            this.cmbBxCountries.TabIndex = 18;
             this.cmbBxCountries.UseTallSize = false;
             // 
             // txtBxPostcode
             // 
             this.txtBxPostcode.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxPostcode.Depth = 0;
-            this.txtBxPostcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxPostcode.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxPostcode.Hint = "Código Postal";
             this.txtBxPostcode.Location = new System.Drawing.Point(669, 327);
             this.txtBxPostcode.MaxLength = 32767;
@@ -222,7 +222,7 @@
             this.txtBxPostcode.Multiline = false;
             this.txtBxPostcode.Name = "txtBxPostcode";
             this.txtBxPostcode.Size = new System.Drawing.Size(177, 36);
-            this.txtBxPostcode.TabIndex = 14;
+            this.txtBxPostcode.TabIndex = 17;
             this.txtBxPostcode.TabStop = false;
             this.txtBxPostcode.Text = "";
             this.txtBxPostcode.UseTallSize = false;
@@ -231,7 +231,7 @@
             // 
             this.txtBxCity.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxCity.Depth = 0;
-            this.txtBxCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxCity.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxCity.Hint = "Ciudad";
             this.txtBxCity.Location = new System.Drawing.Point(492, 327);
             this.txtBxCity.MaxLength = 32767;
@@ -239,7 +239,7 @@
             this.txtBxCity.Multiline = false;
             this.txtBxCity.Name = "txtBxCity";
             this.txtBxCity.Size = new System.Drawing.Size(171, 36);
-            this.txtBxCity.TabIndex = 13;
+            this.txtBxCity.TabIndex = 16;
             this.txtBxCity.TabStop = false;
             this.txtBxCity.Text = "";
             this.txtBxCity.UseTallSize = false;
@@ -248,7 +248,7 @@
             // 
             this.txtBxAddress2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxAddress2.Depth = 0;
-            this.txtBxAddress2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxAddress2.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxAddress2.Hint = "Domicilio #2";
             this.txtBxAddress2.Location = new System.Drawing.Point(492, 269);
             this.txtBxAddress2.MaxLength = 32767;
@@ -256,7 +256,7 @@
             this.txtBxAddress2.Multiline = false;
             this.txtBxAddress2.Name = "txtBxAddress2";
             this.txtBxAddress2.Size = new System.Drawing.Size(354, 36);
-            this.txtBxAddress2.TabIndex = 12;
+            this.txtBxAddress2.TabIndex = 15;
             this.txtBxAddress2.TabStop = false;
             this.txtBxAddress2.Text = "";
             this.txtBxAddress2.UseTallSize = false;
@@ -265,7 +265,7 @@
             // 
             this.txtBxAddress1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxAddress1.Depth = 0;
-            this.txtBxAddress1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxAddress1.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxAddress1.Hint = "Domicilio #1";
             this.txtBxAddress1.Location = new System.Drawing.Point(492, 211);
             this.txtBxAddress1.MaxLength = 32767;
@@ -273,7 +273,7 @@
             this.txtBxAddress1.Multiline = false;
             this.txtBxAddress1.Name = "txtBxAddress1";
             this.txtBxAddress1.Size = new System.Drawing.Size(354, 36);
-            this.txtBxAddress1.TabIndex = 11;
+            this.txtBxAddress1.TabIndex = 14;
             this.txtBxAddress1.TabStop = false;
             this.txtBxAddress1.Text = "";
             this.txtBxAddress1.UseTallSize = false;
@@ -282,7 +282,7 @@
             // 
             this.txtBxCompany.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxCompany.Depth = 0;
-            this.txtBxCompany.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxCompany.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxCompany.Hint = "Compañía";
             this.txtBxCompany.Location = new System.Drawing.Point(492, 153);
             this.txtBxCompany.MaxLength = 32767;
@@ -290,7 +290,7 @@
             this.txtBxCompany.Multiline = false;
             this.txtBxCompany.Name = "txtBxCompany";
             this.txtBxCompany.Size = new System.Drawing.Size(354, 36);
-            this.txtBxCompany.TabIndex = 10;
+            this.txtBxCompany.TabIndex = 13;
             this.txtBxCompany.TabStop = false;
             this.txtBxCompany.Text = "";
             this.txtBxCompany.UseTallSize = false;
@@ -299,7 +299,7 @@
             // 
             this.txtBx_ALastname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBx_ALastname.Depth = 0;
-            this.txtBx_ALastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBx_ALastname.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBx_ALastname.Hint = "Apellido";
             this.txtBx_ALastname.Location = new System.Drawing.Point(669, 97);
             this.txtBx_ALastname.MaxLength = 32767;
@@ -307,7 +307,7 @@
             this.txtBx_ALastname.Multiline = false;
             this.txtBx_ALastname.Name = "txtBx_ALastname";
             this.txtBx_ALastname.Size = new System.Drawing.Size(177, 36);
-            this.txtBx_ALastname.TabIndex = 9;
+            this.txtBx_ALastname.TabIndex = 12;
             this.txtBx_ALastname.TabStop = false;
             this.txtBx_ALastname.Text = "";
             this.txtBx_ALastname.UseTallSize = false;
@@ -333,7 +333,7 @@
             this.switchSafe.Name = "switchSafe";
             this.switchSafe.Ripple = true;
             this.switchSafe.Size = new System.Drawing.Size(58, 37);
-            this.switchSafe.TabIndex = 7;
+            this.switchSafe.TabIndex = 10;
             this.switchSafe.UseVisualStyleBackColor = true;
             // 
             // switchStatus
@@ -347,7 +347,7 @@
             this.switchStatus.Name = "switchStatus";
             this.switchStatus.Ripple = true;
             this.switchStatus.Size = new System.Drawing.Size(58, 37);
-            this.switchStatus.TabIndex = 6;
+            this.switchStatus.TabIndex = 8;
             this.switchStatus.UseVisualStyleBackColor = true;
             // 
             // switchNewsletter
@@ -361,7 +361,7 @@
             this.switchNewsletter.Name = "switchNewsletter";
             this.switchNewsletter.Ripple = true;
             this.switchNewsletter.Size = new System.Drawing.Size(58, 37);
-            this.switchNewsletter.TabIndex = 5;
+            this.switchNewsletter.TabIndex = 6;
             this.switchNewsletter.UseVisualStyleBackColor = true;
             // 
             // cmbBxGroupCustomers
@@ -387,11 +387,47 @@
             this.cmbBxGroupCustomers.TabIndex = 0;
             this.cmbBxGroupCustomers.UseTallSize = false;
             // 
+            // lollipopLabel3
+            // 
+            this.lollipopLabel3.AutoSize = true;
+            this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lollipopLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel3.Location = new System.Drawing.Point(351, 382);
+            this.lollipopLabel3.Name = "lollipopLabel3";
+            this.lollipopLabel3.Size = new System.Drawing.Size(54, 17);
+            this.lollipopLabel3.TabIndex = 9;
+            this.lollipopLabel3.Text = "Seguro";
+            // 
+            // lollipopLabel2
+            // 
+            this.lollipopLabel2.AutoSize = true;
+            this.lollipopLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lollipopLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel2.Location = new System.Drawing.Point(202, 382);
+            this.lollipopLabel2.Name = "lollipopLabel2";
+            this.lollipopLabel2.Size = new System.Drawing.Size(52, 17);
+            this.lollipopLabel2.TabIndex = 7;
+            this.lollipopLabel2.Text = "Estado";
+            // 
+            // lollipopLabel1
+            // 
+            this.lollipopLabel1.AutoSize = true;
+            this.lollipopLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lollipopLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel1.Location = new System.Drawing.Point(63, 382);
+            this.lollipopLabel1.Name = "lollipopLabel1";
+            this.lollipopLabel1.Size = new System.Drawing.Size(51, 17);
+            this.lollipopLabel1.TabIndex = 5;
+            this.lollipopLabel1.Text = "Boletín";
+            // 
             // txtBx_telephone
             // 
             this.txtBx_telephone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBx_telephone.Depth = 0;
-            this.txtBx_telephone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBx_telephone.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBx_telephone.Hint = "Teléfono";
             this.txtBx_telephone.Location = new System.Drawing.Point(60, 327);
             this.txtBx_telephone.MaxLength = 32767;
@@ -408,7 +444,7 @@
             // 
             this.txtBx_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBx_email.Depth = 0;
-            this.txtBx_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBx_email.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBx_email.Hint = "E-Mail";
             this.txtBx_email.Location = new System.Drawing.Point(58, 269);
             this.txtBx_email.MaxLength = 32767;
@@ -425,7 +461,7 @@
             // 
             this.txtBxCLastname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxCLastname.Depth = 0;
-            this.txtBxCLastname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxCLastname.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxCLastname.Hint = "Apellido";
             this.txtBxCLastname.Location = new System.Drawing.Point(60, 211);
             this.txtBxCLastname.MaxLength = 32767;
@@ -442,7 +478,7 @@
             // 
             this.txtBxCFirstname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBxCFirstname.Depth = 0;
-            this.txtBxCFirstname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtBxCFirstname.Font = new System.Drawing.Font("Roboto", 12F);
             this.txtBxCFirstname.Hint = "Nombre";
             this.txtBxCFirstname.Location = new System.Drawing.Point(60, 153);
             this.txtBxCFirstname.MaxLength = 32767;
@@ -480,7 +516,7 @@
             this.lblNotification.Name = "lblNotification";
             this.lblNotification.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblNotification.Size = new System.Drawing.Size(84, 19);
-            this.lblNotification.TabIndex = 10;
+            this.lblNotification.TabIndex = 3;
             this.lblNotification.Text = "Notification";
             this.lblNotification.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -532,42 +568,6 @@
             this.btSave.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btSave.UseAccentColor = false;
             this.btSave.UseVisualStyleBackColor = true;
-            // 
-            // lollipopLabel3
-            // 
-            this.lollipopLabel3.AutoSize = true;
-            this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lollipopLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lollipopLabel3.Location = new System.Drawing.Point(351, 382);
-            this.lollipopLabel3.Name = "lollipopLabel3";
-            this.lollipopLabel3.Size = new System.Drawing.Size(54, 17);
-            this.lollipopLabel3.TabIndex = 79;
-            this.lollipopLabel3.Text = "Seguro";
-            // 
-            // lollipopLabel2
-            // 
-            this.lollipopLabel2.AutoSize = true;
-            this.lollipopLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lollipopLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lollipopLabel2.Location = new System.Drawing.Point(202, 382);
-            this.lollipopLabel2.Name = "lollipopLabel2";
-            this.lollipopLabel2.Size = new System.Drawing.Size(52, 17);
-            this.lollipopLabel2.TabIndex = 78;
-            this.lollipopLabel2.Text = "Estado";
-            // 
-            // lollipopLabel1
-            // 
-            this.lollipopLabel1.AutoSize = true;
-            this.lollipopLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.lollipopLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lollipopLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.lollipopLabel1.Location = new System.Drawing.Point(63, 382);
-            this.lollipopLabel1.Name = "lollipopLabel1";
-            this.lollipopLabel1.Size = new System.Drawing.Size(51, 17);
-            this.lollipopLabel1.TabIndex = 77;
-            this.lollipopLabel1.Text = "Boletín";
             // 
             // CustomerView
             // 

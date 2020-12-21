@@ -6,7 +6,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
-using WinForms.Cache;
+using WinForms.Services;
 using WinForms.Commands;
 
 namespace WinForms.ViewModels.ProductTabViewModel

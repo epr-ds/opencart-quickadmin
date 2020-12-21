@@ -239,7 +239,7 @@
             this.cmbBx_lengthClass.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_lengthClass.Name = "cmbBx_lengthClass";
             this.cmbBx_lengthClass.Size = new System.Drawing.Size(310, 49);
-            this.cmbBx_lengthClass.TabIndex = 21;
+            this.cmbBx_lengthClass.TabIndex = 23;
             // 
             // txtBxWidth
             // 
@@ -253,7 +253,7 @@
             this.txtBxWidth.Multiline = false;
             this.txtBxWidth.Name = "txtBxWidth";
             this.txtBxWidth.Size = new System.Drawing.Size(151, 50);
-            this.txtBxWidth.TabIndex = 20;
+            this.txtBxWidth.TabIndex = 22;
             this.txtBxWidth.TabStop = false;
             this.txtBxWidth.Text = "";
             // 
@@ -277,7 +277,7 @@
             this.cmbBx_stockStatus.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_stockStatus.Name = "cmbBx_stockStatus";
             this.cmbBx_stockStatus.Size = new System.Drawing.Size(310, 49);
-            this.cmbBx_stockStatus.TabIndex = 13;
+            this.cmbBx_stockStatus.TabIndex = 14;
             // 
             // txtBxLength
             // 
@@ -291,7 +291,7 @@
             this.txtBxLength.Multiline = false;
             this.txtBxLength.Name = "txtBxLength";
             this.txtBxLength.Size = new System.Drawing.Size(153, 50);
-            this.txtBxLength.TabIndex = 19;
+            this.txtBxLength.TabIndex = 21;
             this.txtBxLength.TabStop = false;
             this.txtBxLength.Text = "";
             // 
@@ -315,7 +315,7 @@
             this.cmbBx_taxclass.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_taxclass.Name = "cmbBx_taxclass";
             this.cmbBx_taxclass.Size = new System.Drawing.Size(174, 49);
-            this.cmbBx_taxclass.TabIndex = 10;
+            this.cmbBx_taxclass.TabIndex = 11;
             // 
             // cmbBx_weightClass
             // 
@@ -337,7 +337,7 @@
             this.cmbBx_weightClass.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_weightClass.Name = "cmbBx_weightClass";
             this.cmbBx_weightClass.Size = new System.Drawing.Size(145, 49);
-            this.cmbBx_weightClass.TabIndex = 15;
+            this.cmbBx_weightClass.TabIndex = 16;
             // 
             // dateRelease
             // 
@@ -345,7 +345,7 @@
             this.dateRelease.Location = new System.Drawing.Point(738, 404);
             this.dateRelease.Name = "dateRelease";
             this.dateRelease.Size = new System.Drawing.Size(145, 20);
-            this.dateRelease.TabIndex = 18;
+            this.dateRelease.TabIndex = 20;
             this.dateRelease.Value = new System.DateTime(2020, 10, 28, 0, 0, 0, 0);
             // 
             // chkBx_status
@@ -360,7 +360,7 @@
             this.chkBx_status.Name = "chkBx_status";
             this.chkBx_status.Ripple = true;
             this.chkBx_status.Size = new System.Drawing.Size(108, 37);
-            this.chkBx_status.TabIndex = 9;
+            this.chkBx_status.TabIndex = 10;
             this.chkBx_status.Text = "Habilitado";
             this.chkBx_status.UseVisualStyleBackColor = true;
             // 
@@ -376,7 +376,7 @@
             this.chkBxShippingRequired.Name = "chkBxShippingRequired";
             this.chkBxShippingRequired.Ripple = true;
             this.chkBxShippingRequired.Size = new System.Drawing.Size(138, 37);
-            this.chkBxShippingRequired.TabIndex = 17;
+            this.chkBxShippingRequired.TabIndex = 18;
             this.chkBxShippingRequired.Text = "Requiere envío";
             this.chkBxShippingRequired.UseVisualStyleBackColor = true;
             // 
@@ -392,7 +392,7 @@
             this.chkBx_subtractStock.Name = "chkBx_subtractStock";
             this.chkBx_subtractStock.Ripple = true;
             this.chkBx_subtractStock.Size = new System.Drawing.Size(204, 37);
-            this.chkBx_subtractStock.TabIndex = 16;
+            this.chkBx_subtractStock.TabIndex = 17;
             this.chkBx_subtractStock.Text = "Sustraer del \r\ninventario";
             this.chkBx_subtractStock.UseVisualStyleBackColor = true;
             // 
@@ -404,7 +404,7 @@
             this.label17.Location = new System.Drawing.Point(735, 386);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(101, 15);
-            this.label17.TabIndex = 88;
+            this.label17.TabIndex = 19;
             this.label17.Text = "Fecha disponible";
             // 
             // label6
@@ -415,7 +415,7 @@
             this.label6.Location = new System.Drawing.Point(47, 224);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(12, 15);
-            this.label6.TabIndex = 89;
+            this.label6.TabIndex = 7;
             this.label6.Text = "*";
             // 
             // txtBx_mpn
@@ -446,7 +446,7 @@
             this.txtBx_price.Multiline = false;
             this.txtBx_price.Name = "txtBx_price";
             this.txtBx_price.Size = new System.Drawing.Size(145, 50);
-            this.txtBx_price.TabIndex = 8;
+            this.txtBx_price.TabIndex = 9;
             this.txtBx_price.TabStop = false;
             this.txtBx_price.Text = "";
             // 
@@ -462,7 +462,7 @@
             this.txtBxMinQuantity.Multiline = false;
             this.txtBxMinQuantity.Name = "txtBxMinQuantity";
             this.txtBxMinQuantity.Size = new System.Drawing.Size(145, 50);
-            this.txtBxMinQuantity.TabIndex = 12;
+            this.txtBxMinQuantity.TabIndex = 13;
             this.txtBxMinQuantity.TabStop = false;
             this.txtBxMinQuantity.Text = "";
             // 
@@ -478,7 +478,7 @@
             this.txtBxQuantity.Multiline = false;
             this.txtBxQuantity.Name = "txtBxQuantity";
             this.txtBxQuantity.Size = new System.Drawing.Size(145, 50);
-            this.txtBxQuantity.TabIndex = 11;
+            this.txtBxQuantity.TabIndex = 12;
             this.txtBxQuantity.TabStop = false;
             this.txtBxQuantity.Text = "";
             // 
@@ -494,7 +494,7 @@
             this.txtBx_weight.Multiline = false;
             this.txtBx_weight.Name = "txtBx_weight";
             this.txtBx_weight.Size = new System.Drawing.Size(145, 50);
-            this.txtBx_weight.TabIndex = 14;
+            this.txtBx_weight.TabIndex = 15;
             this.txtBx_weight.TabStop = false;
             this.txtBx_weight.Text = "";
             // 
@@ -510,7 +510,7 @@
             this.txtBx_location.Multiline = false;
             this.txtBx_location.Name = "txtBx_location";
             this.txtBx_location.Size = new System.Drawing.Size(145, 50);
-            this.txtBx_location.TabIndex = 7;
+            this.txtBx_location.TabIndex = 8;
             this.txtBx_location.TabStop = false;
             this.txtBx_location.Text = "";
             // 
@@ -618,7 +618,7 @@
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1019, 57);
-            this.panel3.TabIndex = 65;
+            this.panel3.TabIndex = 24;
             // 
             // tabPage_Links
             // 
@@ -670,7 +670,7 @@
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             this.materialLabel2.Size = new System.Drawing.Size(168, 19);
-            this.materialLabel2.TabIndex = 6;
+            this.materialLabel2.TabIndex = 5;
             this.materialLabel2.Text = "Productos relacionados";
             // 
             // materialLabel1
@@ -683,7 +683,7 @@
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(77, 19);
-            this.materialLabel1.TabIndex = 5;
+            this.materialLabel1.TabIndex = 3;
             this.materialLabel1.Text = "Categorias";
             // 
             // flowLayoutPanel_relatedProducts
@@ -697,7 +697,7 @@
             this.flowLayoutPanel_relatedProducts.Name = "flowLayoutPanel_relatedProducts";
             this.flowLayoutPanel_relatedProducts.Padding = new System.Windows.Forms.Padding(5);
             this.flowLayoutPanel_relatedProducts.Size = new System.Drawing.Size(260, 290);
-            this.flowLayoutPanel_relatedProducts.TabIndex = 3;
+            this.flowLayoutPanel_relatedProducts.TabIndex = 6;
             this.flowLayoutPanel_relatedProducts.WrapContents = false;
             // 
             // flwLytPnl_stores
@@ -711,7 +711,7 @@
             this.flwLytPnl_stores.Name = "flwLytPnl_stores";
             this.flwLytPnl_stores.Padding = new System.Windows.Forms.Padding(5);
             this.flwLytPnl_stores.Size = new System.Drawing.Size(260, 290);
-            this.flwLytPnl_stores.TabIndex = 1;
+            this.flwLytPnl_stores.TabIndex = 2;
             this.flwLytPnl_stores.WrapContents = false;
             // 
             // flowLayoutPanel_categories
@@ -725,7 +725,7 @@
             this.flowLayoutPanel_categories.Name = "flowLayoutPanel_categories";
             this.flowLayoutPanel_categories.Padding = new System.Windows.Forms.Padding(5);
             this.flowLayoutPanel_categories.Size = new System.Drawing.Size(260, 290);
-            this.flowLayoutPanel_categories.TabIndex = 2;
+            this.flowLayoutPanel_categories.TabIndex = 4;
             this.flowLayoutPanel_categories.WrapContents = false;
             // 
             // label28
@@ -736,7 +736,7 @@
             this.label28.Location = new System.Drawing.Point(30, 97);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(51, 15);
-            this.label28.TabIndex = 4;
+            this.label28.TabIndex = 1;
             this.label28.Text = "Tiendas";
             // 
             // tabPage_discount
@@ -809,7 +809,7 @@
             this.lstVwDiscounts.Name = "lstVwDiscounts";
             this.lstVwDiscounts.OwnerDraw = true;
             this.lstVwDiscounts.Size = new System.Drawing.Size(655, 369);
-            this.lstVwDiscounts.TabIndex = 7;
+            this.lstVwDiscounts.TabIndex = 9;
             this.lstVwDiscounts.UseCompatibleStateImageBehavior = false;
             this.lstVwDiscounts.View = System.Windows.Forms.View.Details;
             // 
@@ -872,7 +872,7 @@
             this.btAddDiscount.MouseState = MaterialSkin.MouseState.HOVER;
             this.btAddDiscount.Name = "btAddDiscount";
             this.btAddDiscount.Size = new System.Drawing.Size(102, 36);
-            this.btAddDiscount.TabIndex = 6;
+            this.btAddDiscount.TabIndex = 8;
             this.btAddDiscount.Text = "Añadir";
             this.btAddDiscount.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btAddDiscount.UseAccentColor = false;
@@ -890,7 +890,7 @@
             this.dateTimePicker_discountDateEnd.Location = new System.Drawing.Point(97, 388);
             this.dateTimePicker_discountDateEnd.Name = "dateTimePicker_discountDateEnd";
             this.dateTimePicker_discountDateEnd.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker_discountDateEnd.TabIndex = 5;
+            this.dateTimePicker_discountDateEnd.TabIndex = 6;
             // 
             // txtBx_discountPrice
             // 
@@ -948,7 +948,7 @@
             this.label32.Location = new System.Drawing.Point(230, 411);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(67, 15);
-            this.label32.TabIndex = 10;
+            this.label32.TabIndex = 7;
             this.label32.Text = "Fecha final";
             // 
             // label29
@@ -959,7 +959,7 @@
             this.label29.Location = new System.Drawing.Point(207, 336);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(90, 15);
-            this.label29.TabIndex = 10;
+            this.label29.TabIndex = 5;
             this.label29.Text = "Fecha de inicio";
             // 
             // tabPage_special
@@ -1030,7 +1030,7 @@
             this.lstVwOffers.Name = "lstVwOffers";
             this.lstVwOffers.OwnerDraw = true;
             this.lstVwOffers.Size = new System.Drawing.Size(655, 369);
-            this.lstVwOffers.TabIndex = 6;
+            this.lstVwOffers.TabIndex = 8;
             this.lstVwOffers.UseCompatibleStateImageBehavior = false;
             this.lstVwOffers.View = System.Windows.Forms.View.Details;
             // 
@@ -1071,7 +1071,7 @@
             this.btAddOffer.MouseState = MaterialSkin.MouseState.HOVER;
             this.btAddOffer.Name = "btAddOffer";
             this.btAddOffer.Size = new System.Drawing.Size(102, 36);
-            this.btAddOffer.TabIndex = 5;
+            this.btAddOffer.TabIndex = 7;
             this.btAddOffer.Text = "Añadir";
             this.btAddOffer.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btAddOffer.UseAccentColor = false;
@@ -1089,7 +1089,7 @@
             this.dateTimePicker_SpecDateEnd.Location = new System.Drawing.Point(97, 322);
             this.dateTimePicker_SpecDateEnd.Name = "dateTimePicker_SpecDateEnd";
             this.dateTimePicker_SpecDateEnd.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker_SpecDateEnd.TabIndex = 4;
+            this.dateTimePicker_SpecDateEnd.TabIndex = 5;
             // 
             // txtBxSpecialPrice
             // 
@@ -1131,7 +1131,7 @@
             this.label39.Location = new System.Drawing.Point(230, 345);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(67, 15);
-            this.label39.TabIndex = 19;
+            this.label39.TabIndex = 6;
             this.label39.Text = "Fecha final";
             // 
             // label40
@@ -1142,7 +1142,7 @@
             this.label40.Location = new System.Drawing.Point(207, 267);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(90, 15);
-            this.label40.TabIndex = 20;
+            this.label40.TabIndex = 4;
             this.label40.Text = "Fecha de inicio";
             // 
             // tabPage_images
@@ -1174,7 +1174,7 @@
             this.btn_addImages.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_addImages.Name = "btn_addImages";
             this.btn_addImages.Size = new System.Drawing.Size(162, 36);
-            this.btn_addImages.TabIndex = 1;
+            this.btn_addImages.TabIndex = 3;
             this.btn_addImages.Text = "Añadir imagen";
             this.btn_addImages.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btn_addImages.UseAccentColor = false;
@@ -1192,7 +1192,7 @@
             this.btn_delImg.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_delImg.Name = "btn_delImg";
             this.btn_delImg.Size = new System.Drawing.Size(44, 36);
-            this.btn_delImg.TabIndex = 0;
+            this.btn_delImg.TabIndex = 1;
             this.btn_delImg.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btn_delImg.UseAccentColor = false;
             this.btn_delImg.UseVisualStyleBackColor = false;
@@ -1205,7 +1205,7 @@
             this.lbl_ImgMsg.Location = new System.Drawing.Point(184, 131);
             this.lbl_ImgMsg.Name = "lbl_ImgMsg";
             this.lbl_ImgMsg.Size = new System.Drawing.Size(174, 15);
-            this.lbl_ImgMsg.TabIndex = 22;
+            this.lbl_ImgMsg.TabIndex = 2;
             this.lbl_ImgMsg.Text = "Imagen subida correctamente.";
             // 
             // label43
@@ -1216,7 +1216,7 @@
             this.label43.Location = new System.Drawing.Point(46, 28);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(99, 15);
-            this.label43.TabIndex = 22;
+            this.label43.TabIndex = 0;
             this.label43.Text = "Imagen principal";
             // 
             // label36
@@ -1227,7 +1227,7 @@
             this.label36.Location = new System.Drawing.Point(38, 171);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(128, 15);
-            this.label36.TabIndex = 22;
+            this.label36.TabIndex = 4;
             this.label36.Text = "Imágenes adicionales";
             // 
             // picBxImage
@@ -1256,7 +1256,7 @@
             this.imagePanel.Location = new System.Drawing.Point(38, 189);
             this.imagePanel.Name = "imagePanel";
             this.imagePanel.Size = new System.Drawing.Size(957, 263);
-            this.imagePanel.TabIndex = 2;
+            this.imagePanel.TabIndex = 5;
             // 
             // panel_footer
             // 
@@ -1282,7 +1282,7 @@
             this.lbl_msg.Name = "lbl_msg";
             this.lbl_msg.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_msg.Size = new System.Drawing.Size(132, 19);
-            this.lbl_msg.TabIndex = 5;
+            this.lbl_msg.TabIndex = 1;
             this.lbl_msg.Text = "Notification status";
             this.lbl_msg.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -1312,7 +1312,7 @@
             this.btSave.MouseState = MaterialSkin.MouseState.HOVER;
             this.btSave.Name = "btSave";
             this.btSave.Size = new System.Drawing.Size(116, 37);
-            this.btSave.TabIndex = 1;
+            this.btSave.TabIndex = 2;
             this.btSave.Text = "Guardar";
             this.btSave.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btSave.UseAccentColor = false;

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using WinForms.ViewModels.ProductTabViewModel;
 using MVVMLight.Messaging;
-using WinForms.Cache;
+using WinForms.Services;
 
 namespace WinForms.ViewModels
 {

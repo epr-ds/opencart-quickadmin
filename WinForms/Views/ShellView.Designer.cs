@@ -56,6 +56,7 @@
             this.deleteOrderMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.reloadOrdersMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
+            this.loginMenuItemOrder = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.tabPageStock = new System.Windows.Forms.TabPage();
             this.lblStockStatus = new MaterialSkin.Controls.MaterialLabel();
             this.lstVwProducts = new MaterialSkin.Controls.MaterialListView();
@@ -70,6 +71,7 @@
             this.deleteProductMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.reloadStockMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
+            this.loginMenuItemStock = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtBxSearchProduct = new MaterialSkin.Controls.MaterialTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -101,6 +103,7 @@
             this.deleteCustomerMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.reloadCustomersMenuItem = new MaterialSkin.Controls.MaterialToolStripMenuItem();
+            this.loginMenuItemCustomer = new MaterialSkin.Controls.MaterialToolStripMenuItem();
             this.tabPageSettings = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblNotification = new MaterialSkin.Controls.MaterialLabel();
@@ -125,6 +128,7 @@
             this.materialLabel_printer = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel_template = new MaterialSkin.Controls.MaterialLabel();
             this.tabApi = new System.Windows.Forms.TabPage();
+            this.btnLogin = new MaterialSkin.Controls.MaterialButton();
             this.chkBx_cache = new MaterialSkin.Controls.MaterialCheckbox();
             this.btSubtract = new MaterialSkin.Controls.MaterialButton();
             this.btAdd = new MaterialSkin.Controls.MaterialButton();
@@ -408,7 +412,8 @@
             this.editOrderMenuItem,
             this.deleteOrderMenuItem,
             this.toolStripSeparator,
-            this.reloadOrdersMenuItem});
+            this.reloadOrdersMenuItem,
+            this.loginMenuItemOrder});
             this.OrdersContextMenu.MouseState = MaterialSkin.MouseState.HOVER;
             this.OrdersContextMenu.Name = "OrdersContextMenu";
             resources.ApplyResources(this.OrdersContextMenu, "OrdersContextMenu");
@@ -441,6 +446,12 @@
             resources.ApplyResources(this.reloadOrdersMenuItem, "reloadOrdersMenuItem");
             this.reloadOrdersMenuItem.Image = global::WinForms.Properties.Resources.Refresh_32px;
             this.reloadOrdersMenuItem.Name = "reloadOrdersMenuItem";
+            // 
+            // loginMenuItemOrder
+            // 
+            resources.ApplyResources(this.loginMenuItemOrder, "loginMenuItemOrder");
+            this.loginMenuItemOrder.Image = global::WinForms.Properties.Resources.Password_32px;
+            this.loginMenuItemOrder.Name = "loginMenuItemOrder";
             // 
             // tabPageStock
             // 
@@ -520,7 +531,8 @@
             this.editProductMenuItem,
             this.deleteProductMenuItem,
             this.toolStripSeparator1,
-            this.reloadStockMenuItem});
+            this.reloadStockMenuItem,
+            this.loginMenuItemStock});
             this.StockContextMenuStrip.MouseState = MaterialSkin.MouseState.HOVER;
             this.StockContextMenuStrip.Name = "StockContextMenuStrip";
             resources.ApplyResources(this.StockContextMenuStrip, "StockContextMenuStrip");
@@ -553,6 +565,12 @@
             resources.ApplyResources(this.reloadStockMenuItem, "reloadStockMenuItem");
             this.reloadStockMenuItem.Image = global::WinForms.Properties.Resources.Refresh_32px;
             this.reloadStockMenuItem.Name = "reloadStockMenuItem";
+            // 
+            // loginMenuItemStock
+            // 
+            resources.ApplyResources(this.loginMenuItemStock, "loginMenuItemStock");
+            this.loginMenuItemStock.Image = global::WinForms.Properties.Resources.Password_32px;
+            this.loginMenuItemStock.Name = "loginMenuItemStock";
             // 
             // pictureBox1
             // 
@@ -824,7 +842,8 @@
             this.editCustomerMenuItem,
             this.deleteCustomerMenuItem,
             this.toolStripSeparator2,
-            this.reloadCustomersMenuItem});
+            this.reloadCustomersMenuItem,
+            this.loginMenuItemCustomer});
             this.CustomerContextMenuStrip.MouseState = MaterialSkin.MouseState.HOVER;
             this.CustomerContextMenuStrip.Name = "CustomerContextMenuStrip";
             resources.ApplyResources(this.CustomerContextMenuStrip, "CustomerContextMenuStrip");
@@ -857,6 +876,12 @@
             resources.ApplyResources(this.reloadCustomersMenuItem, "reloadCustomersMenuItem");
             this.reloadCustomersMenuItem.Image = global::WinForms.Properties.Resources.Refresh_32px;
             this.reloadCustomersMenuItem.Name = "reloadCustomersMenuItem";
+            // 
+            // loginMenuItemCustomer
+            // 
+            resources.ApplyResources(this.loginMenuItemCustomer, "loginMenuItemCustomer");
+            this.loginMenuItemCustomer.Image = global::WinForms.Properties.Resources.Password_32px;
+            this.loginMenuItemCustomer.Name = "loginMenuItemCustomer";
             // 
             // tabPageSettings
             // 
@@ -1083,6 +1108,7 @@
             // 
             resources.ApplyResources(this.tabApi, "tabApi");
             this.tabApi.BackColor = System.Drawing.Color.White;
+            this.tabApi.Controls.Add(this.btnLogin);
             this.tabApi.Controls.Add(this.chkBx_cache);
             this.tabApi.Controls.Add(this.btSubtract);
             this.tabApi.Controls.Add(this.btAdd);
@@ -1101,6 +1127,19 @@
             this.tabApi.Controls.Add(this.txtBx_APIusr);
             this.tabApi.Controls.Add(this.pictureBox5);
             this.tabApi.Name = "tabApi";
+            // 
+            // btnLogin
+            // 
+            resources.ApplyResources(this.btnLogin, "btnLogin");
+            this.btnLogin.Depth = 0;
+            this.btnLogin.DrawShadows = true;
+            this.btnLogin.HighEmphasis = false;
+            this.btnLogin.Icon = null;
+            this.btnLogin.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnLogin.UseAccentColor = false;
+            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // chkBx_cache
             // 
@@ -1606,6 +1645,10 @@
         private MaterialSkin.Controls.MaterialToolStripMenuItem deleteCustomerMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private MaterialSkin.Controls.MaterialToolStripMenuItem reloadCustomersMenuItem;
+        private MaterialSkin.Controls.MaterialButton btnLogin;
+        private MaterialSkin.Controls.MaterialToolStripMenuItem loginMenuItemOrder;
+        private MaterialSkin.Controls.MaterialToolStripMenuItem loginMenuItemStock;
+        private MaterialSkin.Controls.MaterialToolStripMenuItem loginMenuItemCustomer;
     }
 }
 

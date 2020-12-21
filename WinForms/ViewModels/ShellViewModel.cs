@@ -3,7 +3,7 @@ using REST.Responses;
 using System;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using WinForms.Cache;
+using WinForms.Services;
 using WinForms.Commands;
 
 namespace WinForms.ViewModels
@@ -94,9 +94,9 @@ namespace WinForms.ViewModels
                 await Task.Delay(TimeSpan.FromSeconds(5));
                 Status = string.Empty;
             }
-            catch(Exception ex)
+            catch (Exception)
             {
-                Error = ex.Message;
+                Error = "No se ha iniciado la sesión.\nVerifique lo siguiente:\n1) Parámetros de la aplicación establecidos correctamente.\n2) API habilitada y permisos de la misma.";
             }
         }
     }

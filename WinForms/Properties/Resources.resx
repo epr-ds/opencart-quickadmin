@@ -214,11 +214,11 @@
   <data name="NoEntry_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img\NoEntry_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="opencart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ico\opencart.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="OpenCart_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img\OpenCart_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opencart_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico\opencart.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Open_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img\Open_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

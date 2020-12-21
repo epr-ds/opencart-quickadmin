@@ -73,13 +73,7 @@ namespace WinForms.Services
             foreach (OrderTotalModel t in order.OrderTotals)
             {
                 html_totals_header += $"<th>{t.Title}</th>";
-                if (t.Code == "sub_total")
-                {
-                    decimal subtotal = t.Value - (t.Value * (decimal)0.16);
-                    html_totals_value += $"<td>${subtotal:#.##}</td>";
-                }
-                else
-                    html_totals_value += $"<td>{(t.Value != 0 ? $"${t.Value:#.##}" : "N/A")}</td>";
+                html_totals_value += $"<td>{(t.Value != 0 ? $"${t.Value:#.##}" : "N/A")}</td>";
             }
 
             var flags = new Dictionary<string, string>()

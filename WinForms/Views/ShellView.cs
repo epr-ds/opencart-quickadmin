@@ -68,7 +68,7 @@ namespace WinForms.Views
                         .Property(lbl => lbl.Text)
                         .Get(vm => vm.Status)
                     .OnPropertyChanged(vm => vm.Error)
-                        .Subscribe(error => MaterialMessageBox.Show(this, error, "Iniciar sesión", MessageBoxButtons.OK, MessageBoxIcon.Error));
+                        .Subscribe(error => MessageBox.Show(this, error, "Inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Warning));
 
                 // Orders
                 OrdersViewModel ordersVM = value.OrdersViewModel;
@@ -124,7 +124,10 @@ namespace WinForms.Views
                         .Execute(ordersVM.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
                     .Target(reloadOrdersMenuItem)
                         .OnEvent("Click")
-                        .Execute(ordersVM.LoadCommand);
+                        .Execute(ordersVM.LoadCommand)
+                    .Target(loginMenuItemOrder)
+                        .OnEvent("Click")
+                        .Execute(value.LoadCommand);
 
                 // Stock
                 StockViewModel stockVM = value.StockViewModel;
@@ -178,7 +181,10 @@ namespace WinForms.Views
                         .Execute(stockVM.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
                     .Target(reloadStockMenuItem)
                         .OnEvent("Click")
-                        .Execute(stockVM.LoadCommand);
+                        .Execute(stockVM.LoadCommand)
+                    .Target(loginMenuItemStock)
+                        .OnEvent("Click")
+                        .Execute(value.LoadCommand);
 
 
                 // Customers
@@ -233,7 +239,10 @@ namespace WinForms.Views
                         .Execute(customersVM.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
                     .Target(reloadCustomersMenuItem)
                         .OnEvent("Click")
-                        .Execute(customersVM.LoadCommand);
+                        .Execute(customersVM.LoadCommand)
+                    .Target(loginMenuItemCustomer)
+                        .OnEvent("Click")
+                        .Execute(value.LoadCommand);
 
                 // Settings
                 SettingsViewModel settingsVM = value.SettingsViewModel;
@@ -287,6 +296,8 @@ namespace WinForms.Views
                     .Control(txtBx_nItems)
                         .Property(txt => txt.Text)
                         .Bind(vm => vm.NumberOfItems)
+                    .Control(btnLogin)
+                        .OnClick(settingsVM.LoginCommand)
                     // Server SMTP
                     .Control(txtBx_mailHost)
                         .Property(txt => txt.Text)

@@ -144,7 +144,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1050, 576);
-            this.panel2.TabIndex = 2;
+            this.panel2.TabIndex = 0;
             // 
             // groupBox_info
             // 
@@ -193,7 +193,7 @@
             this.lbl_shippingAddrs.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_shippingAddrs.Name = "lbl_shippingAddrs";
             this.lbl_shippingAddrs.Size = new System.Drawing.Size(125, 19);
-            this.lbl_shippingAddrs.TabIndex = 10;
+            this.lbl_shippingAddrs.TabIndex = 6;
             this.lbl_shippingAddrs.Text = "Shipping Address";
             // 
             // lbl_paymentAddrs
@@ -206,7 +206,7 @@
             this.lbl_paymentAddrs.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_paymentAddrs.Name = "lbl_paymentAddrs";
             this.lbl_paymentAddrs.Size = new System.Drawing.Size(125, 19);
-            this.lbl_paymentAddrs.TabIndex = 10;
+            this.lbl_paymentAddrs.TabIndex = 1;
             this.lbl_paymentAddrs.Text = "Payment Address";
             // 
             // lstVw_serials
@@ -231,7 +231,7 @@
             this.lstVw_serials.Name = "lstVw_serials";
             this.lstVw_serials.OwnerDraw = true;
             this.lstVw_serials.Size = new System.Drawing.Size(421, 267);
-            this.lstVw_serials.TabIndex = 2;
+            this.lstVw_serials.TabIndex = 1;
             this.lstVw_serials.UseCompatibleStateImageBehavior = false;
             this.lstVw_serials.View = System.Windows.Forms.View.Details;
             // 
@@ -278,7 +278,7 @@
             this.lstVw_products.Name = "lstVw_products";
             this.lstVw_products.OwnerDraw = true;
             this.lstVw_products.Size = new System.Drawing.Size(510, 267);
-            this.lstVw_products.TabIndex = 1;
+            this.lstVw_products.TabIndex = 0;
             this.lstVw_products.UseCompatibleStateImageBehavior = false;
             this.lstVw_products.View = System.Windows.Forms.View.Details;
             // 
@@ -337,7 +337,7 @@
             this.materialDivider3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider3.Name = "materialDivider3";
             this.materialDivider3.Size = new System.Drawing.Size(3, 156);
-            this.materialDivider3.TabIndex = 2;
+            this.materialDivider3.TabIndex = 7;
             this.materialDivider3.Text = "materialDivider1";
             // 
             // materialDivider2
@@ -348,7 +348,7 @@
             this.materialDivider2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider2.Name = "materialDivider2";
             this.materialDivider2.Size = new System.Drawing.Size(3, 156);
-            this.materialDivider2.TabIndex = 2;
+            this.materialDivider2.TabIndex = 3;
             this.materialDivider2.Text = "materialDivider1";
             // 
             // materialDivider
@@ -359,7 +359,7 @@
             this.materialDivider.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider.Name = "materialDivider";
             this.materialDivider.Size = new System.Drawing.Size(948, 3);
-            this.materialDivider.TabIndex = 2;
+            this.materialDivider.TabIndex = 10;
             this.materialDivider.Text = "materialDivider";
             // 
             // label3
@@ -369,7 +369,7 @@
             this.label3.Location = new System.Drawing.Point(704, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 19);
-            this.label3.TabIndex = 1;
+            this.label3.TabIndex = 8;
             this.label3.Text = "Totales";
             // 
             // label2
@@ -379,7 +379,7 @@
             this.label2.Location = new System.Drawing.Point(355, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 19);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 4;
             this.label2.Text = "Dirección de envío";
             // 
             // label1
@@ -389,7 +389,7 @@
             this.label1.Location = new System.Drawing.Point(13, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(139, 19);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Dirección de pago";
             // 
             // lbl_shippingInfo
@@ -414,7 +414,7 @@
             this.lbl_paymentInfo.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_paymentInfo.Name = "lbl_paymentInfo";
             this.lbl_paymentInfo.Size = new System.Drawing.Size(1, 0);
-            this.lbl_paymentInfo.TabIndex = 0;
+            this.lbl_paymentInfo.TabIndex = 2;
             // 
             // pictureBox11
             // 
@@ -509,7 +509,7 @@
             this.lbl_reward.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_reward.Name = "lbl_reward";
             this.lbl_reward.Size = new System.Drawing.Size(231, 32);
-            this.lbl_reward.TabIndex = 2;
+            this.lbl_reward.TabIndex = 1;
             this.lbl_reward.Text = "Reward";
             this.lbl_reward.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -543,7 +543,7 @@
             this.lbl_invoice.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_invoice.Name = "lbl_invoice";
             this.lbl_invoice.Size = new System.Drawing.Size(231, 32);
-            this.lbl_invoice.TabIndex = 2;
+            this.lbl_invoice.TabIndex = 0;
             this.lbl_invoice.Text = "Invoice number";
             this.lbl_invoice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -626,7 +626,7 @@
             this.lbl_phone.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_phone.Name = "lbl_phone";
             this.lbl_phone.Size = new System.Drawing.Size(231, 32);
-            this.lbl_phone.TabIndex = 1;
+            this.lbl_phone.TabIndex = 3;
             this.lbl_phone.Text = "Telephone";
             this.lbl_phone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -640,7 +640,7 @@
             this.lbl_email.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_email.Name = "lbl_email";
             this.lbl_email.Size = new System.Drawing.Size(231, 32);
-            this.lbl_email.TabIndex = 1;
+            this.lbl_email.TabIndex = 2;
             this.lbl_email.Text = "Email";
             this.lbl_email.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -668,7 +668,7 @@
             this.lbl_customer.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_customer.Name = "lbl_customer";
             this.lbl_customer.Size = new System.Drawing.Size(231, 32);
-            this.lbl_customer.TabIndex = 1;
+            this.lbl_customer.TabIndex = 0;
             this.lbl_customer.Text = "customer";
             this.lbl_customer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -750,7 +750,7 @@
             this.lbl_shipping.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_shipping.Name = "lbl_shipping";
             this.lbl_shipping.Size = new System.Drawing.Size(231, 32);
-            this.lbl_shipping.TabIndex = 1;
+            this.lbl_shipping.TabIndex = 3;
             this.lbl_shipping.Text = "shipping method";
             this.lbl_shipping.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -764,7 +764,7 @@
             this.lbl_payment.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_payment.Name = "lbl_payment";
             this.lbl_payment.Size = new System.Drawing.Size(231, 32);
-            this.lbl_payment.TabIndex = 1;
+            this.lbl_payment.TabIndex = 2;
             this.lbl_payment.Text = "payment method";
             this.lbl_payment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -792,7 +792,7 @@
             this.lbl_store.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_store.Name = "lbl_store";
             this.lbl_store.Size = new System.Drawing.Size(231, 32);
-            this.lbl_store.TabIndex = 1;
+            this.lbl_store.TabIndex = 0;
             this.lbl_store.Text = "store";
             this.lbl_store.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -821,7 +821,7 @@
             this.lbl_msg.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_msg.Name = "lbl_msg";
             this.lbl_msg.Size = new System.Drawing.Size(134, 19);
-            this.lbl_msg.TabIndex = 5;
+            this.lbl_msg.TabIndex = 1;
             this.lbl_msg.Text = "Notification Status";
             this.lbl_msg.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -849,7 +849,7 @@
             this.chkbx_email.Name = "chkbx_email";
             this.chkbx_email.Ripple = true;
             this.chkbx_email.Size = new System.Drawing.Size(149, 33);
-            this.chkbx_email.TabIndex = 1;
+            this.chkbx_email.TabIndex = 2;
             this.chkbx_email.Text = "Enviar por email";
             this.chkbx_email.UseVisualStyleBackColor = true;
             // 
@@ -866,7 +866,7 @@
             this.chkbx_ticket.Name = "chkbx_ticket";
             this.chkbx_ticket.Ripple = true;
             this.chkbx_ticket.Size = new System.Drawing.Size(114, 33);
-            this.chkbx_ticket.TabIndex = 2;
+            this.chkbx_ticket.TabIndex = 3;
             this.chkbx_ticket.Text = "Impr Ticket";
             this.chkbx_ticket.UseVisualStyleBackColor = true;
             // 
@@ -883,7 +883,7 @@
             this.btn_save.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(122, 33);
-            this.btn_save.TabIndex = 3;
+            this.btn_save.TabIndex = 4;
             this.btn_save.Text = "Finalizar";
             this.btn_save.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btn_save.UseAccentColor = false;

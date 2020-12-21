@@ -1,9 +1,12 @@
 ﻿using IniParser;
 using IniParser.Model;
+using REST;
+using REST.Responses;
 using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
+using WinForms.Services;
 using WinForms.Commands;
 using WinForms.Properties;
 
@@ -24,6 +27,7 @@ namespace WinForms.ViewModels
             AddMinutesCommand = new CommandHandler(o => AddTimeCache());
             SubtractMinutesCommand = new CommandHandler(o => SubtractTimeCache());
             BackToCommand = new CommandHandler(o => BackTo(o as UserControl));
+            LoginCommand = new CommandHandler(o => Login());
         }
 
         public ICommand SaveCommand { get; }
@@ -32,6 +36,7 @@ namespace WinForms.ViewModels
         public ICommand SubtractMinutesCommand { get; }
         public ICommand ImportCommand { get; }
         public ICommand ExportCommand { get; }
+        public ICommand LoginCommand { get; }
 
         public string Notification
         {
@@ -254,6 +259,35 @@ namespace WinForms.ViewModels
             }
         }
 
+        private async void Login()
+        {
+            try
+            {
+                Save();
+                ApiManager.Token = string.Empty;
+                IQuickAdminApi api = ApiManager.API;
+                LoginResponse response = await api.Login(APIusername, APIpassword);
+                if (!string.IsNullOrWhiteSpace(response.Error))
+                {
+                    Notification = response.Error;
+                }
+                else
+                {
+                    Notification = response.Success;
+                    ApiManager.Token = response.Token;
+                }
+            }
+            catch (Exception)
+            {
+                Notification = "No se ha podido inicar sesión. Revise la configuración.";
+            }
+            finally
+            {
+                await Task.Delay(TimeSpan.FromSeconds(10));
+                Notification = string.Empty;
+            }
+        }
+
         private async void Save()
         {
             settings.Save();
@@ -288,7 +322,7 @@ namespace WinForms.ViewModels
                 data["correo"]["port"] = PortSMTP.ToString();
                 data["correo"]["email"] = Email;
                 data["correo"]["subject"] = Subject;
-                data["correo"]["message"] = MailContent;
+                data["correo"]["message"] = MailContent.Replace("\r\n", string.Empty);
 
                 // Write file
                 parser.WriteFile(dialog.FileName, data);

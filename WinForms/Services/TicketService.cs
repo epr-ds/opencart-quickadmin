@@ -36,6 +36,7 @@ namespace WinForms.Services
             ticket.SideText("Fecha de venta:", order.DateAdded.ToShortDateString());
             ticket.SideText("Folio:", $"#{order.ID}");
             ticket.Separator(TicketSeparator.Dash);
+
             // Cliente
             ticket.CenterText("[Datos del cliente]");
             ticket.LeftText($"Nombre: {customer.Firstname} {customer.Lastname}");
@@ -45,6 +46,7 @@ namespace WinForms.Services
             }
 
             ticket.Separator(TicketSeparator.Asterisk);
+
             // Venta
             ticket.CenterText("[Datos de venta]");
             ticket.SideText("Método de pago:", order.PaymentMethod.ToString());
@@ -53,6 +55,7 @@ namespace WinForms.Services
             ticket.Separator(TicketSeparator.Dash);
             ticket.LeftText("Producto\tP/U\tCant\tTotal");
             ticket.Separator(TicketSeparator.Dash);
+
             // Productos
             StringBuilder serials = new StringBuilder();
             bool hasSerials = false;
@@ -90,15 +93,7 @@ namespace WinForms.Services
             var orderTotals = order.OrderTotals.OrderBy(o => o.SortOrder);
             foreach (OrderTotalModel ot in orderTotals)
             {
-                if (ot.Code == "sub_total")
-                {
-                    decimal subtotal = ot.Value - (ot.Value * (decimal)0.16);
-                    ticket.RightText($"Subtotal: ${subtotal:#.##}");
-                }
-                else
-                {
-                    ticket.RightText($"{ot.Title}: {((ot.Value != 0) ? $"{ot.Value:#.##}" : "N/A")}");
-                }
+                ticket.RightText($"{ot.Title}: {((ot.Value != 0) ? $"{ot.Value:#.##}" : "N/A")}");
             }
             ticket.RightText($"IVA: 16%");
             ticket.Separator(TicketSeparator.Dash);

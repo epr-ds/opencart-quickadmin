@@ -117,15 +117,1643 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;lblOrdersStatus.Name" xml:space="preserve">
+    <value>lblOrdersStatus</value>
+  </data>
+  <data name="&gt;&gt;lblOrdersStatus.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblOrdersStatus.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;lblOrdersStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btEditOrder.Name" xml:space="preserve">
+    <value>btEditOrder</value>
+  </data>
+  <data name="&gt;&gt;btEditOrder.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btEditOrder.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;btEditOrder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btAddOrder.Name" xml:space="preserve">
+    <value>btAddOrder</value>
+  </data>
+  <data name="&gt;&gt;btAddOrder.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btAddOrder.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;btAddOrder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btViewOrder.Name" xml:space="preserve">
+    <value>btViewOrder</value>
+  </data>
+  <data name="&gt;&gt;btViewOrder.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btViewOrder.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;btViewOrder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btDeleteOrder.Name" xml:space="preserve">
+    <value>btDeleteOrder</value>
+  </data>
+  <data name="&gt;&gt;btDeleteOrder.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btDeleteOrder.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;btDeleteOrder.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_iconSearch.Name" xml:space="preserve">
+    <value>pictureBox_iconSearch</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_iconSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_iconSearch.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_iconSearch.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchOrder.Name" xml:space="preserve">
+    <value>txtBxSearchOrder</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchOrder.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchOrder.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchOrder.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lstVwOrders.Name" xml:space="preserve">
+    <value>lstVwOrders</value>
+  </data>
+  <data name="&gt;&gt;lstVwOrders.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstVwOrders.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;lstVwOrders.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabPageOrders.ImageKey" xml:space="preserve">
+    <value>Pricing_32px.png</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabPageOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageOrders.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1186, 548</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageOrders.Text" xml:space="preserve">
+    <value>Ventas</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrders.Name" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrders.Parent" xml:space="preserve">
+    <value>materialTabMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrders.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStockStatus.Name" xml:space="preserve">
+    <value>lblStockStatus</value>
+  </data>
+  <data name="&gt;&gt;lblStockStatus.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblStockStatus.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;lblStockStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lstVwProducts.Name" xml:space="preserve">
+    <value>lstVwProducts</value>
+  </data>
+  <data name="&gt;&gt;lstVwProducts.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstVwProducts.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;lstVwProducts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchProduct.Name" xml:space="preserve">
+    <value>txtBxSearchProduct</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchProduct.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchProduct.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchProduct.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btDeleteProduct.Name" xml:space="preserve">
+    <value>btDeleteProduct</value>
+  </data>
+  <data name="&gt;&gt;btDeleteProduct.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btDeleteProduct.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;btDeleteProduct.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btEditProduct.Name" xml:space="preserve">
+    <value>btEditProduct</value>
+  </data>
+  <data name="&gt;&gt;btEditProduct.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btEditProduct.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;btEditProduct.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btAddProduct.Name" xml:space="preserve">
+    <value>btAddProduct</value>
+  </data>
+  <data name="&gt;&gt;btAddProduct.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btAddProduct.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;btAddProduct.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPageStock.ImageKey" xml:space="preserve">
+    <value>MultipleDevices_32px.png</value>
+  </data>
+  <data name="tabPageStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="tabPageStock.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1186, 548</value>
+  </data>
+  <data name="tabPageStock.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageStock.Text" xml:space="preserve">
+    <value>Inventario</value>
+  </data>
+  <data name="&gt;&gt;tabPageStock.Name" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;tabPageStock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageStock.Parent" xml:space="preserve">
+    <value>materialTabMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageStock.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblCustomersStatus.Name" xml:space="preserve">
+    <value>lblCustomersStatus</value>
+  </data>
+  <data name="&gt;&gt;lblCustomersStatus.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblCustomersStatus.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;lblCustomersStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchCustomers.Name" xml:space="preserve">
+    <value>txtBxSearchCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchCustomers.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchCustomers.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;txtBxSearchCustomers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btEditCustomer.Name" xml:space="preserve">
+    <value>btEditCustomer</value>
+  </data>
+  <data name="&gt;&gt;btEditCustomer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btEditCustomer.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;btEditCustomer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btAddCustomer.Name" xml:space="preserve">
+    <value>btAddCustomer</value>
+  </data>
+  <data name="&gt;&gt;btAddCustomer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btAddCustomer.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;btAddCustomer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btDeleteCustomer.Name" xml:space="preserve">
+    <value>btDeleteCustomer</value>
+  </data>
+  <data name="&gt;&gt;btDeleteCustomer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btDeleteCustomer.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;btDeleteCustomer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lstVwCustomers.Name" xml:space="preserve">
+    <value>lstVwCustomers</value>
+  </data>
+  <data name="&gt;&gt;lstVwCustomers.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialListView, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lstVwCustomers.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;lstVwCustomers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPageCustomers.ImageKey" xml:space="preserve">
+    <value>UserGroups_32px.png</value>
+  </data>
+  <data name="tabPageCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="tabPageCustomers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1186, 548</value>
+  </data>
+  <data name="tabPageCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageCustomers.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="&gt;&gt;tabPageCustomers.Name" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;tabPageCustomers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageCustomers.Parent" xml:space="preserve">
+    <value>materialTabMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageCustomers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblNotification.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNotification.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblNotification.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 12px</value>
+  </data>
+  <data name="lblNotification.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNotification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblNotification.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblNotification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="lblNotification.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNotification.Text" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="&gt;&gt;lblNotification.Name" xml:space="preserve">
+    <value>lblNotification</value>
+  </data>
+  <data name="&gt;&gt;lblNotification.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblNotification.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;lblNotification.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_msg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lbl_msg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_msg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="lbl_msg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_msg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, -4</value>
+  </data>
+  <data name="lbl_msg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 0</value>
+  </data>
+  <data name="lbl_msg.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_msg.Name" xml:space="preserve">
+    <value>lbl_msg</value>
+  </data>
+  <data name="&gt;&gt;lbl_msg.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbl_msg.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;lbl_msg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btSave.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1064, 0</value>
+  </data>
+  <data name="btSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="btSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 31</value>
+  </data>
+  <data name="btSave.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btSave.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="&gt;&gt;btSave.Name" xml:space="preserve">
+    <value>btSave</value>
+  </data>
+  <data name="&gt;&gt;btSave.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btSave.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;btSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 514</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 31</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;folderInput.Name" xml:space="preserve">
+    <value>folderInput</value>
+  </data>
+  <data name="&gt;&gt;folderInput.Type" xml:space="preserve">
+    <value>LollipopFolderInPut, OpenCart QuickAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;folderInput.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;folderInput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;fileInput.Name" xml:space="preserve">
+    <value>fileInput</value>
+  </data>
+  <data name="&gt;&gt;fileInput.Type" xml:space="preserve">
+    <value>LollipopFileInput, OpenCart QuickAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;fileInput.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;fileInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtBx_printer.Name" xml:space="preserve">
+    <value>txtBx_printer</value>
+  </data>
+  <data name="&gt;&gt;txtBx_printer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_printer.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;txtBx_printer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
+    <value>materialLabel2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btExport.Name" xml:space="preserve">
+    <value>btExport</value>
+  </data>
+  <data name="&gt;&gt;btExport.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btExport.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;btExport.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btImport.Name" xml:space="preserve">
+    <value>btImport</value>
+  </data>
+  <data name="&gt;&gt;btImport.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btImport.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;btImport.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_folder.Name" xml:space="preserve">
+    <value>pictureBox_folder</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_folder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_folder.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_folder.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_file.Name" xml:space="preserve">
+    <value>pictureBox_file</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_file.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;pictureBox_file.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label_saveFile_desc.Name" xml:space="preserve">
+    <value>label_saveFile_desc</value>
+  </data>
+  <data name="&gt;&gt;label_saveFile_desc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_saveFile_desc.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;label_saveFile_desc.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label_file_desc.Name" xml:space="preserve">
+    <value>label_file_desc</value>
+  </data>
+  <data name="&gt;&gt;label_file_desc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_file_desc.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;label_file_desc.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chckBx_saveFile.Name" xml:space="preserve">
+    <value>chckBx_saveFile</value>
+  </data>
+  <data name="&gt;&gt;chckBx_saveFile.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chckBx_saveFile.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;chckBx_saveFile.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_printer.Name" xml:space="preserve">
+    <value>materialLabel_printer</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_printer.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_printer.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_printer.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_template.Name" xml:space="preserve">
+    <value>materialLabel_template</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_template.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_template.Parent" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;materialLabel_template.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1172, 472</value>
+  </data>
+  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="tabGeneral.ToolTipText" xml:space="preserve">
+    <value>Ajustes generales de la aplicación</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
+    <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabApi.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
+    <value>btnLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkBx_cache.Name" xml:space="preserve">
+    <value>chkBx_cache</value>
+  </data>
+  <data name="&gt;&gt;chkBx_cache.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCheckbox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkBx_cache.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;chkBx_cache.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btSubtract.Name" xml:space="preserve">
+    <value>btSubtract</value>
+  </data>
+  <data name="&gt;&gt;btSubtract.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btSubtract.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;btSubtract.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Name" xml:space="preserve">
+    <value>btAdd</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btAdd.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;btAdd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;prgrssBr_minutes.Name" xml:space="preserve">
+    <value>prgrssBr_minutes</value>
+  </data>
+  <data name="&gt;&gt;prgrssBr_minutes.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialProgressBar, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;prgrssBr_minutes.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;prgrssBr_minutes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;picProxy.Name" xml:space="preserve">
+    <value>picProxy</value>
+  </data>
+  <data name="&gt;&gt;picProxy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picProxy.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;picProxy.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
+    <value>materialLabel5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
+    <value>materialLabel8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Name" xml:space="preserve">
+    <value>materialLabel7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
+    <value>materialLabel6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtBx_nItems.Name" xml:space="preserve">
+    <value>txtBx_nItems</value>
+  </data>
+  <data name="&gt;&gt;txtBx_nItems.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_nItems.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;txtBx_nItems.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIkey.Name" xml:space="preserve">
+    <value>txtBx_APIkey</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIkey.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIkey.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIkey.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtBxUrl.Name" xml:space="preserve">
+    <value>txtBxUrl</value>
+  </data>
+  <data name="&gt;&gt;txtBxUrl.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBxUrl.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;txtBxUrl.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIusr.Name" xml:space="preserve">
+    <value>txtBx_APIusr</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIusr.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIusr.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;txtBx_APIusr.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tabApi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabApi.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabApi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1172, 472</value>
+  </data>
+  <data name="tabApi.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabApi.Text" xml:space="preserve">
+    <value>API</value>
+  </data>
+  <data name="tabApi.ToolTipText" xml:space="preserve">
+    <value>Ajustar la API</value>
+  </data>
+  <data name="&gt;&gt;tabApi.Name" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;tabApi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabApi.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;tabApi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabMail.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MailContent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="MailContent.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MailContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 31</value>
+  </data>
+  <data name="MailContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 203</value>
+  </data>
+  <data name="MailContent.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;MailContent.Name" xml:space="preserve">
+    <value>MailContent</value>
+  </data>
+  <data name="&gt;&gt;MailContent.Type" xml:space="preserve">
+    <value>WinForms.Controls.HTMLWYSIWYG, OpenCart QuickAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MailContent.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;MailContent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 15</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Mensaje de correo</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 285</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 270</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 81</value>
+  </data>
+  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialLabel4.Text" xml:space="preserve">
+    <value>Servidor SMTP</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 81</value>
+  </data>
+  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 19</value>
+  </data>
+  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="materialLabel3.Text" xml:space="preserve">
+    <value>Email cliente</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 10, 0, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 39</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>El servicio de correo electrónico de la aplicación permite envíar correos en determinadas situaciones.</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtBx_mailPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 12pt</value>
+  </data>
+  <data name="txtBx_mailPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 103</value>
+  </data>
+  <data name="txtBx_mailPort.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="txtBx_mailPort.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBx_mailPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 50</value>
+  </data>
+  <data name="txtBx_mailPort.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtBx_mailPort.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBx_mailPort.Name" xml:space="preserve">
+    <value>txtBx_mailPort</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailPort.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailPort.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailPort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtBx_mailSubject.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 12pt</value>
+  </data>
+  <data name="txtBx_mailSubject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 217</value>
+  </data>
+  <data name="txtBx_mailSubject.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="txtBx_mailSubject.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBx_mailSubject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 50</value>
+  </data>
+  <data name="txtBx_mailSubject.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtBx_mailSubject.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBx_mailSubject.Name" xml:space="preserve">
+    <value>txtBx_mailSubject</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailSubject.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailSubject.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailSubject.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtBx_mailHost.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 12pt</value>
+  </data>
+  <data name="txtBx_mailHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 103</value>
+  </data>
+  <data name="txtBx_mailHost.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="txtBx_mailHost.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBx_mailHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 50</value>
+  </data>
+  <data name="txtBx_mailHost.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtBx_mailHost.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBx_mailHost.Name" xml:space="preserve">
+    <value>txtBx_mailHost</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailHost.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailHost.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailHost.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtBx_mailPwd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 12pt</value>
+  </data>
+  <data name="txtBx_mailPwd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 177</value>
+  </data>
+  <data name="txtBx_mailPwd.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="txtBx_mailPwd.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBx_mailPwd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 50</value>
+  </data>
+  <data name="txtBx_mailPwd.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtBx_mailPwd.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBx_mailPwd.Name" xml:space="preserve">
+    <value>txtBx_mailPwd</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailPwd.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailPwd.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailPwd.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtBx_mailEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 12pt</value>
+  </data>
+  <data name="txtBx_mailEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 103</value>
+  </data>
+  <data name="txtBx_mailEmail.MaxLength" type="System.Int32, mscorlib">
+    <value>32767</value>
+  </data>
+  <data name="txtBx_mailEmail.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBx_mailEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 50</value>
+  </data>
+  <data name="txtBx_mailEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtBx_mailEmail.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtBx_mailEmail.Name" xml:space="preserve">
+    <value>txtBx_mailEmail</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailEmail.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailEmail.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;txtBx_mailEmail.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 270</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 15</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Asunto del mensaje de correo</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tabMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1172, 472</value>
+  </data>
+  <data name="tabMail.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabMail.Text" xml:space="preserve">
+    <value>Correo</value>
+  </data>
+  <data name="tabMail.ToolTipText" xml:space="preserve">
+    <value>Ajustes de correo electrónico</value>
+  </data>
+  <data name="&gt;&gt;tabMail.Name" xml:space="preserve">
+    <value>tabMail</value>
+  </data>
+  <data name="&gt;&gt;tabMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMail.Parent" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;tabMail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="tabSettings.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 498</value>
+  </data>
+  <data name="tabSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Name" xml:space="preserve">
+    <value>tabSettings</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;tabSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabSelectorSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tabSelectorSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="tabSelectorSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tabSelectorSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 44</value>
+  </data>
+  <data name="tabSelectorSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabSelectorSettings.Text" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="&gt;&gt;tabSelectorSettings.Name" xml:space="preserve">
+    <value>tabSelectorSettings</value>
+  </data>
+  <data name="&gt;&gt;tabSelectorSettings.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabSelectorSettings.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;tabSelectorSettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageSettings.ImageKey" xml:space="preserve">
+    <value>Services_32px.png</value>
+  </data>
+  <data name="tabPageSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="tabPageSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1186, 548</value>
+  </data>
+  <data name="tabPageSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPageSettings.Text" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.Name" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.Parent" xml:space="preserve">
+    <value>materialTabMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialTabMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <metadata name="menuIconList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="menuIconList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB+
+        FgAAAk1TRnQBSQFMAgEBBAEAAcABAwHAAQMBGAEAARgBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFg
+        AwABMAMAAQEBAAEgBgABSP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
+        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A3wADCgENAwUBB/8ACAABAQMDBAQBBgMAAQEEAAMD
+        AQQDAwEEWAADMAFMAx0BKf8ABQADAwEEAxIEGAEhAwUBBwQAAxABFgMTARpMAAMHAQoDJAE2A0wBkgNZ
+        AcQDUAGeAycBOwMLAQ8DAAEBJAADAgEDAxABFQMUARwDFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEd
+        AxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxMBGgMKAQ4cAAMC
+        AQMDDQERAxUBHQMEAQYIAAMDAQQDDQESAxQBGwMDAQQsAAMCAQMDHwEtAlsBWQHJAlIBUAGjAz0BZwM2
+        AVkDTAGPA04BmQMHAQkDAQECRAADIwE0A0wBkAJeAVoB2ANUAasDVwG6AlgBVgG5Ay8BSgMLAQ8kAAMd
+        ASoDRAF7A04BmAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJR
+        AU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJR
+        AU8BnANMAY8DNwFaHAADDAEQAzYBWAJRAU8BnAMbASYDAgEDBAADEgEZAzsBZANKAYwDEQEXJwABAQME
+        AQYDCgENAzEBTQNdAe0CYQFcAdwDWQG+A1UBtQJbAVkB0gJYAVYBwQMmATgDCQEMAwIBA0AAA0sBjgJd
+        AVkB1wNFAX0DGAEiAzoBYAJfASEB+wJXAVYBuAMmATkkAAJXAVUBtwJfAUwB8wKAAUAB/QKAAUAB/QKA
+        AUAB/QKAAUAB/QKAAUAB/QKAAUAB/QKAAUAB/QKAAUAB/QJ/AQAB/gKAAQAB/wKAAUAB/QKAAUAB/QKA
+        AUAB/QKAAUAB/QKAAUAB/QJ/AQAB/gJ/AQAB/gKAAUAB/QKAAUAB/QKAAUAB/QJfASEB+wNaAcocAAMQ
+        ARYDRwGBAoABAAH/AzkBXwMKAQ0EAAMpAT4DVQGyAlkBVwG/AxcBICQAAwQBBgMaBCQBNgNUAawCgAEA
+        Af8CUQFQAZ8DLwFJAyABLwJNAUwBkQJcAVsB4QJfAVcB6AMnATsDDgETNAADBwEKAyMBNAJMAUsBjwJX
+        AVUBtwNFAXwDEAEVAwQBBgMSARgDNwFbAlUBUwGtA1ABmgMnAToDDAEQAwABARgAA1gBwAJXAVUBugM4
+        AVwDHgErAx4BKwMeASsDHgErAx4BKwMeASsDHgErA0UBfQJbAVkBxAMfASwDHgErAx4BKwMeASsDRQF9
+        A0sBjgNLAY4DKAE8Ax4BKwMeASsDRQF9AlgBVgG7BAADGgEkAy8BSQMOARMDAgEDCAADJAE1A0cBgQJY
+        AVcBwgJZAVcBvQNIAYQDPQFpA1IBqQJYAVYBwQNOAZcDMAFLAw0BEQQAAwEBAgMSARkDOwFkAyYBOAMH
+        AQoEAAMCAQMDHQEqA1UBsgJaAVgBxgJaAVcBxQM9AWkDGgElAwoBDQMGAQgDGgEkAz8BbAJfAVcB6ANb
+        AcgDTgGUAwcBCQMAAQEsAAMjATQDSwGOAl0BWQHXA0UBfAMfAS0DDQESAwQBBQMCAQMDCQEMAzgBXQJU
+        AVMBrAJXAVYBuAMxAU4DCwEPGAADOwFlAlcBVQG3A0IBdgMeASsDHgErAx4BKwMeASsDHgErAx4BKwMe
+        ASsDRQF9AlkBVgG+AwEBAgwAA04BmQJXAVYBuAJXAVYBuAMWAR8IAAM7AWMCVwFWAbgEAAMuAUcDUgGj
+        AzsBYwMTARoDBQEHAw4BEwNHAYICUwFSAagDPgFqAl4BWwHVAlwBWQHPAlkBVgG+Al4BWgHVA1QBqwNT
+        AawDUQGgAykBPwMBAQIDDQESAzYBWAJhAV0B4gNAAW4DDQESBAADAQECAxIBGAM4AVwDWQHHAlABTwGb
+        AwwBEAMCAQMIAAMDAQQDHAEoA1IBqQJcAVkBzANEAXkDBgEIAwABASwAAkwBSwGPAl0BWQHXA0QBewMQ
+        ARUDDQESAj8BPgFsAxUBHQMDAQQEAAMJAQwDNwFaAk0BKQH6AlgBVgG7AygBPRwAA1ABngJkAVMB8QKA
+        AQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wJeAVoB1QMBAQIkAAM7
+        AWMCVwFWAbgEAAMgAS8DVQGtAmoBQQH5AzsBYwMdASoCQAE/AW8CXAFZAc8CUAFPAZsCUgFRAacCWQFY
+        AcIDOQFfAxQBGwNUAa4CVQFTAbACLAErAUMDXAHPA04BmQMJAQwDLAFDAlgBVgG5An8BAAH+Ay4BRwMF
+        AQcQAAJUAVMBrANAAXAUAAMLAQ8CNgE1AVgDVAGvAzABSygAAwQBBQMeASsCTAFLAY8CWAFXAb8DRgF/
+        AxABFQMHAQoDKQE/AmEBWwHhAlsBWAHLA1YBtgNKAYoDGgEkAxMBGgM2AVkDUwGqA1ABnQMqAUADDQER
+        AwEBAhAAA0ABbwJeAVoB1QJRAVABnAJQAU8BmwJQAU8BmwJQAU8BmwJQAU8BmwJQAU8BmwJQAU8BmwNZ
+        AcMDWgHKAwEBAiQAAzsBYwJXAVYBuAQAAw0BEQM7AWUCTQEpAfoCXQFZAdcDWQHHA1wB3wJXAVUBugM9
+        AWgCYAFcAdQDUgGpAyQBNQMHAQkDRwGAA1QBrwMKAQ0DTgGZAl0BWQHXA1cBvQNcAc4CXQFaAdgDRwGB
+        AxQBGwMAAQEHAAEBAwcBCgMaASUDVwG3A0cBggMAAQEPAAEBAxEBFwJGAUUBfgJYAVYBvAM4AV0DAgED
+        AwABASAAAwcBCQMsAUQCXQFaAdIDWAHBAzMBUwQAAwEBAgMiATECXQFOAfACXAFaAc0CWAFWAbwCZAFZ
+        AewDMQFNAw4BEwMJAQwDNQFXA1IBqQJZAVcBvwM0AVQDDQESEAADOwFjAlkBVgG+AxYBHgMUARwDFAEc
+        AxQBHAMUARwDFAEcAxQBHANCAXUCWAFWAbwDAQECJAADOwFjAlcBVgG4BAADCwEPAzsBZQJNASkB+gJS
+        AVEBpwNIAYMCVwFVAbcCVgFVAbQDOAFeAlMBUgGoAlcBVgG4AzsBZAMnAToDUAGfA1EBoAMBAQIDTgGX
+        A1YBuQNAAW8DTgGUAloBWAHGA0kBhwMRARcIAAMDAQQDHQEqA1ABngNdAdcCVQFTAbADGQEjAwUBBwgA
+        AwYBCAMnATsCXAFZAcwCXgFbAdkDUAGaAwoBDgMLAQ8DCQEMIAADDQERAzsBYwJdAVoB0wNMAZIIAAMa
+        ASUDXgHZA1IBpgJTAVIBqAKAAQAB/wM7AWUDJgE4BAADBwEKAzIBUAJrAVEB9wNYAcEDKwFCEAADOwFj
+        AlgBVgG5AwEBAhgAAzsBYwJYAVYBuQMBAQIkAAM7AWMCVwFWAbgEAAMTARoDTQGRAoABAAH/AyQBNgMG
+        AQgDFQEdAlcBVQG3AzoBYgMWAR4CXQFZAdIDQAH9AoABAAH/Al0BWwHhAz8BbAQAA1UBsQNAAW4EAAMa
+        ASUDUQGfAmEBWAHmAxwBJwsAAQEDHgErA18B4AJaAVcBxQJgAVoB3gNVAbUDGwEmAwEBAgQAAxgBIgNM
+        AZMCgAEAAf8DWgHFA08BnAMBAQIDLgFHAy4BSCAAAwIBAwMNAREDQgF0AlYBVQG0Ak0BTAGRAyMBNAMP
+        ARQDLAFEAzUBVwNUAa4CXAFZAcwDSwGOA04BmQMDAQQDAQECAw8BFAMxAU4CWgFYAcADOQFfEAADOwFj
+        AlgBVgG5AwEBAhgAAzoBYgJZAVcBvQMWAR4DFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxUBHQMV
+        AR0DQgF0AlcBVQG6BAADEAEVA0YBfwNAAf0DOwFkAyUBNwM6AWIDVQG1AzMBUwMEAQUDLgFIA0UBfQNL
+        AY4DNwFbAxYBHgQAAlQBUgGmA0oBjQMbASYDMQFPAlUBUwGwAlkBVwG9AxcBIAwAAwYBCAMcAScDIwEz
+        A0YBfgJjAVwB5wJYAVYBuQNLAY4DRgGAAlYBVQGxA1kBxwNKAYsDPgFrAzoBYgM2AVgDVAGuA1QBrgM2
+        AVgDLQFGAyQBNQMAAQEYAAMbASYDQwF4Al0BWQHXA0oBjQMiATIDBgEIAyABLwNQAZoCXgFaAdUCWwFY
+        AcsCWQFYAcIDFQEdAwQBBQMBAQIDBwEJAlcBVQG6AzsBZRAAAzsBYwJYAVYBuQMBAQIYAAM2AVgCWwFY
+        AcYDUAGdAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGc
+        AloBVwG9A1YBtgQAAwcBCgMvAUkCXQFZAdICVwFWAbgDUwGqAloBWQHDAlMBUgGoAzIBUQMYASEDEAEV
+        AxABFgMSARkDEAQVBB0BKQJMAUsBjwJYAVYBvANRAaACVQFUAbADVQG0AzQBVAMKAQ4UAAMEAQYDJwE6
+        A10B4gJcAVgB0QNSAaYDUAGaA1kBwwNVAbUDGAEiA04BlgJYAVYBvAJZAVcBvwNZAcQDWQHEAlkBVwG/
+        AlgBVgG7A0oBigMCAQMDAAEBGAADDwEUA0QBeQJeAVoB1QNJAYgEAAMHAQkDLQFGA1sB0ANdAeIDXgHa
+        Aj4BPQFqAw0BEggAAlcBVgG4AzsBZRAAAzsBYwJYAVYBuQMBAQIYAAMhATACVAFSAaYCgAFAAf0CgAFA
+        Af0CgAFAAf0CgAFAAf0CfwEAAf4CgAEAAf8CgAFAAf0CgAFAAf0CgAFAAf0CgAFAAf0CXwFYAeMDRwGA
+        CAADBAEFAxYBHgNSAaYCXAFZAc8DUgGpA04BmQJcAVgB0QNbAcgDKwFCAwYBCAQAAx0BKgNOAZYCbQFR
+        AfcCVAFTAbACUgFRAaECWwFaAd4CVwFVAboDNQFVHAADAwEEAyMBMwJeAVoB1QNIAYQDEgEYBAADOwFj
+        A1ABngMGAQgCTAFLAZACXAFZAdICPwE+AWwDEAEVAxABFgJAAT8BbgJcAVkB0gNKAYwgAAMCAQMDDwEU
+        A0QBegNWAbMDSQGIAyIBMQMPARQDGQEjAyABLgMoATwDDQESAycBOgMWAR4EAAJXAVYBuAM7AWUQAAM7
+        AWMCWAFWAbkDAQECGAADBgEIAxQBHAMeASsDHgErAx4BKwMeASsDRQF9AlsBWQHEAx8BLAMeASsDHgEr
+        Ax4BKwMbASYDEAEVCwABAQMEAQUDFAEcAyQBNgNMAZACWAFWAcEDVAGvA1YBtgNRAaIDJgE5BAADSAGG
+        A1UBtQJRAVABnAJYAVYBuwNQAZoDGwEmAxYBHwMKAQ4fAAEBAwcBCQMaASUDFAEcAwQBBgQAAxIBGAMm
+        ATgDLQFFA1YBtgNIAYYDDQESAwMBBAMDAQQDDgETA0kBiANVAbUDLAFEAxMBGgMDAQQcAAMdASkDRAF7
+        Al4BWgHVA0oBiQMhATAEAAMBAQIDBAEGBAADOwFkAyQBNgQAAlcBVgG4AzsBZRAAAzsBYwJYAVYBuQMB
+        AQIwAAM7AWMCWAFWAbkDAQECKAADGAEiAlwBWgHNAlUBVAGwAzMBUgM2AVgDVgG5AzUBVgQAAlQBUwGt
+        A0oBigMYASEDSgGKAlQBUwGsAwEBAjAAAwEBAggAAwgBCwMtAUUDVAGvAlwBWgHNAzoBYhAAAzoBYgJc
+        AVoBzQNUAa8DLAFEAwcBCiAAAxABFQNFAX0CXgFaAdUDSQGHHAACVwFWAbgDOwFlEAADOwFjAlgBVgG5
+        AwMBBAMBAQIDAQECAwEBAgMBAQIDAQECAwEBAgMBAQIDAQECAwEBAgMBAQIDAQECAwEBAgM7AWQCWAFW
+        AbkDAQECKAADGAEiAlsBWAHLA1YBtgM3AVoDQwF4AlkBVgG+AzUBVQQAAlQBUwGwAk4BTQGVAw4BEwJO
+        AU0BlQNUAa4DAQECPAADBQEHAyMBNANKAYoCXAFZAcwDOgFhEAADOgFhAlwBWQHMAkoBSQGJAyMBNAMF
+        AQcgAAMCAQMDEAEVA0QBegJWAVUBsQNIAYUDPgFqAzsBZQM7AWUDOwFlAzsBZQM7AWUDWgHKAzsBZRAA
+        AzYBWAJZAVcBwgJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJY
+        AVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJbAVkByQNWAbkDAQECKAADCQEMAy0BRQNSAaECVwFW
+        AbgCWAFXAbsDRwGAAxwBJwQAAzsBZANTAaoDVgG2A1MBqgM7AWRDAAEBAwcBCQMSARgCVAFTAa0CUwFR
+        AaUDJwE7AxgBIQMYASEDKAE8AlQBUgGmAlQBUwGsAxIBGQMHAQkDAAEBKAADHAEoA0IBdgJaAVgBwAJX
+        AVUBugJXAVYBuAJXAVYBuAJXAVYBuAJXAVYBuAJXAVYBuAJXAVYBuAM0AVQQAAMcAScDNgFYAzsBYwM7
+        AWMDOwFjAzsBYwM7AWMDOwFjAzsBYwM7AWMDOwFjAzsBYwM7AWMDOwFjAzsBYwM7AWMDMwFTLAADAQEC
+        AwcBCQMmATkDMwFTAzMBUwMaASUDBgEIBAADFAEbAywBQwM4AV0DLAFDAxQBG0cAAQEDAwEEAlIBUQGn
+        Al0BWQHSA1UBsgNQAZoDUAGaA1YBswJdAVkB0gNRAaIDAgEDAwABAf8AWQADQwF3A0wBkwJcAVgB0QJc
+        AT4B+AJcAT4B+ANbAdADTgGUA0ABb/8AYQADDwEUAxMBGgMZASMDRgF/A0YBfwMaASQDEwEaAw8BFP8A
+        bQADGgElAxoBJf8AmQABQgFNAT4HAAE+AwABKAMAAWADAAEwAwABAQEAAQEFAAFAAQIWAAP//wAiAA3/
+        Ac8H/wH4AU8C/wHPB/8B+AFPAf8B/gEBAf8DAAH+ARgBfwHwAQMB/wH+AQEB/wMAAf4BCAF/AcABAQH/
+        Af4BAQH/AwAB/gEIAX8BwAEBAf8B8AEAAT8DAAGGAQABIAGAAQABfwHwAQABPwEAAQcBDAGAAgABgAHA
+        AX8B8AEIAT8BgAEHAfwBgAIAAfMB4QH/AYABAAEHAYABBwH8AYACAAGBAcABfwGCAQABBwGAAQcB/AGA
+        AQABAQGAAcABPwHDAQEBBwGPAccB/AGAAQEBIQGAAUABPwHAAQABBwGPAcABAAGAAgEBwAEAAQMB8AEA
+        AQcBjwHAAQABgAEAAQEB8AEAAQEB+AFAAWcBjwHAAQABwAEIAQcB8AFAAQcB+AEAAScBjwHAAQABwAEI
+        AQcB8AFAAQAB/gEJAScBjwH/AR8B+AEIAR8B/gHBAeAB/wEPAecBgAEAAR8B+AEIAR8B/wHBAeAB/wEA
+        AQcBgAEAAR8B+AEIAT8B/wHAAQAB/wHAAQcBgAEAAT8B+AEIAT8B/wHgAQEK/wH4AQcK/wH4AQcL/wE/
+        DP8L
+</value>
+  </data>
+  <data name="materialTabMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="materialTabMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1194, 583</value>
+  </data>
+  <data name="materialTabMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialTabMenu.Name" xml:space="preserve">
+    <value>materialTabMenu</value>
+  </data>
+  <data name="&gt;&gt;materialTabMenu.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialTabMenu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="lblOrdersStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblOrdersStatus.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblOrdersStatus.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 12px</value>
   </data>
@@ -139,7 +1767,7 @@
     <value>87, 17</value>
   </data>
   <data name="lblOrdersStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+    <value>6</value>
   </data>
   <data name="lblOrdersStatus.Text" xml:space="preserve">
     <value>Orders Status</value>
@@ -351,6 +1979,66 @@
   <data name="&gt;&gt;txtBxSearchOrder.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;picOrdersLoading.Name" xml:space="preserve">
+    <value>picOrdersLoading</value>
+  </data>
+  <data name="&gt;&gt;picOrdersLoading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picOrdersLoading.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;picOrdersLoading.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btNextOrders.Name" xml:space="preserve">
+    <value>btNextOrders</value>
+  </data>
+  <data name="&gt;&gt;btNextOrders.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btNextOrders.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btNextOrders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btPrevOrders.Name" xml:space="preserve">
+    <value>btPrevOrders</value>
+  </data>
+  <data name="&gt;&gt;btPrevOrders.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btPrevOrders.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btPrevOrders.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 508</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 37</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>tabPageOrders</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="picOrdersLoading.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -447,30 +2135,6 @@
   <data name="&gt;&gt;btPrevOrders.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 508</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 37</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>tabPageOrders</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="lstVwOrders.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -510,47 +2174,8 @@
   <metadata name="OrdersContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>403, 17</value>
   </metadata>
-  <data name="addOrderMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="addOrderMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="addOrderMenuItem.Text" xml:space="preserve">
-    <value>Añadir</value>
-  </data>
-  <data name="editOrderMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="editOrderMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="editOrderMenuItem.Text" xml:space="preserve">
-    <value>Editar</value>
-  </data>
-  <data name="deleteOrderMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="deleteOrderMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="deleteOrderMenuItem.Text" xml:space="preserve">
-    <value>Eliminar</value>
-  </data>
-  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 6</value>
-  </data>
-  <data name="reloadOrdersMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="reloadOrdersMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="reloadOrdersMenuItem.Text" xml:space="preserve">
-    <value>Recargar</value>
-  </data>
   <data name="OrdersContextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 130</value>
+    <value>143, 160</value>
   </data>
   <data name="&gt;&gt;OrdersContextMenu.Name" xml:space="preserve">
     <value>OrdersContextMenu</value>
@@ -585,35 +2210,53 @@
   <data name="&gt;&gt;lstVwOrders.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="tabPageOrders.ImageKey" xml:space="preserve">
-    <value>Pricing_32px.png</value>
+  <data name="addOrderMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="tabPageOrders.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
+  <data name="addOrderMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="tabPageOrders.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="addOrderMenuItem.Text" xml:space="preserve">
+    <value>Añadir</value>
   </data>
-  <data name="tabPageOrders.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1186, 548</value>
+  <data name="editOrderMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="tabPageOrders.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="editOrderMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="tabPageOrders.Text" xml:space="preserve">
-    <value>Ventas</value>
+  <data name="editOrderMenuItem.Text" xml:space="preserve">
+    <value>Editar</value>
   </data>
-  <data name="&gt;&gt;tabPageOrders.Name" xml:space="preserve">
-    <value>tabPageOrders</value>
+  <data name="deleteOrderMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;tabPageOrders.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="deleteOrderMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="&gt;&gt;tabPageOrders.Parent" xml:space="preserve">
-    <value>materialTabMenu</value>
+  <data name="deleteOrderMenuItem.Text" xml:space="preserve">
+    <value>Eliminar</value>
   </data>
-  <data name="&gt;&gt;tabPageOrders.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 6</value>
+  </data>
+  <data name="reloadOrdersMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="reloadOrdersMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="reloadOrdersMenuItem.Text" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="loginMenuItemOrder.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="loginMenuItemOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="loginMenuItemOrder.Text" xml:space="preserve">
+    <value>Iniciar sesión</value>
   </data>
   <data name="lblStockStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -634,7 +2277,7 @@
     <value>80, 17</value>
   </data>
   <data name="lblStockStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+    <value>5</value>
   </data>
   <data name="lblStockStatus.Text" xml:space="preserve">
     <value>Stock Status</value>
@@ -684,47 +2327,8 @@
   <metadata name="StockContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>565, 17</value>
   </metadata>
-  <data name="addProductMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="addProductMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="addProductMenuItem.Text" xml:space="preserve">
-    <value>Añadir</value>
-  </data>
-  <data name="editProductMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="editProductMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="editProductMenuItem.Text" xml:space="preserve">
-    <value>Editar</value>
-  </data>
-  <data name="deleteProductMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="deleteProductMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="deleteProductMenuItem.Text" xml:space="preserve">
-    <value>Eliminar</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 6</value>
-  </data>
-  <data name="reloadStockMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="reloadStockMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="reloadStockMenuItem.Text" xml:space="preserve">
-    <value>Recargar</value>
-  </data>
   <data name="StockContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 130</value>
+    <value>143, 160</value>
   </data>
   <data name="&gt;&gt;StockContextMenuStrip.Name" xml:space="preserve">
     <value>StockContextMenuStrip</value>
@@ -758,6 +2362,54 @@
   </data>
   <data name="&gt;&gt;lstVwProducts.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="addProductMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="addProductMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="addProductMenuItem.Text" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="editProductMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="editProductMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="editProductMenuItem.Text" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="deleteProductMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="deleteProductMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="deleteProductMenuItem.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 6</value>
+  </data>
+  <data name="reloadStockMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="reloadStockMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="reloadStockMenuItem.Text" xml:space="preserve">
+    <value>Recargar</value>
+  </data>
+  <data name="loginMenuItemStock.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="loginMenuItemStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
+  </data>
+  <data name="loginMenuItemStock.Text" xml:space="preserve">
+    <value>Iniciar sesión</value>
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -821,6 +2473,66 @@
   </data>
   <data name="&gt;&gt;txtBxSearchProduct.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;picStockLoading.Name" xml:space="preserve">
+    <value>picStockLoading</value>
+  </data>
+  <data name="&gt;&gt;picStockLoading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picStockLoading.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;picStockLoading.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnNextStock.Name" xml:space="preserve">
+    <value>btnNextStock</value>
+  </data>
+  <data name="&gt;&gt;btnNextStock.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNextStock.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnNextStock.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnPrevStock.Name" xml:space="preserve">
+    <value>btnPrevStock</value>
+  </data>
+  <data name="&gt;&gt;btnPrevStock.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPrevStock.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnPrevStock.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 508</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 37</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>tabPageStock</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="picStockLoading.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -917,30 +2629,6 @@
   </data>
   <data name="&gt;&gt;btnPrevStock.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 508</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 37</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>tabPageStock</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="btDeleteProduct.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1041,36 +2729,6 @@
   <data name="&gt;&gt;btAddProduct.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="tabPageStock.ImageKey" xml:space="preserve">
-    <value>MultipleDevices_32px.png</value>
-  </data>
-  <data name="tabPageStock.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
-  </data>
-  <data name="tabPageStock.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPageStock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1186, 548</value>
-  </data>
-  <data name="tabPageStock.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabPageStock.Text" xml:space="preserve">
-    <value>Inventario</value>
-  </data>
-  <data name="&gt;&gt;tabPageStock.Name" xml:space="preserve">
-    <value>tabPageStock</value>
-  </data>
-  <data name="&gt;&gt;tabPageStock.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageStock.Parent" xml:space="preserve">
-    <value>materialTabMenu</value>
-  </data>
-  <data name="&gt;&gt;tabPageStock.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="lblCustomersStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -1090,7 +2748,7 @@
     <value>113, 17</value>
   </data>
   <data name="lblCustomersStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+    <value>5</value>
   </data>
   <data name="lblCustomersStatus.Text" xml:space="preserve">
     <value>Customers Status</value>
@@ -1169,6 +2827,66 @@
   </data>
   <data name="&gt;&gt;txtBxSearchCustomers.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;picBxCustomersLoading.Name" xml:space="preserve">
+    <value>picBxCustomersLoading</value>
+  </data>
+  <data name="&gt;&gt;picBxCustomersLoading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picBxCustomersLoading.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;picBxCustomersLoading.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btNextCustomers.Name" xml:space="preserve">
+    <value>btNextCustomers</value>
+  </data>
+  <data name="&gt;&gt;btNextCustomers.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btNextCustomers.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;btNextCustomers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btPrevCustomers.Name" xml:space="preserve">
+    <value>btPrevCustomers</value>
+  </data>
+  <data name="&gt;&gt;btPrevCustomers.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btPrevCustomers.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;btPrevCustomers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 508</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 37</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>tabPageCustomers</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="picBxCustomersLoading.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -1265,30 +2983,6 @@
   </data>
   <data name="&gt;&gt;btPrevCustomers.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 508</value>
-  </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 37</value>
-  </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
-    <value>tabPageCustomers</value>
-  </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="btEditCustomer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1454,47 +3148,8 @@
   <metadata name="CustomerContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>746, 17</value>
   </metadata>
-  <data name="addCustomerMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="addCustomerMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="addCustomerMenuItem.Text" xml:space="preserve">
-    <value>Añadir</value>
-  </data>
-  <data name="editCustomerMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="editCustomerMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="editCustomerMenuItem.Text" xml:space="preserve">
-    <value>Editar</value>
-  </data>
-  <data name="deleteCustomerMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="deleteCustomerMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="deleteCustomerMenuItem.Text" xml:space="preserve">
-    <value>Eliminar</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 6</value>
-  </data>
-  <data name="reloadCustomersMenuItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="reloadCustomersMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 30</value>
-  </data>
-  <data name="reloadCustomersMenuItem.Text" xml:space="preserve">
-    <value>Recargar</value>
-  </data>
   <data name="CustomerContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 130</value>
+    <value>143, 160</value>
   </data>
   <data name="&gt;&gt;CustomerContextMenuStrip.Name" xml:space="preserve">
     <value>CustomerContextMenuStrip</value>
@@ -1529,170 +3184,53 @@
   <data name="&gt;&gt;lstVwCustomers.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="tabPageCustomers.ImageKey" xml:space="preserve">
-    <value>UserGroups_32px.png</value>
+  <data name="addCustomerMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="tabPageCustomers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
+  <data name="addCustomerMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="tabPageCustomers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="addCustomerMenuItem.Text" xml:space="preserve">
+    <value>Añadir</value>
   </data>
-  <data name="tabPageCustomers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1186, 548</value>
+  <data name="editCustomerMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="tabPageCustomers.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="editCustomerMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="tabPageCustomers.Text" xml:space="preserve">
-    <value>Clientes</value>
+  <data name="editCustomerMenuItem.Text" xml:space="preserve">
+    <value>Editar</value>
   </data>
-  <data name="&gt;&gt;tabPageCustomers.Name" xml:space="preserve">
-    <value>tabPageCustomers</value>
+  <data name="deleteCustomerMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;tabPageCustomers.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="deleteCustomerMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="&gt;&gt;tabPageCustomers.Parent" xml:space="preserve">
-    <value>materialTabMenu</value>
+  <data name="deleteCustomerMenuItem.Text" xml:space="preserve">
+    <value>Eliminar</value>
   </data>
-  <data name="&gt;&gt;tabPageCustomers.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 6</value>
   </data>
-  <data name="lblNotification.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="reloadCustomersMenuItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="lblNotification.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
+  <data name="reloadCustomersMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="lblNotification.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 12px</value>
+  <data name="reloadCustomersMenuItem.Text" xml:space="preserve">
+    <value>Recargar</value>
   </data>
-  <data name="lblNotification.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="loginMenuItemCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="lblNotification.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="loginMenuItemCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 30</value>
   </data>
-  <data name="lblNotification.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="lblNotification.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 17</value>
-  </data>
-  <data name="lblNotification.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblNotification.Text" xml:space="preserve">
-    <value>Notification</value>
-  </data>
-  <data name="&gt;&gt;lblNotification.Name" xml:space="preserve">
-    <value>lblNotification</value>
-  </data>
-  <data name="&gt;&gt;lblNotification.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;lblNotification.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;lblNotification.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl_msg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="lbl_msg.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_msg.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
-  </data>
-  <data name="lbl_msg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl_msg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, -4</value>
-  </data>
-  <data name="lbl_msg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1, 0</value>
-  </data>
-  <data name="lbl_msg.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_msg.Name" xml:space="preserve">
-    <value>lbl_msg</value>
-  </data>
-  <data name="&gt;&gt;lbl_msg.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;lbl_msg.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;lbl_msg.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btSave.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="btSave.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1064, 0</value>
-  </data>
-  <data name="btSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="btSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 31</value>
-  </data>
-  <data name="btSave.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btSave.Text" xml:space="preserve">
-    <value>Guardar</value>
-  </data>
-  <data name="&gt;&gt;btSave.Name" xml:space="preserve">
-    <value>btSave</value>
-  </data>
-  <data name="&gt;&gt;btSave.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btSave.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;btSave.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 514</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 31</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>tabPageSettings</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabGeneral.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="loginMenuItemCustomer.Text" xml:space="preserve">
+    <value>Iniciar sesión</value>
   </data>
   <data name="panel6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -2181,38 +3719,38 @@ de generar el comprobante de venta</value>
   <data name="&gt;&gt;materialLabel_template.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="tabGeneral.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
+  <data name="btnLogin.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
-  <data name="tabGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="btnLogin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1172, 472</value>
+  <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 364</value>
   </data>
-  <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnLogin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 36</value>
+  </data>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
+    <value>btnLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
+    <value>tabApi</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="tabGeneral.Text" xml:space="preserve">
-    <value>General</value>
-  </data>
-  <data name="tabGeneral.ToolTipText" xml:space="preserve">
-    <value>Ajustes generales de la aplicación</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.Name" xml:space="preserve">
-    <value>tabGeneral</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
-    <value>tabSettings</value>
-  </data>
-  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabApi.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="chkBx_cache.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2233,7 +3771,7 @@ de generar el comprobante de venta</value>
     <value>115, 37</value>
   </data>
   <data name="chkBx_cache.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="chkBx_cache.Text" xml:space="preserve">
     <value>Usar Cache</value>
@@ -2251,7 +3789,7 @@ de generar el comprobante de venta</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;chkBx_cache.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btSubtract.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2287,7 +3825,7 @@ de generar el comprobante de venta</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;btSubtract.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btAdd.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2308,7 +3846,7 @@ de generar el comprobante de venta</value>
     <value>32, 32</value>
   </data>
   <data name="btAdd.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="btAdd.Text" xml:space="preserve">
     <value>+</value>
@@ -2323,7 +3861,7 @@ de generar el comprobante de venta</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;btAdd.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="prgrssBr_minutes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2335,7 +3873,7 @@ de generar el comprobante de venta</value>
     <value>349, 5</value>
   </data>
   <data name="prgrssBr_minutes.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;prgrssBr_minutes.Name" xml:space="preserve">
     <value>prgrssBr_minutes</value>
@@ -2347,7 +3885,7 @@ de generar el comprobante de venta</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;prgrssBr_minutes.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="picProxy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2374,7 +3912,7 @@ de generar el comprobante de venta</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;picProxy.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2392,7 +3930,7 @@ de generar el comprobante de venta</value>
     <value>238, 15</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Tiempo para la recarga de datos en cache</value>
@@ -2407,7 +3945,7 @@ de generar el comprobante de venta</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2425,7 +3963,7 @@ de generar el comprobante de venta</value>
     <value>352, 30</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Al utilizar el servicio de Cache, la carga de datos se hace 
@@ -2441,7 +3979,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="materialLabel5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2474,7 +4012,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2507,7 +4045,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="materialLabel7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2540,7 +4078,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="materialLabel6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2573,7 +4111,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="txtBx_nItems.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 12pt</value>
@@ -2609,7 +4147,7 @@ más rápida pero no garantiza que los datos estén actualizados.</value>
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;txtBx_nItems.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -2650,7 +4188,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="txtBx_APIkey.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 12pt</value>
@@ -2668,7 +4206,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>347, 50</value>
   </data>
   <data name="txtBx_APIkey.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="txtBx_APIkey.Text" xml:space="preserve">
     <value />
@@ -2683,7 +4221,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;txtBx_APIkey.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="txtBxUrl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 12pt</value>
@@ -2716,7 +4254,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;txtBxUrl.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="txtBx_APIusr.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 12pt</value>
@@ -2749,7 +4287,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;txtBx_APIusr.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="pictureBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2776,669 +4314,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>tabApi</value>
   </data>
   <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="tabApi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabApi.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabApi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1172, 472</value>
-  </data>
-  <data name="tabApi.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabApi.Text" xml:space="preserve">
-    <value>API</value>
-  </data>
-  <data name="tabApi.ToolTipText" xml:space="preserve">
-    <value>Ajustar la API</value>
-  </data>
-  <data name="&gt;&gt;tabApi.Name" xml:space="preserve">
-    <value>tabApi</value>
-  </data>
-  <data name="&gt;&gt;tabApi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabApi.Parent" xml:space="preserve">
-    <value>tabSettings</value>
-  </data>
-  <data name="&gt;&gt;tabApi.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabMail.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="MailContent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="MailContent.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="MailContent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 31</value>
-  </data>
-  <data name="MailContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1056, 203</value>
-  </data>
-  <data name="MailContent.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;MailContent.Name" xml:space="preserve">
-    <value>MailContent</value>
-  </data>
-  <data name="&gt;&gt;MailContent.Type" xml:space="preserve">
-    <value>WinForms.Controls.HTMLWYSIWYG, OpenCart QuickAdmin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;MailContent.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;MailContent.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 13</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 15</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Mensaje de correo</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 285</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1155, 270</value>
-  </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
-  </data>
-  <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 81</value>
-  </data>
-  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 19</value>
-  </data>
-  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="materialLabel4.Text" xml:space="preserve">
-    <value>Servidor SMTP</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
-    <value>materialLabel4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
-  </data>
-  <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>747, 81</value>
-  </data>
-  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 19</value>
-  </data>
-  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="materialLabel3.Text" xml:space="preserve">
-    <value>Email cliente</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
-    <value>materialLabel3</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="label2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>20, 10, 0, 0</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1155, 39</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>El servicio de correo electrónico de la aplicación permite envíar correos en determinadas situaciones.</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txtBx_mailPort.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 12pt</value>
-  </data>
-  <data name="txtBx_mailPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 103</value>
-  </data>
-  <data name="txtBx_mailPort.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
-  </data>
-  <data name="txtBx_mailPort.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtBx_mailPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 50</value>
-  </data>
-  <data name="txtBx_mailPort.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="txtBx_mailPort.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtBx_mailPort.Name" xml:space="preserve">
-    <value>txtBx_mailPort</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailPort.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailPort.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailPort.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txtBx_mailSubject.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 12pt</value>
-  </data>
-  <data name="txtBx_mailSubject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 217</value>
-  </data>
-  <data name="txtBx_mailSubject.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
-  </data>
-  <data name="txtBx_mailSubject.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtBx_mailSubject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>380, 50</value>
-  </data>
-  <data name="txtBx_mailSubject.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtBx_mailSubject.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtBx_mailSubject.Name" xml:space="preserve">
-    <value>txtBx_mailSubject</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailSubject.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailSubject.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailSubject.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="txtBx_mailHost.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 12pt</value>
-  </data>
-  <data name="txtBx_mailHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 103</value>
-  </data>
-  <data name="txtBx_mailHost.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
-  </data>
-  <data name="txtBx_mailHost.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtBx_mailHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 50</value>
-  </data>
-  <data name="txtBx_mailHost.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="txtBx_mailHost.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtBx_mailHost.Name" xml:space="preserve">
-    <value>txtBx_mailHost</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailHost.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailHost.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailHost.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="txtBx_mailPwd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 12pt</value>
-  </data>
-  <data name="txtBx_mailPwd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>750, 177</value>
-  </data>
-  <data name="txtBx_mailPwd.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
-  </data>
-  <data name="txtBx_mailPwd.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtBx_mailPwd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 50</value>
-  </data>
-  <data name="txtBx_mailPwd.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="txtBx_mailPwd.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtBx_mailPwd.Name" xml:space="preserve">
-    <value>txtBx_mailPwd</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailPwd.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailPwd.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailPwd.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="txtBx_mailEmail.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 12pt</value>
-  </data>
-  <data name="txtBx_mailEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>750, 103</value>
-  </data>
-  <data name="txtBx_mailEmail.MaxLength" type="System.Int32, mscorlib">
-    <value>32767</value>
-  </data>
-  <data name="txtBx_mailEmail.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtBx_mailEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 50</value>
-  </data>
-  <data name="txtBx_mailEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="txtBx_mailEmail.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtBx_mailEmail.Name" xml:space="preserve">
-    <value>txtBx_mailEmail</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailEmail.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailEmail.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;txtBx_mailEmail.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 270</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 15</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Asunto del mensaje de correo</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="tabMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tabMail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1172, 472</value>
-  </data>
-  <data name="tabMail.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tabMail.Text" xml:space="preserve">
-    <value>Correo</value>
-  </data>
-  <data name="tabMail.ToolTipText" xml:space="preserve">
-    <value>Ajustes de correo electrónico</value>
-  </data>
-  <data name="&gt;&gt;tabMail.Name" xml:space="preserve">
-    <value>tabMail</value>
-  </data>
-  <data name="&gt;&gt;tabMail.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabMail.Parent" xml:space="preserve">
-    <value>tabSettings</value>
-  </data>
-  <data name="&gt;&gt;tabMail.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 47</value>
-  </data>
-  <data name="tabSettings.Padding" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tabSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 498</value>
-  </data>
-  <data name="tabSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabSettings.Name" xml:space="preserve">
-    <value>tabSettings</value>
-  </data>
-  <data name="&gt;&gt;tabSettings.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;tabSettings.Parent" xml:space="preserve">
-    <value>tabPageSettings</value>
-  </data>
-  <data name="&gt;&gt;tabSettings.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabSelectorSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="tabSelectorSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
-  </data>
-  <data name="tabSelectorSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="tabSelectorSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 44</value>
-  </data>
-  <data name="tabSelectorSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabSelectorSettings.Text" xml:space="preserve">
-    <value>Ajustes</value>
-  </data>
-  <data name="&gt;&gt;tabSelectorSettings.Name" xml:space="preserve">
-    <value>tabSelectorSettings</value>
-  </data>
-  <data name="&gt;&gt;tabSelectorSettings.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabSelector, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;tabSelectorSettings.Parent" xml:space="preserve">
-    <value>tabPageSettings</value>
-  </data>
-  <data name="&gt;&gt;tabSelectorSettings.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabPageSettings.ImageKey" xml:space="preserve">
-    <value>Services_32px.png</value>
-  </data>
-  <data name="tabPageSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
-  </data>
-  <data name="tabPageSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPageSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1186, 548</value>
-  </data>
-  <data name="tabPageSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tabPageSettings.Text" xml:space="preserve">
-    <value>Ajustes</value>
-  </data>
-  <data name="&gt;&gt;tabPageSettings.Name" xml:space="preserve">
-    <value>tabPageSettings</value>
-  </data>
-  <data name="&gt;&gt;tabPageSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageSettings.Parent" xml:space="preserve">
-    <value>materialTabMenu</value>
-  </data>
-  <data name="&gt;&gt;tabPageSettings.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="materialTabMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <metadata name="menuIconList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="menuIconList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAB+
-        FgAAAk1TRnQBSQFMAgEBBAEAAYgBAwGIAQMBGAEAARgBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFg
-        AwABMAMAAQEBAAEgBgABSP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
-        /wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A3wADCgENAwUBB/8ACAABAQMDBAQBBgMAAQEEAAMD
-        AQQDAwEEWAADMAFMAx0BKf8ABQADAwEEAxIEGAEhAwUBBwQAAxABFgMTARpMAAMHAQoDJAE2A0wBkgNZ
-        AcQDUAGeAycBOwMLAQ8DAAEBJAADAgEDAxABFQMUARwDFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEd
-        AxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxMBGgMKAQ4cAAMC
-        AQMDDQERAxUBHQMEAQYIAAMDAQQDDQESAxQBGwMDAQQsAAMCAQMDHwEtAlsBWQHJAlIBUAGjAz0BZwM2
-        AVkDTAGPA04BmQMHAQkDAQECRAADIwE0A0wBkAJeAVoB2ANUAasDVwG6AlgBVgG5Ay8BSgMLAQ8kAAMd
-        ASoDRAF7A04BmAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJR
-        AU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJRAU8BnAJR
-        AU8BnANMAY8DNwFaHAADDAEQAzYBWAJRAU8BnAMbASYDAgEDBAADEgEZAzsBZANKAYwDEQEXJwABAQME
-        AQYDCgENAzEBTQNdAe0CYQFcAdwDWQG+A1UBtQJbAVkB0gJYAVYBwQMmATgDCQEMAwIBA0AAA0sBjgJd
-        AVkB1wNFAX0DGAEiAzoBYAJfASEB+wJXAVYBuAMmATkkAAJXAVUBtwJfAUwB8wKAAUAB/QKAAUAB/QKA
-        AUAB/QKAAUAB/QKAAUAB/QKAAUAB/QKAAUAB/QKAAUAB/QJ/AQAB/gKAAQAB/wKAAUAB/QKAAUAB/QKA
-        AUAB/QKAAUAB/QKAAUAB/QJ/AQAB/gJ/AQAB/gKAAUAB/QKAAUAB/QKAAUAB/QJfASEB+wNaAcocAAMQ
-        ARYDRwGBAoABAAH/AzkBXwMKAQ0EAAMpAT4DVQGyAlkBVwG/AxcBICQAAwQBBgMaBCQBNgNUAawCgAEA
-        Af8CUQFQAZ8DLwFJAyABLwJNAUwBkQJcAVsB4QJfAVcB6AMnATsDDgETNAADBwEKAyMBNAJMAUsBjwJX
-        AVUBtwNFAXwDEAEVAwQBBgMSARgDNwFbAlUBUwGtA1ABmgMnAToDDAEQAwABARgAA1gBwAJXAVUBugM4
-        AVwDHgErAx4BKwMeASsDHgErAx4BKwMeASsDHgErA0UBfQJbAVkBxAMfASwDHgErAx4BKwMeASsDRQF9
-        A0sBjgNLAY4DKAE8Ax4BKwMeASsDRQF9AlgBVgG7BAADGgEkAy8BSQMOARMDAgEDCAADJAE1A0cBgQJY
-        AVcBwgJZAVcBvQNIAYQDPQFpA1IBqQJYAVYBwQNOAZcDMAFLAw0BEQQAAwEBAgMSARkDOwFkAyYBOAMH
-        AQoEAAMCAQMDHQEqA1UBsgJaAVgBxgJaAVcBxQM9AWkDGgElAwoBDQMGAQgDGgEkAz8BbAJfAVcB6ANb
-        AcgDTgGUAwcBCQMAAQEsAAMjATQDSwGOAl0BWQHXA0UBfAMfAS0DDQESAwQBBQMCAQMDCQEMAzgBXQJU
-        AVMBrAJXAVYBuAMxAU4DCwEPGAADOwFlAlcBVQG3A0IBdgMeASsDHgErAx4BKwMeASsDHgErAx4BKwMe
-        ASsDRQF9AlkBVgG+AwEBAgwAA04BmQJXAVYBuAJXAVYBuAMWAR8IAAM7AWMCVwFWAbgEAAMuAUcDUgGj
-        AzsBYwMTARoDBQEHAw4BEwNHAYICUwFSAagDPgFqAl4BWwHVAlwBWQHPAlkBVgG+Al4BWgHVA1QBqwNT
-        AawDUQGgAykBPwMBAQIDDQESAzYBWAJhAV0B4gNAAW4DDQESBAADAQECAxIBGAM4AVwDWQHHAlABTwGb
-        AwwBEAMCAQMIAAMDAQQDHAEoA1IBqQJcAVkBzANEAXkDBgEIAwABASwAAkwBSwGPAl0BWQHXA0QBewMQ
-        ARUDDQESAj8BPgFsAxUBHQMDAQQEAAMJAQwDNwFaAk0BKQH6AlgBVgG7AygBPRwAA1ABngJkAVMB8QKA
-        AQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wKAAQAB/wJeAVoB1QMBAQIkAAM7
-        AWMCVwFWAbgEAAMgAS8DVQGtAmoBQQH5AzsBYwMdASoCQAE/AW8CXAFZAc8CUAFPAZsCUgFRAacCWQFY
-        AcIDOQFfAxQBGwNUAa4CVQFTAbACLAErAUMDXAHPA04BmQMJAQwDLAFDAlgBVgG5An8BAAH+Ay4BRwMF
-        AQcQAAJUAVMBrANAAXAUAAMLAQ8CNgE1AVgDVAGvAzABSygAAwQBBQMeASsCTAFLAY8CWAFXAb8DRgF/
-        AxABFQMHAQoDKQE/AmEBWwHhAlsBWAHLA1YBtgNKAYoDGgEkAxMBGgM2AVkDUwGqA1ABnQMqAUADDQER
-        AwEBAhAAA0ABbwJeAVoB1QJRAVABnAJQAU8BmwJQAU8BmwJQAU8BmwJQAU8BmwJQAU8BmwJQAU8BmwNZ
-        AcMDWgHKAwEBAiQAAzsBYwJXAVYBuAQAAw0BEQM7AWUCTQEpAfoCXQFZAdcDWQHHA1wB3wJXAVUBugM9
-        AWgCYAFcAdQDUgGpAyQBNQMHAQkDRwGAA1QBrwMKAQ0DTgGZAl0BWQHXA1cBvQNcAc4CXQFaAdgDRwGB
-        AxQBGwMAAQEHAAEBAwcBCgMaASUDVwG3A0cBggMAAQEPAAEBAxEBFwJGAUUBfgJYAVYBvAM4AV0DAgED
-        AwABASAAAwcBCQMsAUQCXQFaAdIDWAHBAzMBUwQAAwEBAgMiATECXQFOAfACXAFaAc0CWAFWAbwCZAFZ
-        AewDMQFNAw4BEwMJAQwDNQFXA1IBqQJZAVcBvwM0AVQDDQESEAADOwFjAlkBVgG+AxYBHgMUARwDFAEc
-        AxQBHAMUARwDFAEcAxQBHANCAXUCWAFWAbwDAQECJAADOwFjAlcBVgG4BAADCwEPAzsBZQJNASkB+gJS
-        AVEBpwNIAYMCVwFVAbcCVgFVAbQDOAFeAlMBUgGoAlcBVgG4AzsBZAMnAToDUAGfA1EBoAMBAQIDTgGX
-        A1YBuQNAAW8DTgGUAloBWAHGA0kBhwMRARcIAAMDAQQDHQEqA1ABngNdAdcCVQFTAbADGQEjAwUBBwgA
-        AwYBCAMnATsCXAFZAcwCXgFbAdkDUAGaAwoBDgMLAQ8DCQEMIAADDQERAzsBYwJdAVoB0wNMAZIIAAMa
-        ASUDXgHZA1IBpgJTAVIBqAKAAQAB/wM7AWUDJgE4BAADBwEKAzIBUAJrAVEB9wNYAcEDKwFCEAADOwFj
-        AlgBVgG5AwEBAhgAAzsBYwJYAVYBuQMBAQIkAAM7AWMCVwFWAbgEAAMTARoDTQGRAoABAAH/AyQBNgMG
-        AQgDFQEdAlcBVQG3AzoBYgMWAR4CXQFZAdIDQAH9AoABAAH/Al0BWwHhAz8BbAQAA1UBsQNAAW4EAAMa
-        ASUDUQGfAmEBWAHmAxwBJwsAAQEDHgErA18B4AJaAVcBxQJgAVoB3gNVAbUDGwEmAwEBAgQAAxgBIgNM
-        AZMCgAEAAf8DWgHFA08BnAMBAQIDLgFHAy4BSCAAAwIBAwMNAREDQgF0AlYBVQG0Ak0BTAGRAyMBNAMP
-        ARQDLAFEAzUBVwNUAa4CXAFZAcwDSwGOA04BmQMDAQQDAQECAw8BFAMxAU4CWgFYAcADOQFfEAADOwFj
-        AlgBVgG5AwEBAhgAAzoBYgJZAVcBvQMWAR4DFQEdAxUBHQMVAR0DFQEdAxUBHQMVAR0DFQEdAxUBHQMV
-        AR0DQgF0AlcBVQG6BAADEAEVA0YBfwNAAf0DOwFkAyUBNwM6AWIDVQG1AzMBUwMEAQUDLgFIA0UBfQNL
-        AY4DNwFbAxYBHgQAAlQBUgGmA0oBjQMbASYDMQFPAlUBUwGwAlkBVwG9AxcBIAwAAwYBCAMcAScDIwEz
-        A0YBfgJjAVwB5wJYAVYBuQNLAY4DRgGAAlYBVQGxA1kBxwNKAYsDPgFrAzoBYgM2AVgDVAGuA1QBrgM2
-        AVgDLQFGAyQBNQMAAQEYAAMbASYDQwF4Al0BWQHXA0oBjQMiATIDBgEIAyABLwNQAZoCXgFaAdUCWwFY
-        AcsCWQFYAcIDFQEdAwQBBQMBAQIDBwEJAlcBVQG6AzsBZRAAAzsBYwJYAVYBuQMBAQIYAAM2AVgCWwFY
-        AcYDUAGdAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGcAlEBTwGc
-        AloBVwG9A1YBtgQAAwcBCgMvAUkCXQFZAdICVwFWAbgDUwGqAloBWQHDAlMBUgGoAzIBUQMYASEDEAEV
-        AxABFgMSARkDEAQVBB0BKQJMAUsBjwJYAVYBvANRAaACVQFUAbADVQG0AzQBVAMKAQ4UAAMEAQYDJwE6
-        A10B4gJcAVgB0QNSAaYDUAGaA1kBwwNVAbUDGAEiA04BlgJYAVYBvAJZAVcBvwNZAcQDWQHEAlkBVwG/
-        AlgBVgG7A0oBigMCAQMDAAEBGAADDwEUA0QBeQJeAVoB1QNJAYgEAAMHAQkDLQFGA1sB0ANdAeIDXgHa
-        Aj4BPQFqAw0BEggAAlcBVgG4AzsBZRAAAzsBYwJYAVYBuQMBAQIYAAMhATACVAFSAaYCgAFAAf0CgAFA
-        Af0CgAFAAf0CgAFAAf0CfwEAAf4CgAEAAf8CgAFAAf0CgAFAAf0CgAFAAf0CgAFAAf0CXwFYAeMDRwGA
-        CAADBAEFAxYBHgNSAaYCXAFZAc8DUgGpA04BmQJcAVgB0QNbAcgDKwFCAwYBCAQAAx0BKgNOAZYCbQFR
-        AfcCVAFTAbACUgFRAaECWwFaAd4CVwFVAboDNQFVHAADAwEEAyMBMwJeAVoB1QNIAYQDEgEYBAADOwFj
-        A1ABngMGAQgCTAFLAZACXAFZAdICPwE+AWwDEAEVAxABFgJAAT8BbgJcAVkB0gNKAYwgAAMCAQMDDwEU
-        A0QBegNWAbMDSQGIAyIBMQMPARQDGQEjAyABLgMoATwDDQESAycBOgMWAR4EAAJXAVYBuAM7AWUQAAM7
-        AWMCWAFWAbkDAQECGAADBgEIAxQBHAMeASsDHgErAx4BKwMeASsDRQF9AlsBWQHEAx8BLAMeASsDHgEr
-        Ax4BKwMbASYDEAEVCwABAQMEAQUDFAEcAyQBNgNMAZACWAFWAcEDVAGvA1YBtgNRAaIDJgE5BAADSAGG
-        A1UBtQJRAVABnAJYAVYBuwNQAZoDGwEmAxYBHwMKAQ4fAAEBAwcBCQMaASUDFAEcAwQBBgQAAxIBGAMm
-        ATgDLQFFA1YBtgNIAYYDDQESAwMBBAMDAQQDDgETA0kBiANVAbUDLAFEAxMBGgMDAQQcAAMdASkDRAF7
-        Al4BWgHVA0oBiQMhATAEAAMBAQIDBAEGBAADOwFkAyQBNgQAAlcBVgG4AzsBZRAAAzsBYwJYAVYBuQMB
-        AQIwAAM7AWMCWAFWAbkDAQECKAADGAEiAlwBWgHNAlUBVAGwAzMBUgM2AVgDVgG5AzUBVgQAAlQBUwGt
-        A0oBigMYASEDSgGKAlQBUwGsAwEBAjAAAwEBAggAAwgBCwMtAUUDVAGvAlwBWgHNAzoBYhAAAzoBYgJc
-        AVoBzQNUAa8DLAFEAwcBCiAAAxABFQNFAX0CXgFaAdUDSQGHHAACVwFWAbgDOwFlEAADOwFjAlgBVgG5
-        AwMBBAMBAQIDAQECAwEBAgMBAQIDAQECAwEBAgMBAQIDAQECAwEBAgMBAQIDAQECAwEBAgM7AWQCWAFW
-        AbkDAQECKAADGAEiAlsBWAHLA1YBtgM3AVoDQwF4AlkBVgG+AzUBVQQAAlQBUwGwAk4BTQGVAw4BEwJO
-        AU0BlQNUAa4DAQECPAADBQEHAyMBNANKAYoCXAFZAcwDOgFhEAADOgFhAlwBWQHMAkoBSQGJAyMBNAMF
-        AQcgAAMCAQMDEAEVA0QBegJWAVUBsQNIAYUDPgFqAzsBZQM7AWUDOwFlAzsBZQM7AWUDWgHKAzsBZRAA
-        AzYBWAJZAVcBwgJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJY
-        AVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJYAVYBuQJbAVkByQNWAbkDAQECKAADCQEMAy0BRQNSAaECVwFW
-        AbgCWAFXAbsDRwGAAxwBJwQAAzsBZANTAaoDVgG2A1MBqgM7AWRDAAEBAwcBCQMSARgCVAFTAa0CUwFR
-        AaUDJwE7AxgBIQMYASEDKAE8AlQBUgGmAlQBUwGsAxIBGQMHAQkDAAEBKAADHAEoA0IBdgJaAVgBwAJX
-        AVUBugJXAVYBuAJXAVYBuAJXAVYBuAJXAVYBuAJXAVYBuAJXAVYBuAM0AVQQAAMcAScDNgFYAzsBYwM7
-        AWMDOwFjAzsBYwM7AWMDOwFjAzsBYwM7AWMDOwFjAzsBYwM7AWMDOwFjAzsBYwM7AWMDMwFTLAADAQEC
-        AwcBCQMmATkDMwFTAzMBUwMaASUDBgEIBAADFAEbAywBQwM4AV0DLAFDAxQBG0cAAQEDAwEEAlIBUQGn
-        Al0BWQHSA1UBsgNQAZoDUAGaA1YBswJdAVkB0gNRAaIDAgEDAwABAf8AWQADQwF3A0wBkwJcAVgB0QJc
-        AT4B+AJcAT4B+ANbAdADTgGUA0ABb/8AYQADDwEUAxMBGgMZASMDRgF/A0YBfwMaASQDEwEaAw8BFP8A
-        bQADGgElAxoBJf8AmQABQgFNAT4HAAE+AwABKAMAAWADAAEwAwABAQEAAQEFAAFAAQIWAAP//wAiAA3/
-        Ac8H/wH4AU8C/wHPB/8B+AFPAf8B/gEBAf8DAAH+ARgBfwHwAQMB/wH+AQEB/wMAAf4BCAF/AcABAQH/
-        Af4BAQH/AwAB/gEIAX8BwAEBAf8B8AEAAT8DAAGGAQABIAGAAQABfwHwAQABPwEAAQcBDAGAAgABgAHA
-        AX8B8AEIAT8BgAEHAfwBgAIAAfMB4QH/AYABAAEHAYABBwH8AYACAAGBAcABfwGCAQABBwGAAQcB/AGA
-        AQABAQGAAcABPwHDAQEBBwGPAccB/AGAAQEBIQGAAUABPwHAAQABBwGPAcABAAGAAgEBwAEAAQMB8AEA
-        AQcBjwHAAQABgAEAAQEB8AEAAQEB+AFAAWcBjwHAAQABwAEIAQcB8AFAAQcB+AEAAScBjwHAAQABwAEI
-        AQcB8AFAAQAB/gEJAScBjwH/AR8B+AEIAR8B/gHBAeAB/wEPAecBgAEAAR8B+AEIAR8B/wHBAeAB/wEA
-        AQcBgAEAAR8B+AEIAT8B/wHAAQAB/wHAAQcBgAEAAT8B+AEIAT8B/wHgAQEK/wH4AQcK/wH4AQcL/wE/
-        DP8L
-</value>
-  </data>
-  <data name="materialTabMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 64</value>
-  </data>
-  <data name="materialTabMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1194, 583</value>
-  </data>
-  <data name="materialTabMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;materialTabMenu.Name" xml:space="preserve">
-    <value>materialTabMenu</value>
-  </data>
-  <data name="&gt;&gt;materialTabMenu.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTabMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialTabMenu.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>17</value>
   </data>
   <data name="lblStatus.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3456,7 +4332,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>37, 13</value>
   </data>
   <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>1</value>
   </data>
   <data name="lblStatus.Text" xml:space="preserve">
     <value>Status</value>
@@ -3496,7 +4372,7 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAgCUAAAAAAAAAAAAAAAAAAAAA
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAF3NAQBdzQEAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3516,122 +4392,122 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikA9rYpAPa2
+        KQ32tikc9rYpDfa2KQD2tikAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikA9rYpAPa2
+        KQ32tikc9rYpDfa2KQD2tikAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2
+        KQD2tikF9rYpXPa2KcP2tine9rYpw/a2KVz2tikF9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2
+        KQD2tikF9rYpXPa2KcP2tine9rYpw/a2KVz2tikF9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA9rYpAPa2KQD2tilc9rYp8va2Kf/2tin/9rYp//a2KfL2tilc9rYpAPa2KQAAAAAAAAAAAAAA
+        AAAAAAAA9rYpAPa2KQD2tilc9rYp8va2Kf/2tin/9rYp//a2KfL2tilc9rYpAPa2KQAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQ32tinB9rYp//a2Kf/2tin/9rYp//a2Kf/2tinB9rYpDfa2
+        KQAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQ32tinB9rYp//a2Kf/2tin/9rYp//a2Kf/2tinB9rYpDfa2
+        KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KRv2tinc9rYp//a2Kf/2tin/9rYp//a2
+        Kf/2tinc9rYpG/a2KQAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KRv2tinc9rYp//a2Kf/2tin/9rYp//a2
+        Kf/2tinc9rYpG/a2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQ32tinB9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tinB9rYpDfa2KQAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQ32tinB9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tinB9rYpDfa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2
+        KQD2tilc9rYp8va2Kf/2tin/9rYp//a2KfL2tilc9rYpAPa2KQAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2
+        KQD2tilc9rYp8va2Kf/2tin/9rYp//a2KfL2tilc9rYpAPa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPa2KQD2tikF9rYpXPa2KcP2tine9rYpw/a2KVz2tikF9rYpAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPa2KQD2tikF9rYpXPa2KcP2tine9rYpw/a2KVz2tikF9rYpAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAACAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAALAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikA9rYpAPa2KQ32tikc9rYpDfa2KQD2tikAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikA9rYpAPa2KQ32tikc9rYpDfa2KQD2tikAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAADzAAAA/wAAANQAAAA0AAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAFgAAALQAAAD9AAAA+wAAAKYAAAAPAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZgAAAP8AAAD/AAAA/wAAAP8AAADOAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjgAAAP8AAAD/AAAA/wAAAP8AAACmAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwwAAAP8AAAD/AAAA/wAA
-        AP8AAAD/AAAANQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA7QAAAP8AAAD/AAAA/wAA
-        AP8AAAD7AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyAAA
-        AP8AAAD/AAAA/wAAAP8AAAD/AAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAA9AAA
-        AP8AAAD/AAAA/wAAAP8AAAD9AAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAdAAAAP8AAAD/AAAA/wAAAP8AAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAmQAAAP8AAAD/AAAA/wAAAP8AAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAHQAAADbAAAA/QAAALMAAAA5AAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAJkAAAD0AAAA7QAAAI4AAAAWAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAFAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAACAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQL2tikE9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQj2tilI9rYpFfa2KQD2tikAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQD2tik39rYpifa2
+        KSH2tikA9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2
+        KQD2tikA9rYpVPa2Ka32tikx9rYpAPa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD2tikA9rYpAfa2KWX2tinI9rYpRfa2KQD2tikAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAA/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQP2tilw9rYp2/a2KVz2tikD9rYpAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAhAAA
-        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2KQD2tikF9rYpe/a2
+        Ker2til09rYpCPa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAcwAAAKgAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD2tikA9rYpCPa2KYj2tin09rYpiva2KQ72tikA9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAADEAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQz2tima9rYp+/a2KZ/2tikW9rYpAPa2KQAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcAAAA2wAAACYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQD2tikW9rYptPa2Kf/2timx9rYpIfa2
+        KQD2tikAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2KQD2tikA9rYpK/a2
+        Kdb2tin/9rYpwva2KS32tikA9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAtQAA
-        AO0AAAA9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD2tikA9rYpAPa2KWH2tin69rYp//a2Kc/2tik39rYpAPa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAADAAAAM8AAAD5AAAAWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KR32tinc9rYp//a2Kf/2tinV9rYpN/a2KQAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAAADjAAAA/wAAAHsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2KQD2tikA9rYpBva2KV72tinx9rYp//a2Kf/2tin/9rYpyva2
+        KSkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAA/wAAAP8AAACKAAAAAAAA
+        AAAAAAAA9rYpAPa2KQD2tikB9rYpBPa2KQn2tikS9rYpIfa2KTz2tilq9rYpsPa2KfL2tin/9rYp//a2
+        Kf/2tin/9rYp//a2KakAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD2tikA9rYpAfa2KQv2tikb9rYpLva2KUH2tilR9rYpYPa2KWv2til19rYpfPa2KYD2timC9rYpg/a2
+        KYT2timF9rYphva2KYn2timN9rYpkva2KZr2timj9rYpsPa2Kb/2tinQ9rYp4va2KfT2tin+9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2KfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPa2
+        KQD2tikA9rYpD/a2KTj2tils9rYpnPa2KcL2tinc9rYp7Pa2Kfb2tin89rYp//a2Kf/2tin/9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2KdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD2tikA9rYpBPa2KS/2til/9rYpx/a2KfD2tin+9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2
+        Kf/2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin/9rYp/va2KfP2tinU9rYpi/a2KSgAAAAAAAAAAAAA
+        AAAAAAAA9rYpAPa2KQH2tiks9rYplfa2Kef2tin/9rYp//a2Kf/2tin/9rYp//a2Kf/2tin79rYp8/a2
+        Kev2tinj9rYp3Pa2Kdf2tinU9rYp0va2KdL2tinS9rYp0/a2KdT2tinV9rYp1fa2Kdb2tinX9rYp1/a2
+        Kdf2tinW9rYp1Pa2KdL2tinO9rYpyPa2KcH2tim39rYpqPa2KZb2til+9rYpX/a2KTv2tikX9rYpAva2
+        KQAAAAAAAAAAAAAAAAD2tikA9rYpCva2KWr2tinf9rYp//a2Kf/2tin/9rYp9Pa2Kdf2timy9rYpjPa2
+        KWr2tilO9rYpOva2KSz2tiki9rYpG/a2KRf2tikU9rYpE/a2KRP2tikT9rYpFPa2KRT2tikV9rYpFfa2
+        KRb2tikW9rYpF/a2KRb2tikW9rYpFfa2KRP2tikQ9rYpDfa2KQr2tikG9rYpAva2KQD2tikAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA9rYpAPa2KQD2tikV9rYpmPa2Kfn2tin/9rYp8Pa2Kb32til59rYpPva2
+        KRj2tikF9rYpAPa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikA9rYpAPa2KRb2timp9rYp//a2KeX2timT9rYpPPa2
+        KQv2tikA9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArQAA
-        AP8AAAD/AAAAlAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikA9rYpDPa2KZ72tiny9rYpmPa2
+        KS72tikC9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikB9rYpdfa2
+        Kcj2tilM9rYpBfa2KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAANgAAAP8AAAD/AAAA/wAAAJ4AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD2tik99rYpiva2KSH2tikA9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAKAAAAngAAAP8AAAD/AAAA/wAAAP8AAACGAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD2tik99rYpEfa2KQD2tikAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAACQAAAC0AAABTAAAAegAAAKAAAADsAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD9AAAAKwAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAATAAAARgAAAFoAAABrAAAAewAAAIwAAACdAAAArQAAALoAAADAAAAAxQAAAMsAAADRAAAA1wAA
-        AN0AAADjAAAA6AAAAO4AAAD0AAAA/gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
-        AP8AAAD/AAAAagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        ABsAAABZAAAAlgAAANQAAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
-        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
-        AP8AAAD/AAAA/wAAAP8AAADrAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAgAAABpAAAA2AAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
-        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
-        AP8AAAD/AAAA/wAAAPIAAADOAAAAqwAAAHEAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAYwAAAOcAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADlAAAAzQAAAL8AAACyAAAApAAA
-        AJcAAACJAAAAfAAAAHYAAAB0AAAAcgAAAHAAAABuAAAAbAAAAGoAAABoAAAAZgAAAGQAAABiAAAAYAAA
-        AF4AAABcAAAAWgAAAFUAAAA5AAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAABMAAACuAAAA/wAAAP8AAAD/AAAA9AAAAMAAAACJAAAAUgAAABsAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAN4AAAD/AAAA/wAAAMIAAABQAAAAAwAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAA1gAAAPsAAACmAAAANAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADHAAAAzgAAACUAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHMAAACZAAAACAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwAA
-        AFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2tikD9rYpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -3651,12 +4527,12 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP///////wAA////////
-        AAD///////8AAP///////wAA////////AAD///////8AAP/z/+f//wAA/+D/gf//AAD/wP+B//8AAP/A
-        fwD//wAA/8B/AP//AAD/wP+B//8AAP/A/4H//wAA//P/5///AAD///////8AAP///////wAA/////z//
-        AAD/////j/8AAP/////H/wAA/////+P/AAD/////8f8AAP/////w/wAA//////h/AAD//////D8AAP//
-        ///+HwAA//////8HAAD//////wMAAP/////+AwAA/////8ABAAD//gAAAAEAAP/gAAAAAQAA/wAAAAAD
-        AAD+AAAAAH8AAPgB/////wAA8B//////AADg//////8AAMP//////wAAx///////AACf//////8AAL//
-        /////wAA////////AAD///////8AAP///////wAA////////AAD///////8AAP///////wAA////////
+        AAD///////8AAP///////wAA////////AAD/wf+D//8AAP+A/wH//wAA/4D/Af//AAD/AH4A//8AAP8A
+        fgD//wAA/wB+AP//AAD/gP8B//8AAP+A/wH//wAA/8H/g///AAD///////8AAP////8//wAA/////x//
+        AAD/////j/8AAP/////H/wAA/////8H/AAD/////4P8AAP/////wfwAA//////g/AAD//////B8AAP//
+        ///+DwAA//////8HAAD//////4MAAP//////gQAA//////8AAAD/////gAAAAP/4AAAAAAAA/4AAAAAA
+        AAD+AAAAAAAAAPgAAAAAAQAA8AAAAAA/AADgB/////8AAMB//////wAAgf//////AAAH//////8AAB//
+        /////wAAP///////AAB///////8AAP///////wAA////////AAD///////8AAP///////wAA////////
         AAA=
 </value>
   </data>
@@ -3738,6 +4614,12 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
   <data name="&gt;&gt;reloadOrdersMenuItem.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="&gt;&gt;loginMenuItemOrder.Name" xml:space="preserve">
+    <value>loginMenuItemOrder</value>
+  </data>
+  <data name="&gt;&gt;loginMenuItemOrder.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
     <value>columnHeader1</value>
   </data>
@@ -3798,6 +4680,12 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
   <data name="&gt;&gt;reloadStockMenuItem.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="&gt;&gt;loginMenuItemStock.Name" xml:space="preserve">
+    <value>loginMenuItemStock</value>
+  </data>
+  <data name="&gt;&gt;loginMenuItemStock.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
     <value>columnHeader3</value>
   </data>
@@ -3850,6 +4738,12 @@ Si usted no cuenta con la credencial de acceso, solicite la credencial respectiv
     <value>reloadCustomersMenuItem</value>
   </data>
   <data name="&gt;&gt;reloadCustomersMenuItem.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;loginMenuItemCustomer.Name" xml:space="preserve">
+    <value>loginMenuItemCustomer</value>
+  </data>
+  <data name="&gt;&gt;loginMenuItemCustomer.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialToolStripMenuItem, MaterialSkin, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;menuIconList.Name" xml:space="preserve">

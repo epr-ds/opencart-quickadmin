@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
-using WinForms.Cache;
+using WinForms.Services;
 using WinForms.Commands;
 using WinForms.Views;
 
@@ -89,11 +89,28 @@ namespace WinForms.ViewModels
 
         private async void Load()
         {
+            if (string.IsNullOrWhiteSpace(ApiManager.Token))
+            {
+                Notification = "Por favor, inicie sesión";
+                return;
+            }
+
             Loading = true;
             var api = ApiManager.API;
             api.Resource = "orders";
-            Orders = await api.Get<OrderModel>(page, Properties.Settings.Default.api_items, SearchQuery);
-            Loading = false;
+
+            try
+            {
+                Orders = await api.Get<OrderModel>(page, Properties.Settings.Default.api_items, SearchQuery);
+            }
+            catch (Exception)
+            {
+                Notification = "Error al intentar cargar los datos, pruebe cargando manualmente.";
+            }
+            finally
+            {
+                Loading = false;
+            }
         }
 
         private void AddOrder()

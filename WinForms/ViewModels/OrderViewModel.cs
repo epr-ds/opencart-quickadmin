@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Input;
-using WinForms.Cache;
+using WinForms.Services;
 using WinForms.Commands;
 using WinForms.Validators;
 using WinForms.Views;
@@ -81,9 +81,6 @@ namespace WinForms.ViewModels
             api.Resource = "customers";
             Customers = await api.Get<CustomerModel>();
 
-            api.Resource = "products";
-            Products = await api.Get<ProductModel>();
-
             api.Resource = "data/paymentmethods";
             PaymentMethods = await api.Get<PaymentMethodModel>();
 
@@ -95,6 +92,9 @@ namespace WinForms.ViewModels
 
             api.Resource = "data/orderstatuses";
             OrderStatuses = await api.Get<OrderStatusModel>();
+
+            api.Resource = "products";
+            Products = await api.Get<ProductModel>();
 
             Loading = false;
 
@@ -859,17 +859,16 @@ namespace WinForms.ViewModels
 
             if (p != null)
             {
-                decimal iva = p.Price * (decimal)0.16;
+                // IVA per unit
                 var op = new OrderProductModel()
                 {
-                    Tax = iva,
                     Name = p.Name,
                     Model = p.Model,
-                    Price = p.Price - iva,
+                    Price = p.Price,
                     ProductID = p.ID,
                     OrderID = order.ID,
                     Quantity = Quantity,
-                    Total = Quantity * (p.Price - iva),
+                    Total = Quantity * p.Price,
                     SerialNumbers = new List<ProductSerialModel>()
                 };
 
@@ -883,9 +882,8 @@ namespace WinForms.ViewModels
                 subtotal.Value += op.Total;
 
                 // Update total
-                var ptotal = op.Total + iva;
                 var total = Totals.Where(o => o.Code == "total").FirstOrDefault();
-                total.Value += ptotal;
+                total.Value += op.Total;
 
                 Totals = Totals;
             }

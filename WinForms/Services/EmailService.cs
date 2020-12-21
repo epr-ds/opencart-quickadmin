@@ -14,11 +14,12 @@ namespace WinForms.Services
             {
                 using (SmtpClient client = new SmtpClient
                 {
-                    //TODO: EnableSsl = true,
-                    UseDefaultCredentials = false,
+                    EnableSsl = true,
+                    UseDefaultCredentials = true,
                     Port = Properties.Settings.Default.port,
                     Host = Properties.Settings.Default.host,
                     DeliveryMethod = SmtpDeliveryMethod.Network,
+                    DeliveryFormat = SmtpDeliveryFormat.International,
                     Credentials = new NetworkCredential(Properties.Settings.Default.email, Properties.Settings.Default.email_pwd)
                 })
                 {

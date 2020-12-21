@@ -139,7 +139,6 @@
             this.colHeaderUnitPrice_ = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colHeaderTotal_ = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panelTotals = new System.Windows.Forms.FlowLayoutPanel();
-            this.label60 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.chkbx_sendMail = new MaterialSkin.Controls.MaterialCheckbox();
@@ -246,7 +245,7 @@
             this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector1.Name = "materialTabSelector1";
             this.materialTabSelector1.Size = new System.Drawing.Size(1050, 56);
-            this.materialTabSelector1.TabIndex = 2;
+            this.materialTabSelector1.TabIndex = 0;
             this.materialTabSelector1.Text = "materialTabSelector1";
             // 
             // materialTabControl_container
@@ -295,7 +294,7 @@
             this.panel4.Location = new System.Drawing.Point(298, 3);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(741, 452);
-            this.panel4.TabIndex = 17;
+            this.panel4.TabIndex = 0;
             // 
             // materialDivider
             // 
@@ -306,7 +305,7 @@
             this.materialDivider.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider.Name = "materialDivider";
             this.materialDivider.Size = new System.Drawing.Size(1, 452);
-            this.materialDivider.TabIndex = 7;
+            this.materialDivider.TabIndex = 0;
             this.materialDivider.Text = "materialDivider1";
             // 
             // txtBx_cFirstname
@@ -322,7 +321,7 @@
             this.txtBx_cFirstname.Multiline = false;
             this.txtBx_cFirstname.Name = "txtBx_cFirstname";
             this.txtBx_cFirstname.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cFirstname.TabIndex = 0;
+            this.txtBx_cFirstname.TabIndex = 1;
             this.txtBx_cFirstname.TabStop = false;
             this.txtBx_cFirstname.Text = "";
             // 
@@ -338,7 +337,7 @@
             this.txtBx_cLastname.Multiline = false;
             this.txtBx_cLastname.Name = "txtBx_cLastname";
             this.txtBx_cLastname.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cLastname.TabIndex = 1;
+            this.txtBx_cLastname.TabIndex = 3;
             this.txtBx_cLastname.TabStop = false;
             this.txtBx_cLastname.Text = "";
             // 
@@ -354,7 +353,7 @@
             this.txtBx_cEmail.Multiline = false;
             this.txtBx_cEmail.Name = "txtBx_cEmail";
             this.txtBx_cEmail.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cEmail.TabIndex = 2;
+            this.txtBx_cEmail.TabIndex = 5;
             this.txtBx_cEmail.TabStop = false;
             this.txtBx_cEmail.Text = "";
             // 
@@ -366,7 +365,7 @@
             this.label11.Location = new System.Drawing.Point(381, 354);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(12, 15);
-            this.label11.TabIndex = 2;
+            this.label11.TabIndex = 8;
             this.label11.Text = "*";
             // 
             // txtBx_cPhone
@@ -381,7 +380,7 @@
             this.txtBx_cPhone.Multiline = false;
             this.txtBx_cPhone.Name = "txtBx_cPhone";
             this.txtBx_cPhone.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cPhone.TabIndex = 3;
+            this.txtBx_cPhone.TabIndex = 7;
             this.txtBx_cPhone.TabStop = false;
             this.txtBx_cPhone.Text = "";
             // 
@@ -393,7 +392,7 @@
             this.label10.Location = new System.Drawing.Point(381, 267);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(12, 15);
-            this.label10.TabIndex = 2;
+            this.label10.TabIndex = 6;
             this.label10.Text = "*";
             // 
             // label8
@@ -415,7 +414,7 @@
             this.label9.Location = new System.Drawing.Point(381, 184);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(12, 15);
-            this.label9.TabIndex = 2;
+            this.label9.TabIndex = 4;
             this.label9.Text = "*";
             // 
             // panel3
@@ -435,7 +434,7 @@
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(295, 452);
-            this.panel3.TabIndex = 17;
+            this.panel3.TabIndex = 0;
             // 
             // panel5
             // 
@@ -443,7 +442,7 @@
             this.panel5.Location = new System.Drawing.Point(0, 415);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(295, 37);
-            this.panel5.TabIndex = 17;
+            this.panel5.TabIndex = 8;
             // 
             // cmbBx_stores
             // 
@@ -465,7 +464,7 @@
             this.cmbBx_stores.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_stores.Name = "cmbBx_stores";
             this.cmbBx_stores.Size = new System.Drawing.Size(185, 49);
-            this.cmbBx_stores.TabIndex = 3;
+            this.cmbBx_stores.TabIndex = 4;
             // 
             // label55
             // 
@@ -475,7 +474,7 @@
             this.label55.Location = new System.Drawing.Point(240, 278);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(12, 15);
-            this.label55.TabIndex = 8;
+            this.label55.TabIndex = 6;
             this.label55.Text = "*";
             // 
             // btnResetCustomer
@@ -507,7 +506,7 @@
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(101, 14);
-            this.materialLabel1.TabIndex = 16;
+            this.materialLabel1.TabIndex = 2;
             this.materialLabel1.Text = "Seleccionar cliente";
             // 
             // cmbBx_currencies
@@ -530,7 +529,7 @@
             this.cmbBx_currencies.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_currencies.Name = "cmbBx_currencies";
             this.cmbBx_currencies.Size = new System.Drawing.Size(185, 49);
-            this.cmbBx_currencies.TabIndex = 4;
+            this.cmbBx_currencies.TabIndex = 5;
             // 
             // txtBx_SearchCustomer
             // 
@@ -540,7 +539,7 @@
             this.txtBx_SearchCustomer.Location = new System.Drawing.Point(49, 93);
             this.txtBx_SearchCustomer.Name = "txtBx_SearchCustomer";
             this.txtBx_SearchCustomer.Size = new System.Drawing.Size(185, 29);
-            this.txtBx_SearchCustomer.TabIndex = 2;
+            this.txtBx_SearchCustomer.TabIndex = 3;
             // 
             // cmbBx_customerGroups
             // 
@@ -562,7 +561,7 @@
             this.cmbBx_customerGroups.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_customerGroups.Name = "cmbBx_customerGroups";
             this.cmbBx_customerGroups.Size = new System.Drawing.Size(185, 49);
-            this.cmbBx_customerGroups.TabIndex = 5;
+            this.cmbBx_customerGroups.TabIndex = 7;
             // 
             // btnAddCustomer
             // 
@@ -609,7 +608,7 @@
             this.btn_addProduct.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_addProduct.Name = "btn_addProduct";
             this.btn_addProduct.Size = new System.Drawing.Size(44, 36);
-            this.btn_addProduct.TabIndex = 2;
+            this.btn_addProduct.TabIndex = 3;
             this.btn_addProduct.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btn_addProduct.UseAccentColor = false;
             this.btn_addProduct.UseVisualStyleBackColor = true;
@@ -640,7 +639,7 @@
             this.lstVwOrderProducts.Name = "lstVwOrderProducts";
             this.lstVwOrderProducts.OwnerDraw = true;
             this.lstVwOrderProducts.Size = new System.Drawing.Size(970, 348);
-            this.lstVwOrderProducts.TabIndex = 3;
+            this.lstVwOrderProducts.TabIndex = 4;
             this.lstVwOrderProducts.UseCompatibleStateImageBehavior = false;
             this.lstVwOrderProducts.View = System.Windows.Forms.View.Details;
             // 
@@ -691,7 +690,7 @@
             this.cmbBx_products.Location = new System.Drawing.Point(187, 59);
             this.cmbBx_products.Name = "cmbBx_products";
             this.cmbBx_products.Size = new System.Drawing.Size(521, 30);
-            this.cmbBx_products.TabIndex = 1;
+            this.cmbBx_products.TabIndex = 2;
             // 
             // label12
             // 
@@ -701,7 +700,7 @@
             this.label12.Location = new System.Drawing.Point(184, 32);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 15);
-            this.label12.TabIndex = 6;
+            this.label12.TabIndex = 0;
             this.label12.Text = "Elegir producto";
             // 
             // txtBx_quantity
@@ -717,7 +716,7 @@
             this.txtBx_quantity.Name = "txtBx_quantity";
             this.txtBx_quantity.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtBx_quantity.Size = new System.Drawing.Size(129, 36);
-            this.txtBx_quantity.TabIndex = 0;
+            this.txtBx_quantity.TabIndex = 1;
             this.txtBx_quantity.TabStop = false;
             this.txtBx_quantity.Text = "";
             this.txtBx_quantity.UseTallSize = false;
@@ -789,7 +788,7 @@
             this.lstVwSerials.Name = "lstVwSerials";
             this.lstVwSerials.OwnerDraw = true;
             this.lstVwSerials.Size = new System.Drawing.Size(669, 384);
-            this.lstVwSerials.TabIndex = 5;
+            this.lstVwSerials.TabIndex = 7;
             this.lstVwSerials.UseCompatibleStateImageBehavior = false;
             this.lstVwSerials.View = System.Windows.Forms.View.Details;
             // 
@@ -826,7 +825,7 @@
             this.btn_addSerial.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_addSerial.Name = "btn_addSerial";
             this.btn_addSerial.Size = new System.Drawing.Size(260, 36);
-            this.btn_addSerial.TabIndex = 4;
+            this.btn_addSerial.TabIndex = 6;
             this.btn_addSerial.Text = "Añadir";
             this.btn_addSerial.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btn_addSerial.UseAccentColor = false;
@@ -838,7 +837,7 @@
             this.dateTime_warrantyEnd.Location = new System.Drawing.Point(55, 282);
             this.dateTime_warrantyEnd.Name = "dateTime_warrantyEnd";
             this.dateTime_warrantyEnd.Size = new System.Drawing.Size(260, 20);
-            this.dateTime_warrantyEnd.TabIndex = 3;
+            this.dateTime_warrantyEnd.TabIndex = 4;
             // 
             // dateTime_warrantyStart
             // 
@@ -856,7 +855,7 @@
             this.label58.Location = new System.Drawing.Point(52, 305);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(183, 16);
-            this.label58.TabIndex = 83;
+            this.label58.TabIndex = 5;
             this.label58.Text = "Fecha de termino de garantía";
             // 
             // label57
@@ -867,7 +866,7 @@
             this.label57.Location = new System.Drawing.Point(52, 227);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(170, 16);
-            this.label57.TabIndex = 84;
+            this.label57.TabIndex = 3;
             this.label57.Text = "Fecha de inicio de garantía";
             // 
             // txtBx_serialNumber
@@ -937,7 +936,7 @@
             this.cmbBx_paZones.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_paZones.Name = "cmbBx_paZones";
             this.cmbBx_paZones.Size = new System.Drawing.Size(189, 49);
-            this.cmbBx_paZones.TabIndex = 12;
+            this.cmbBx_paZones.TabIndex = 16;
             // 
             // cmbBx_paCountries
             // 
@@ -959,7 +958,7 @@
             this.cmbBx_paCountries.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_paCountries.Name = "cmbBx_paCountries";
             this.cmbBx_paCountries.Size = new System.Drawing.Size(196, 49);
-            this.cmbBx_paCountries.TabIndex = 11;
+            this.cmbBx_paCountries.TabIndex = 15;
             // 
             // cmbBx_paAddresses
             // 
@@ -981,7 +980,7 @@
             this.cmbBx_paAddresses.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_paAddresses.Name = "cmbBx_paAddresses";
             this.cmbBx_paAddresses.Size = new System.Drawing.Size(391, 49);
-            this.cmbBx_paAddresses.TabIndex = 3;
+            this.cmbBx_paAddresses.TabIndex = 4;
             // 
             // cmbBx_paymentMethods
             // 
@@ -1017,7 +1016,7 @@
             this.txtBx_paInvoiceMode.Multiline = false;
             this.txtBx_paInvoiceMode.Name = "txtBx_paInvoiceMode";
             this.txtBx_paInvoiceMode.Size = new System.Drawing.Size(200, 50);
-            this.txtBx_paInvoiceMode.TabIndex = 2;
+            this.txtBx_paInvoiceMode.TabIndex = 3;
             this.txtBx_paInvoiceMode.TabStop = false;
             this.txtBx_paInvoiceMode.Text = "";
             // 
@@ -1033,7 +1032,7 @@
             this.txtBx_paRFC.Multiline = false;
             this.txtBx_paRFC.Name = "txtBx_paRFC";
             this.txtBx_paRFC.Size = new System.Drawing.Size(200, 50);
-            this.txtBx_paRFC.TabIndex = 1;
+            this.txtBx_paRFC.TabIndex = 2;
             this.txtBx_paRFC.TabStop = false;
             this.txtBx_paRFC.Text = "";
             // 
@@ -1045,7 +1044,7 @@
             this.label7.Location = new System.Drawing.Point(724, 378);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(12, 15);
-            this.label7.TabIndex = 48;
+            this.label7.TabIndex = 19;
             this.label7.Text = "*";
             // 
             // label6
@@ -1056,7 +1055,7 @@
             this.label6.Location = new System.Drawing.Point(309, 378);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(12, 15);
-            this.label6.TabIndex = 48;
+            this.label6.TabIndex = 18;
             this.label6.Text = "*";
             // 
             // label5
@@ -1067,7 +1066,7 @@
             this.label5.Location = new System.Drawing.Point(309, 323);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(12, 15);
-            this.label5.TabIndex = 48;
+            this.label5.TabIndex = 17;
             this.label5.Text = "*";
             // 
             // label4
@@ -1078,7 +1077,7 @@
             this.label4.Location = new System.Drawing.Point(724, 211);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(12, 15);
-            this.label4.TabIndex = 48;
+            this.label4.TabIndex = 11;
             this.label4.Text = "*";
             // 
             // label3
@@ -1089,7 +1088,7 @@
             this.label3.Location = new System.Drawing.Point(724, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(12, 15);
-            this.label3.TabIndex = 48;
+            this.label3.TabIndex = 8;
             this.label3.Text = "*";
             // 
             // label2
@@ -1100,7 +1099,7 @@
             this.label2.Location = new System.Drawing.Point(309, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(12, 15);
-            this.label2.TabIndex = 48;
+            this.label2.TabIndex = 7;
             this.label2.Text = "*";
             // 
             // label44
@@ -1111,7 +1110,7 @@
             this.label44.Location = new System.Drawing.Point(241, 43);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(12, 15);
-            this.label44.TabIndex = 48;
+            this.label44.TabIndex = 1;
             this.label44.Text = "*";
             // 
             // txtBx_paFirstname
@@ -1126,7 +1125,7 @@
             this.txtBx_paFirstname.Multiline = false;
             this.txtBx_paFirstname.Name = "txtBx_paFirstname";
             this.txtBx_paFirstname.Size = new System.Drawing.Size(196, 50);
-            this.txtBx_paFirstname.TabIndex = 4;
+            this.txtBx_paFirstname.TabIndex = 5;
             this.txtBx_paFirstname.TabStop = false;
             this.txtBx_paFirstname.Text = "";
             // 
@@ -1142,7 +1141,7 @@
             this.txtBx_paPostcode.Multiline = false;
             this.txtBx_paPostcode.Name = "txtBx_paPostcode";
             this.txtBx_paPostcode.Size = new System.Drawing.Size(189, 50);
-            this.txtBx_paPostcode.TabIndex = 10;
+            this.txtBx_paPostcode.TabIndex = 14;
             this.txtBx_paPostcode.TabStop = false;
             this.txtBx_paPostcode.Text = "";
             // 
@@ -1158,7 +1157,7 @@
             this.txtBx_paCity.Multiline = false;
             this.txtBx_paCity.Name = "txtBx_paCity";
             this.txtBx_paCity.Size = new System.Drawing.Size(196, 50);
-            this.txtBx_paCity.TabIndex = 9;
+            this.txtBx_paCity.TabIndex = 13;
             this.txtBx_paCity.TabStop = false;
             this.txtBx_paCity.Text = "";
             // 
@@ -1174,7 +1173,7 @@
             this.txtBx_paAddress2.Multiline = false;
             this.txtBx_paAddress2.Name = "txtBx_paAddress2";
             this.txtBx_paAddress2.Size = new System.Drawing.Size(391, 50);
-            this.txtBx_paAddress2.TabIndex = 8;
+            this.txtBx_paAddress2.TabIndex = 12;
             this.txtBx_paAddress2.TabStop = false;
             this.txtBx_paAddress2.Text = "";
             // 
@@ -1190,7 +1189,7 @@
             this.txtBx_paAddress1.Multiline = false;
             this.txtBx_paAddress1.Name = "txtBx_paAddress1";
             this.txtBx_paAddress1.Size = new System.Drawing.Size(391, 50);
-            this.txtBx_paAddress1.TabIndex = 7;
+            this.txtBx_paAddress1.TabIndex = 10;
             this.txtBx_paAddress1.TabStop = false;
             this.txtBx_paAddress1.Text = "";
             // 
@@ -1206,7 +1205,7 @@
             this.txtBx_paCompany.Multiline = false;
             this.txtBx_paCompany.Name = "txtBx_paCompany";
             this.txtBx_paCompany.Size = new System.Drawing.Size(391, 50);
-            this.txtBx_paCompany.TabIndex = 6;
+            this.txtBx_paCompany.TabIndex = 9;
             this.txtBx_paCompany.TabStop = false;
             this.txtBx_paCompany.Text = "";
             // 
@@ -1222,7 +1221,7 @@
             this.txtBx_paLastname.Multiline = false;
             this.txtBx_paLastname.Name = "txtBx_paLastname";
             this.txtBx_paLastname.Size = new System.Drawing.Size(189, 50);
-            this.txtBx_paLastname.TabIndex = 5;
+            this.txtBx_paLastname.TabIndex = 6;
             this.txtBx_paLastname.TabStop = false;
             this.txtBx_paLastname.Text = "";
             // 
@@ -1275,7 +1274,7 @@
             this.cmbBx_saZones.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_saZones.Name = "cmbBx_saZones";
             this.cmbBx_saZones.Size = new System.Drawing.Size(189, 49);
-            this.cmbBx_saZones.TabIndex = 10;
+            this.cmbBx_saZones.TabIndex = 11;
             // 
             // cmbBx_saCountries
             // 
@@ -1297,7 +1296,7 @@
             this.cmbBx_saCountries.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_saCountries.Name = "cmbBx_saCountries";
             this.cmbBx_saCountries.Size = new System.Drawing.Size(196, 49);
-            this.cmbBx_saCountries.TabIndex = 9;
+            this.cmbBx_saCountries.TabIndex = 10;
             // 
             // cmbBx_saAddresses
             // 
@@ -1319,7 +1318,7 @@
             this.cmbBx_saAddresses.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_saAddresses.Name = "cmbBx_saAddresses";
             this.cmbBx_saAddresses.Size = new System.Drawing.Size(391, 49);
-            this.cmbBx_saAddresses.TabIndex = 1;
+            this.cmbBx_saAddresses.TabIndex = 2;
             // 
             // cmbBx_shippingMethods
             // 
@@ -1351,7 +1350,7 @@
             this.label14.Location = new System.Drawing.Point(724, 99);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(12, 15);
-            this.label14.TabIndex = 73;
+            this.label14.TabIndex = 13;
             this.label14.Text = "*";
             // 
             // label18
@@ -1362,7 +1361,7 @@
             this.label18.Location = new System.Drawing.Point(724, 378);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(12, 15);
-            this.label18.TabIndex = 73;
+            this.label18.TabIndex = 17;
             this.label18.Text = "*";
             // 
             // label17
@@ -1373,7 +1372,7 @@
             this.label17.Location = new System.Drawing.Point(309, 378);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(12, 15);
-            this.label17.TabIndex = 73;
+            this.label17.TabIndex = 16;
             this.label17.Text = "*";
             // 
             // label16
@@ -1384,7 +1383,7 @@
             this.label16.Location = new System.Drawing.Point(309, 322);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(12, 15);
-            this.label16.TabIndex = 73;
+            this.label16.TabIndex = 15;
             this.label16.Text = "*";
             // 
             // label15
@@ -1395,7 +1394,7 @@
             this.label15.Location = new System.Drawing.Point(309, 211);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(12, 15);
-            this.label15.TabIndex = 73;
+            this.label15.TabIndex = 14;
             this.label15.Text = "*";
             // 
             // label13
@@ -1406,7 +1405,7 @@
             this.label13.Location = new System.Drawing.Point(309, 99);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(12, 15);
-            this.label13.TabIndex = 73;
+            this.label13.TabIndex = 12;
             this.label13.Text = "*";
             // 
             // label47
@@ -1417,7 +1416,7 @@
             this.label47.Location = new System.Drawing.Point(241, 43);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(12, 15);
-            this.label47.TabIndex = 73;
+            this.label47.TabIndex = 1;
             this.label47.Text = "*";
             // 
             // txtBx_saFirstname
@@ -1432,7 +1431,7 @@
             this.txtBx_saFirstname.Multiline = false;
             this.txtBx_saFirstname.Name = "txtBx_saFirstname";
             this.txtBx_saFirstname.Size = new System.Drawing.Size(196, 50);
-            this.txtBx_saFirstname.TabIndex = 2;
+            this.txtBx_saFirstname.TabIndex = 3;
             this.txtBx_saFirstname.TabStop = false;
             this.txtBx_saFirstname.Text = "";
             // 
@@ -1448,7 +1447,7 @@
             this.txtBx_saPostcode.Multiline = false;
             this.txtBx_saPostcode.Name = "txtBx_saPostcode";
             this.txtBx_saPostcode.Size = new System.Drawing.Size(189, 50);
-            this.txtBx_saPostcode.TabIndex = 8;
+            this.txtBx_saPostcode.TabIndex = 9;
             this.txtBx_saPostcode.TabStop = false;
             this.txtBx_saPostcode.Text = "";
             // 
@@ -1464,7 +1463,7 @@
             this.txtBx_saCity.Multiline = false;
             this.txtBx_saCity.Name = "txtBx_saCity";
             this.txtBx_saCity.Size = new System.Drawing.Size(196, 50);
-            this.txtBx_saCity.TabIndex = 7;
+            this.txtBx_saCity.TabIndex = 8;
             this.txtBx_saCity.TabStop = false;
             this.txtBx_saCity.Text = "";
             // 
@@ -1480,7 +1479,7 @@
             this.txtBx_saAddress2.Multiline = false;
             this.txtBx_saAddress2.Name = "txtBx_saAddress2";
             this.txtBx_saAddress2.Size = new System.Drawing.Size(391, 50);
-            this.txtBx_saAddress2.TabIndex = 6;
+            this.txtBx_saAddress2.TabIndex = 7;
             this.txtBx_saAddress2.TabStop = false;
             this.txtBx_saAddress2.Text = "";
             // 
@@ -1496,7 +1495,7 @@
             this.txtBx_saAddress1.Multiline = false;
             this.txtBx_saAddress1.Name = "txtBx_saAddress1";
             this.txtBx_saAddress1.Size = new System.Drawing.Size(391, 50);
-            this.txtBx_saAddress1.TabIndex = 5;
+            this.txtBx_saAddress1.TabIndex = 6;
             this.txtBx_saAddress1.TabStop = false;
             this.txtBx_saAddress1.Text = "";
             // 
@@ -1512,7 +1511,7 @@
             this.txtBx_saCompany.Multiline = false;
             this.txtBx_saCompany.Name = "txtBx_saCompany";
             this.txtBx_saCompany.Size = new System.Drawing.Size(391, 50);
-            this.txtBx_saCompany.TabIndex = 4;
+            this.txtBx_saCompany.TabIndex = 5;
             this.txtBx_saCompany.TabStop = false;
             this.txtBx_saCompany.Text = "";
             // 
@@ -1528,7 +1527,7 @@
             this.txtBx_saLastname.Multiline = false;
             this.txtBx_saLastname.Name = "txtBx_saLastname";
             this.txtBx_saLastname.Size = new System.Drawing.Size(189, 50);
-            this.txtBx_saLastname.TabIndex = 3;
+            this.txtBx_saLastname.TabIndex = 4;
             this.txtBx_saLastname.TabStop = false;
             this.txtBx_saLastname.Text = "";
             // 
@@ -1538,7 +1537,6 @@
             this.tabPage6.Controls.Add(this.cmbBx_orderStatus);
             this.tabPage6.Controls.Add(this.lstVwProducts);
             this.tabPage6.Controls.Add(this.panelTotals);
-            this.tabPage6.Controls.Add(this.label60);
             this.tabPage6.Controls.Add(this.label54);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
@@ -1567,7 +1565,7 @@
             this.cmbBx_orderStatus.MouseState = MaterialSkin.MouseState.OUT;
             this.cmbBx_orderStatus.Name = "cmbBx_orderStatus";
             this.cmbBx_orderStatus.Size = new System.Drawing.Size(224, 49);
-            this.cmbBx_orderStatus.TabIndex = 1;
+            this.cmbBx_orderStatus.TabIndex = 0;
             // 
             // lstVwProducts
             // 
@@ -1594,9 +1592,9 @@
             this.lstVwProducts.MouseState = MaterialSkin.MouseState.OUT;
             this.lstVwProducts.Name = "lstVwProducts";
             this.lstVwProducts.OwnerDraw = true;
-            this.lstVwProducts.Size = new System.Drawing.Size(929, 262);
+            this.lstVwProducts.Size = new System.Drawing.Size(965, 262);
             this.lstVwProducts.Sorting = System.Windows.Forms.SortOrder.Descending;
-            this.lstVwProducts.TabIndex = 2;
+            this.lstVwProducts.TabIndex = 3;
             this.lstVwProducts.UseCompatibleStateImageBehavior = false;
             this.lstVwProducts.View = System.Windows.Forms.View.Details;
             // 
@@ -1629,18 +1627,7 @@
             this.panelTotals.Name = "panelTotals";
             this.panelTotals.Padding = new System.Windows.Forms.Padding(20);
             this.panelTotals.Size = new System.Drawing.Size(574, 128);
-            this.panelTotals.TabIndex = 0;
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label60.Location = new System.Drawing.Point(962, -12);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(12, 15);
-            this.label60.TabIndex = 80;
-            this.label60.Text = "*";
+            this.panelTotals.TabIndex = 2;
             // 
             // label54
             // 
@@ -1650,7 +1637,7 @@
             this.label54.Location = new System.Drawing.Point(281, 52);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(12, 15);
-            this.label54.TabIndex = 80;
+            this.label54.TabIndex = 1;
             this.label54.Text = "*";
             // 
             // panel1
@@ -1665,7 +1652,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 540);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1050, 36);
-            this.panel1.TabIndex = 3;
+            this.panel1.TabIndex = 0;
             // 
             // chkbx_sendMail
             // 
@@ -1680,7 +1667,7 @@
             this.chkbx_sendMail.Name = "chkbx_sendMail";
             this.chkbx_sendMail.Ripple = true;
             this.chkbx_sendMail.Size = new System.Drawing.Size(127, 36);
-            this.chkbx_sendMail.TabIndex = 1;
+            this.chkbx_sendMail.TabIndex = 2;
             this.chkbx_sendMail.Text = "Enviar correo";
             this.chkbx_sendMail.UseVisualStyleBackColor = true;
             // 
@@ -1697,7 +1684,7 @@
             this.chkBx_printTicket.Name = "chkBx_printTicket";
             this.chkBx_printTicket.Ripple = true;
             this.chkBx_printTicket.Size = new System.Drawing.Size(114, 36);
-            this.chkBx_printTicket.TabIndex = 2;
+            this.chkBx_printTicket.TabIndex = 3;
             this.chkBx_printTicket.Text = "Impr Ticket";
             this.chkBx_printTicket.UseVisualStyleBackColor = true;
             // 
@@ -1714,7 +1701,7 @@
             this.btnSave.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(122, 36);
-            this.btnSave.TabIndex = 3;
+            this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Finalizar";
             this.btnSave.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
             this.btnSave.UseAccentColor = false;
@@ -1731,7 +1718,7 @@
             this.lbl_Notification.MouseState = MaterialSkin.MouseState.HOVER;
             this.lbl_Notification.Name = "lbl_Notification";
             this.lbl_Notification.Size = new System.Drawing.Size(134, 19);
-            this.lbl_Notification.TabIndex = 19;
+            this.lbl_Notification.TabIndex = 1;
             this.lbl_Notification.Text = "Notification Status";
             this.lbl_Notification.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -1878,7 +1865,6 @@
         private System.Windows.Forms.TabPage tabPage6;
         private MaterialSkin.Controls.MaterialListView lstVwProducts;
         private System.Windows.Forms.FlowLayoutPanel panelTotals;
-        private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ToolTip toolTip;
