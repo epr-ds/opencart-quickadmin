@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="UIManagers\PageManager.cs" />
     <Compile Include="Services\ApiManager.cs" />
     <Compile Include="Cache\CacheableApi.cs" />
     <Compile Include="Commands\CommandHandler.cs" />

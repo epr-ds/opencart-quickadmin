@@ -96,7 +96,7 @@ namespace WinForms.Views
                         .OnEvent("Load")
                         .Execute(value.LoadCommand)
                     .Control(btBackTo)
-                        .OnClick(value.BackCommand, this)
+                        .OnClick(value.BackCommand)
                     .Control(btEmail)
                         .Property(btn => btn.Enabled)
                         .Get(vm => vm.IsNew)

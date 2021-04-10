@@ -1,5 +1,4 @@
 ﻿using Models;
-using MVVMLight.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Drawing.Printing;
@@ -11,6 +10,7 @@ using System.Windows.Forms;
 using System.Windows.Input;
 using WinForms.Commands;
 using WinForms.Services;
+using WinForms.UIManagers;
 
 namespace WinForms.ViewModels
 {
@@ -303,7 +303,11 @@ namespace WinForms.ViewModels
             Status = string.Empty;
         }
 
-        protected virtual void Back(UserControl control) => Messenger.Default.Send(control);
+        protected virtual void Back(UserControl control)
+        {
+            PageManager.Instance.PrevPage();
+            PageManager.Instance.SwitchToMenuPanel();
+        }
 
         private async Task<string> GeneratePdf()
         {

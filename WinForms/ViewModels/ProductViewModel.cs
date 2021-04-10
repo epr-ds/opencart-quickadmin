@@ -4,13 +4,12 @@ using System.Linq;
 using REST.Responses;
 using WinForms.Commands;
 using WinForms.Validators;
-using System.Windows.Forms;
 using System.Windows.Input;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using WinForms.ViewModels.ProductTabViewModel;
-using MVVMLight.Messaging;
 using WinForms.Services;
+using WinForms.UIManagers;
 
 namespace WinForms.ViewModels
 {
@@ -43,7 +42,7 @@ namespace WinForms.ViewModels
             LoadCommand = new CommandHandler(o => Load());
             SaveCommand = new CommandHandler(o => Save());
             RemoveCommand = new CommandHandler(o => RemoveItem(o));
-            BackCommand = new CommandHandler(o => BackTo(o as UserControl));
+            BackCommand = new CommandHandler(o => BackTo());
         }
 
         public ICommand LoadCommand { get; }
@@ -223,7 +222,11 @@ namespace WinForms.ViewModels
             Message = string.Empty;
         }
 
-        private void BackTo(UserControl control) => Messenger.Default.Send(control);
+        private void BackTo()
+        {
+            PageManager.Instance.PrevPage();
+            PageManager.Instance.SwitchToMenuPanel();
+        }
 
         private void RemoveItem(object arg)
         {

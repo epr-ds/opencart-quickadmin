@@ -11,7 +11,7 @@ using System.Windows.Input;
 using WinForms.Commands;
 using WinForms.Services;
 using WinForms.Validators;
-using WinForms.Cache;
+using WinForms.UIManagers;
 
 namespace WinForms.ViewModels
 {
@@ -32,7 +32,7 @@ namespace WinForms.ViewModels
             SaveCommand = new CommandHandler(o => Save());
             MailCommand = new CommandHandler(o => SendEmail());
             LoadCommand = new CommandHandler(o => Load());
-            BackCommand = new CommandHandler(o => BackTo(o as UserControl));
+            BackCommand = new CommandHandler(o => BackTo());
         }
 
         public bool IsNew { get; protected set; }
@@ -329,12 +329,14 @@ namespace WinForms.ViewModels
         public ICommand LoadCommand { get; }
         public ICommand BackCommand { get; }
 
-        private void BackTo(UserControl control)
+        private void BackTo()
         {
             _zones = null;
             _groups = null;
             _countries = null;
-            Messenger.Default.Send(control);
+            
+            PageManager.Instance.PrevPage();
+            PageManager.Instance.SwitchToMenuPanel();
         }
 
         private async void GetZones()

@@ -7,6 +7,7 @@ using Bindery;
 using Models;
 using System.Reactive.Linq;
 using System;
+using MaterialSkin.Controls;
 
 namespace WinForms.Views
 {
@@ -22,14 +23,17 @@ namespace WinForms.Views
             set
             {
                 viewModel = value;
-                Create.Binder(value)
+                Create.Binder(viewModel)
                     // List
                     .OnPropertyChanged(vm => vm.Products)
-                        .Subscribe(OnProductsChanged)
+                        .Subscribe(products => OnListChanged(products, lstVwProducts, model => $"{model.ID}, {model.Model} {model.Name},{model.Status},{model.Quantity},${model.Price:#.##}".Split(',')))
                     .Control(lstVwProducts)
                         .OnEvent<ListViewItemSelectionChangedEventArgs>("ItemSelectionChanged")
                         .Transform(o => o.Select(ctx => (ProductModel)ctx.Args.Item.Tag))
                         .Set(vm => vm.Product)
+                    .Control(lstVwProducts)
+                        .OnEvent<MouseEventArgs>("MouseDoubleClick")
+                        .Execute(viewModel.EditCommand)
                     // Loading
                     .Control(picLoading)
                         .Property(pic => pic.Visible)
@@ -38,7 +42,7 @@ namespace WinForms.Views
                     .Control(txtBxSearch)
                         .OnEvent<KeyEventArgs>("KeyUp")
                         .Transform(o => o.Select(ctx => ctx.Args.KeyCode))
-                        .Execute(value.SearchCommand)
+                        .Execute(viewModel.SearchCommand)
                     .Control(txtBxSearch)
                         .Property(txt => txt.Text)
                         .Set(vm => vm.SearchQuery)
@@ -47,51 +51,49 @@ namespace WinForms.Views
                         .Property(lbl => lbl.Text)
                         .Get(vm => vm.Message)
                     // Comamnds
-                    .Control(this)
-                        .OnEvent("Load")
-                        .Execute(value.LoadCommand)
                     .Control(btPrev)
-                        .OnClick(value.PrevCommand)
+                        .OnClick(viewModel.PrevCommand)
                     .Control(btNext)
-                        .OnClick(value.NextCommand)
+                        .OnClick(viewModel.NextCommand)
                     .Control(btAddProduct)
-                        .OnClick(value.AddCommand)
+                        .OnClick(viewModel.AddCommand)
                     .Control(btEditProduct)
-                        .OnClick(value.EditCommand)
+                        .OnClick(viewModel.EditCommand)
                     .Control(btDeleteProduct)
-                        .OnClick(value.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog));
+                        .OnClick(viewModel.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
+                    // Context Menu
+                    .Target(addProductMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.AddCommand)
+                    .Target(editProductMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.EditCommand)
+                    .Target(deleteProductMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
+                    .Target(reloadStockMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.LoadCommand)
+                    .Target(loginMenuItemStock)
+                        .OnEvent("Click")
+                        .Execute(ViewModel.LoadCommand);
             }
         }
 
         private DialogResult ShowDialog(string title, string message) 
             => MessageBox.Show(ParentForm, message, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-        private void OnProductsChanged(IEnumerable<ProductModel> products)
+        private void OnListChanged<TModel>(IEnumerable<TModel> models, MaterialListView listView, Func<TModel, string[]> toArray)
         {
-            lstVwProducts.Items.Clear();
-
-            foreach (ProductModel product in products)
+            listView.Items.Clear();
+            foreach (TModel model in models)
             {
-                // Product Image
-                //PictureBox pic = new PictureBox();
-                //pic.LoadAsync(product.Image);
-
-                // Product Info
-                string[] row = new string[]
-                {
-                    product.ID.ToString(),
-                    product.ToString(),
-                    product.Status ? "Habilitado" : "Deshabilitado",
-                    product.Quantity.ToString(),
-                    product.Price.ToString("$#.##")
-                };
-
+                string[] row = toArray(model);
                 ListViewItem item = new ListViewItem(row)
                 {
-                    Tag = product
+                    Tag = model,
                 };
-
-                lstVwProducts.Items.Add(item);
+                listView.Items.Add(item);
             }
         }
     }

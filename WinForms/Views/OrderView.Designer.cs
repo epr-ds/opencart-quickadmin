@@ -48,11 +48,7 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.materialDivider = new MaterialSkin.Controls.MaterialDivider();
-            this.txtBx_cFirstname = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtBx_cLastname = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtBx_cEmail = new MaterialSkin.Controls.MaterialTextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.txtBx_cPhone = new MaterialSkin.Controls.MaterialTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -150,6 +146,14 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.printDialog = new System.Windows.Forms.PrintDialog();
+            this.txtBx_cFirstname = new LollipopTextBox();
+            this.txtBx_cLastname = new LollipopTextBox();
+            this.txtBx_cEmail = new LollipopTextBox();
+            this.txtBx_cPhone = new LollipopTextBox();
+            this.lollipopLabel1 = new LollipopLabel();
+            this.lollipopLabel2 = new LollipopLabel();
+            this.lollipopLabel3 = new LollipopLabel();
+            this.lollipopLabel4 = new LollipopLabel();
             this.materialTabControl_container.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -281,12 +285,16 @@
             // panel4
             // 
             this.panel4.AutoScroll = true;
-            this.panel4.Controls.Add(this.materialDivider);
-            this.panel4.Controls.Add(this.txtBx_cFirstname);
-            this.panel4.Controls.Add(this.txtBx_cLastname);
-            this.panel4.Controls.Add(this.txtBx_cEmail);
-            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.lollipopLabel4);
+            this.panel4.Controls.Add(this.lollipopLabel3);
+            this.panel4.Controls.Add(this.lollipopLabel2);
+            this.panel4.Controls.Add(this.lollipopLabel1);
             this.panel4.Controls.Add(this.txtBx_cPhone);
+            this.panel4.Controls.Add(this.txtBx_cEmail);
+            this.panel4.Controls.Add(this.txtBx_cLastname);
+            this.panel4.Controls.Add(this.txtBx_cFirstname);
+            this.panel4.Controls.Add(this.materialDivider);
+            this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label9);
@@ -308,88 +316,23 @@
             this.materialDivider.TabIndex = 0;
             this.materialDivider.Text = "materialDivider1";
             // 
-            // txtBx_cFirstname
-            // 
-            this.txtBx_cFirstname.BackColor = System.Drawing.Color.White;
-            this.txtBx_cFirstname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBx_cFirstname.Depth = 0;
-            this.txtBx_cFirstname.Font = new System.Drawing.Font("Roboto", 12F);
-            this.txtBx_cFirstname.Hint = "Nombre";
-            this.txtBx_cFirstname.Location = new System.Drawing.Point(75, 72);
-            this.txtBx_cFirstname.MaxLength = 32767;
-            this.txtBx_cFirstname.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtBx_cFirstname.Multiline = false;
-            this.txtBx_cFirstname.Name = "txtBx_cFirstname";
-            this.txtBx_cFirstname.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cFirstname.TabIndex = 1;
-            this.txtBx_cFirstname.TabStop = false;
-            this.txtBx_cFirstname.Text = "";
-            // 
-            // txtBx_cLastname
-            // 
-            this.txtBx_cLastname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBx_cLastname.Depth = 0;
-            this.txtBx_cLastname.Font = new System.Drawing.Font("Roboto", 12F);
-            this.txtBx_cLastname.Hint = "Apellido";
-            this.txtBx_cLastname.Location = new System.Drawing.Point(75, 149);
-            this.txtBx_cLastname.MaxLength = 32767;
-            this.txtBx_cLastname.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtBx_cLastname.Multiline = false;
-            this.txtBx_cLastname.Name = "txtBx_cLastname";
-            this.txtBx_cLastname.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cLastname.TabIndex = 3;
-            this.txtBx_cLastname.TabStop = false;
-            this.txtBx_cLastname.Text = "";
-            // 
-            // txtBx_cEmail
-            // 
-            this.txtBx_cEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBx_cEmail.Depth = 0;
-            this.txtBx_cEmail.Font = new System.Drawing.Font("Roboto", 12F);
-            this.txtBx_cEmail.Hint = "Correo electrónico";
-            this.txtBx_cEmail.Location = new System.Drawing.Point(75, 232);
-            this.txtBx_cEmail.MaxLength = 32767;
-            this.txtBx_cEmail.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtBx_cEmail.Multiline = false;
-            this.txtBx_cEmail.Name = "txtBx_cEmail";
-            this.txtBx_cEmail.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cEmail.TabIndex = 5;
-            this.txtBx_cEmail.TabStop = false;
-            this.txtBx_cEmail.Text = "";
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(381, 354);
+            this.label11.Location = new System.Drawing.Point(381, 366);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(12, 15);
             this.label11.TabIndex = 8;
             this.label11.Text = "*";
-            // 
-            // txtBx_cPhone
-            // 
-            this.txtBx_cPhone.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBx_cPhone.Depth = 0;
-            this.txtBx_cPhone.Font = new System.Drawing.Font("Roboto", 12F);
-            this.txtBx_cPhone.Hint = "Número telefónico";
-            this.txtBx_cPhone.Location = new System.Drawing.Point(75, 319);
-            this.txtBx_cPhone.MaxLength = 32767;
-            this.txtBx_cPhone.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtBx_cPhone.Multiline = false;
-            this.txtBx_cPhone.Name = "txtBx_cPhone";
-            this.txtBx_cPhone.Size = new System.Drawing.Size(300, 50);
-            this.txtBx_cPhone.TabIndex = 7;
-            this.txtBx_cPhone.TabStop = false;
-            this.txtBx_cPhone.Text = "";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label10.Location = new System.Drawing.Point(381, 267);
+            this.label10.Location = new System.Drawing.Point(381, 269);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(12, 15);
             this.label10.TabIndex = 6;
@@ -400,7 +343,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(381, 107);
+            this.label8.Location = new System.Drawing.Point(381, 75);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(12, 15);
             this.label8.TabIndex = 2;
@@ -411,7 +354,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label9.Location = new System.Drawing.Point(381, 184);
+            this.label9.Location = new System.Drawing.Point(381, 172);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(12, 15);
             this.label9.TabIndex = 4;
@@ -1766,11 +1709,122 @@
             // 
             this.printDialog.UseEXDialog = true;
             // 
+            // txtBx_cFirstname
+            // 
+            this.txtBx_cFirstname.FocusedColor = "#508ef5";
+            this.txtBx_cFirstname.FontColor = "#999999";
+            this.txtBx_cFirstname.IsEnabled = true;
+            this.txtBx_cFirstname.Location = new System.Drawing.Point(75, 66);
+            this.txtBx_cFirstname.MaxLength = 32767;
+            this.txtBx_cFirstname.Multiline = false;
+            this.txtBx_cFirstname.Name = "txtBx_cFirstname";
+            this.txtBx_cFirstname.ReadOnly = false;
+            this.txtBx_cFirstname.Size = new System.Drawing.Size(300, 24);
+            this.txtBx_cFirstname.TabIndex = 9;
+            this.txtBx_cFirstname.Text = "Nombre";
+            this.txtBx_cFirstname.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBx_cFirstname.UseSystemPasswordChar = false;
+            // 
+            // txtBx_cLastname
+            // 
+            this.txtBx_cLastname.FocusedColor = "#508ef5";
+            this.txtBx_cLastname.FontColor = "#999999";
+            this.txtBx_cLastname.IsEnabled = true;
+            this.txtBx_cLastname.Location = new System.Drawing.Point(75, 163);
+            this.txtBx_cLastname.MaxLength = 32767;
+            this.txtBx_cLastname.Multiline = false;
+            this.txtBx_cLastname.Name = "txtBx_cLastname";
+            this.txtBx_cLastname.ReadOnly = false;
+            this.txtBx_cLastname.Size = new System.Drawing.Size(300, 24);
+            this.txtBx_cLastname.TabIndex = 9;
+            this.txtBx_cLastname.Text = "Apellido";
+            this.txtBx_cLastname.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBx_cLastname.UseSystemPasswordChar = false;
+            // 
+            // txtBx_cEmail
+            // 
+            this.txtBx_cEmail.FocusedColor = "#508ef5";
+            this.txtBx_cEmail.FontColor = "#999999";
+            this.txtBx_cEmail.IsEnabled = true;
+            this.txtBx_cEmail.Location = new System.Drawing.Point(75, 260);
+            this.txtBx_cEmail.MaxLength = 32767;
+            this.txtBx_cEmail.Multiline = false;
+            this.txtBx_cEmail.Name = "txtBx_cEmail";
+            this.txtBx_cEmail.ReadOnly = false;
+            this.txtBx_cEmail.Size = new System.Drawing.Size(300, 24);
+            this.txtBx_cEmail.TabIndex = 9;
+            this.txtBx_cEmail.Text = "Email";
+            this.txtBx_cEmail.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBx_cEmail.UseSystemPasswordChar = false;
+            // 
+            // txtBx_cPhone
+            // 
+            this.txtBx_cPhone.FocusedColor = "#508ef5";
+            this.txtBx_cPhone.FontColor = "#999999";
+            this.txtBx_cPhone.IsEnabled = true;
+            this.txtBx_cPhone.Location = new System.Drawing.Point(75, 357);
+            this.txtBx_cPhone.MaxLength = 32767;
+            this.txtBx_cPhone.Multiline = false;
+            this.txtBx_cPhone.Name = "txtBx_cPhone";
+            this.txtBx_cPhone.ReadOnly = false;
+            this.txtBx_cPhone.Size = new System.Drawing.Size(300, 24);
+            this.txtBx_cPhone.TabIndex = 9;
+            this.txtBx_cPhone.Text = "Teléfono";
+            this.txtBx_cPhone.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBx_cPhone.UseSystemPasswordChar = false;
+            // 
+            // lollipopLabel1
+            // 
+            this.lollipopLabel1.AutoSize = true;
+            this.lollipopLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lollipopLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel1.Location = new System.Drawing.Point(318, 93);
+            this.lollipopLabel1.Name = "lollipopLabel1";
+            this.lollipopLabel1.Size = new System.Drawing.Size(57, 16);
+            this.lollipopLabel1.TabIndex = 10;
+            this.lollipopLabel1.Text = "Nombre";
+            // 
+            // lollipopLabel2
+            // 
+            this.lollipopLabel2.AutoSize = true;
+            this.lollipopLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lollipopLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel2.Location = new System.Drawing.Point(317, 190);
+            this.lollipopLabel2.Name = "lollipopLabel2";
+            this.lollipopLabel2.Size = new System.Drawing.Size(58, 16);
+            this.lollipopLabel2.TabIndex = 11;
+            this.lollipopLabel2.Text = "Apellido";
+            // 
+            // lollipopLabel3
+            // 
+            this.lollipopLabel3.AutoSize = true;
+            this.lollipopLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lollipopLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel3.Location = new System.Drawing.Point(333, 287);
+            this.lollipopLabel3.Name = "lollipopLabel3";
+            this.lollipopLabel3.Size = new System.Drawing.Size(42, 17);
+            this.lollipopLabel3.TabIndex = 11;
+            this.lollipopLabel3.Text = "Email";
+            // 
+            // lollipopLabel4
+            // 
+            this.lollipopLabel4.AutoSize = true;
+            this.lollipopLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.lollipopLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lollipopLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.lollipopLabel4.Location = new System.Drawing.Point(311, 384);
+            this.lollipopLabel4.Name = "lollipopLabel4";
+            this.lollipopLabel4.Size = new System.Drawing.Size(64, 17);
+            this.lollipopLabel4.TabIndex = 11;
+            this.lollipopLabel4.Text = "Teléfono";
+            // 
             // OrderView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -1826,9 +1880,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private MaterialSkin.Controls.MaterialTextBox txtBx_cPhone;
-        private MaterialSkin.Controls.MaterialTextBox txtBx_cEmail;
-        private MaterialSkin.Controls.MaterialTextBox txtBx_cLastname;
         private System.Windows.Forms.TabPage tabPage2;
         private MaterialSkin.Controls.MaterialListView lstVwOrderProducts;
         private System.Windows.Forms.ComboBox cmbBx_products;
@@ -1917,12 +1968,19 @@
         private System.Windows.Forms.ColumnHeader colHeaderTotal_;
         private System.Windows.Forms.TextBox txtBx_SearchCustomer;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialTextBox txtBx_cFirstname;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel5;
         private MaterialSkin.Controls.MaterialContextMenuStrip cntxtMenuStripDelete;
         private MaterialSkin.Controls.MaterialToolStripMenuItem removeToolStrip;
         private MaterialSkin.Controls.MaterialDivider materialDivider;
+        private LollipopTextBox txtBx_cFirstname;
+        private LollipopTextBox txtBx_cLastname;
+        private LollipopTextBox txtBx_cEmail;
+        private LollipopTextBox txtBx_cPhone;
+        private LollipopLabel lollipopLabel4;
+        private LollipopLabel lollipopLabel3;
+        private LollipopLabel lollipopLabel2;
+        private LollipopLabel lollipopLabel1;
     }
 }

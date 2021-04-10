@@ -9,6 +9,7 @@ using System.Windows.Input;
 using WinForms.Services;
 using WinForms.Commands;
 using WinForms.Views;
+using WinForms.UIManagers;
 
 namespace WinForms.ViewModels
 {
@@ -142,7 +143,8 @@ namespace WinForms.ViewModels
                 ViewModel = new ProductViewModel(new ProductDataModel())
             };
 
-            Messenger.Default.Send<UserControl>(view);
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private async void EditProduct()
@@ -162,7 +164,9 @@ namespace WinForms.ViewModels
             };
             
             Loading = false;
-            Messenger.Default.Send<UserControl>(view);
+
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private async void DeleteProduct(Func<string, string, DialogResult> callback)

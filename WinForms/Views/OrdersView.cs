@@ -7,6 +7,7 @@ using WinForms.ViewModels;
 using Bindery;
 using Models;
 using System.Reactive.Linq;
+using MaterialSkin.Controls;
 
 namespace WinForms.Views
 {
@@ -22,14 +23,18 @@ namespace WinForms.Views
             set
             {
                 viewModel = value;
-                Create.Binder(value)
+                Create.Binder(viewModel)
                     // List
                     .OnPropertyChanged(vm => vm.Orders)
-                        .Subscribe(OnOrdersChanged)
+                        .Subscribe(orders => OnListChanged(orders, lstVwOrders, model => $"{model.ID},{model.Customer},{model.OrderStatus},${model.Total:#.##},{model.DateAdded:d},{model.DateModified:d}".Split(',')))
                     .Control(lstVwOrders)
                         .OnEvent<ListViewItemSelectionChangedEventArgs>("ItemSelectionChanged")
-                            .Transform(o => o.Select(ctx => (OrderModel)ctx.Args.Item.Tag))
-                            .Set(vm => vm.Order)
+                        .Transform(o => o.Select(ctx => (OrderModel)ctx.Args.Item.Tag))
+                        .Set(vm => vm.Order)
+                    .Control(lstVwOrders)
+                        .OnEvent<MouseEventArgs>("MouseDoubleClick")
+                        .Transform(o => o.Select(ctx => ctx.Args))
+                        .Execute(viewModel.OpenCommand)
                     // Loading
                     .Control(picLoading)
                         .Property(pic => pic.Visible)
@@ -38,7 +43,7 @@ namespace WinForms.Views
                     .Control(txtBxSearch)
                         .OnEvent<KeyEventArgs>("KeyUp")
                             .Transform(o => o.Select(ctx => ctx.Args.KeyCode))
-                            .Execute(value.SearchCommand)
+                            .Execute(viewModel.SearchCommand)
                     .Control(txtBxSearch)
                         .Property(txt => txt.Text)
                         .Set(vm => vm.SearchQuery)
@@ -46,47 +51,51 @@ namespace WinForms.Views
                         .Property(lbl => lbl.Text)
                         .Get(vm => vm.Notification)
                     // Commands
-                    .Control(this)
-                        .OnEvent("Load")
-                        .Execute(value.LoadCommand)
                     .Control(btAddOrder)
-                        .OnClick(value.AddCommand)
+                        .OnClick(viewModel.AddCommand)
                     .Control(btEditOrder)
-                        .OnClick(value.EditCommand)
+                        .OnClick(viewModel.EditCommand)
                     .Control(btViewOrder)
-                        .OnClick(value.ViewCommand)
+                        .OnClick(viewModel.ViewCommand)
                     .Control(btDeleteOrder)
-                        .OnClick(value.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
+                        .OnClick(viewModel.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
                     .Control(btNext)
-                        .OnClick(value.NextCommand)
+                        .OnClick(viewModel.NextCommand)
                     .Control(btPrev)
-                        .OnClick(value.PrevCommand);
+                        .OnClick(viewModel.PrevCommand)
+                    // Context Menu
+                    .Target(addOrderMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.AddCommand)
+                    .Target(editOrderMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.EditCommand)
+                    .Target(deleteOrderMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
+                    .Target(reloadOrdersMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.LoadCommand)
+                    .Target(loginMenuItemOrder)
+                        .OnEvent("Click")
+                        .Execute(value.LoadCommand);
             }
         }
 
         private DialogResult ShowDialog(string title, string message) 
             => MessageBox.Show(this, message, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-        private void OnOrdersChanged(IEnumerable<OrderModel> orders)
+        private void OnListChanged<TModel>(IEnumerable<TModel> models, MaterialListView listView, Func<TModel, string[]> toArray)
         {
-            lstVwOrders.Items.Clear();
-            foreach (OrderModel order in orders)
+            listView.Items.Clear();
+            foreach (TModel model in models)
             {
-                string[] row = new string[]
-                {
-                    order.ID.ToString(),
-                    order.Customer,
-                    order.OrderStatus,
-                    order.Total.ToString("$#.##"),
-                    order.DateAdded.ToString("d"),
-                    order.DateModified.ToString("d")
-                };
+                string[] row = toArray(model);
                 ListViewItem item = new ListViewItem(row)
                 {
-                    Tag = order,
-                    Text = order.ID.ToString()
+                    Tag = model,
                 };
-                lstVwOrders.Items.Add(item);
+                listView.Items.Add(item);
             }
         }
     }

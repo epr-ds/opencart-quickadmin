@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using WinForms.Services;
 using WinForms.Commands;
+using WinForms.Views;
+using WinForms.UIManagers;
 
 namespace WinForms.ViewModels
 {
@@ -19,6 +21,10 @@ namespace WinForms.ViewModels
             Title = "OpenCart Desktop";
 
             LoadCommand = new CommandHandler(o => Load());
+            OpenOrdersCommand = new CommandHandler(o => OpenOrders());
+            OpenStockCommand = new CommandHandler(o => OpenStock());
+            OpenCustomersCommand = new CommandHandler(o => OpenCustomers());
+            OpenSettingsCommand = new CommandHandler(o => OpenSettings());
 
             StockViewModel = new StockViewModel();
             OrdersViewModel = new OrdersViewModel();
@@ -27,6 +33,10 @@ namespace WinForms.ViewModels
         }
 
         public ICommand LoadCommand { get; }
+        public ICommand OpenOrdersCommand { get; }
+        public ICommand OpenStockCommand { get; }
+        public ICommand OpenCustomersCommand { get; }
+        public ICommand OpenSettingsCommand { get; }
 
         public OrdersViewModel OrdersViewModel { get; }
         public StockViewModel StockViewModel { get; }
@@ -69,6 +79,50 @@ namespace WinForms.ViewModels
             }
         }
 
+        private void OpenOrders()
+        {
+            var ordersView= new OrdersView
+            {
+                ViewModel = OrdersViewModel
+            };
+
+            PageManager.Instance.SwitchToMenuPanel();
+            PageManager.Instance.NextPage(ordersView);
+        }
+
+        private void OpenStock()
+        {
+            var stockView = new StockView
+            {
+                ViewModel = StockViewModel
+            };
+
+            PageManager.Instance.SwitchToMenuPanel();
+            PageManager.Instance.NextPage(stockView);
+        }
+
+        private void OpenCustomers()
+        {
+            var customersView = new CustomersView()
+            {
+                ViewModel = CustomersViewModel
+            };
+
+            PageManager.Instance.SwitchToMenuPanel();
+            PageManager.Instance.NextPage(customersView);
+        }
+
+        private void OpenSettings()
+        {
+            var settingsView = new SettingsView
+            {
+                ViewModel = SettingsViewModel
+            };
+
+            PageManager.Instance.SwitchToMenuPanel();
+            PageManager.Instance.NextPage(settingsView);
+        }
+
         private async void Load()
         {
             try
@@ -85,10 +139,6 @@ namespace WinForms.ViewModels
                 {
                     Status = response.Success;
                     ApiManager.Token = response.Token;
-
-                    OrdersViewModel.LoadCommand.Execute(null);
-                    StockViewModel.LoadCommand.Execute(null);
-                    CustomersViewModel.LoadCommand.Execute(null);
                 }
 
                 await Task.Delay(TimeSpan.FromSeconds(5));
@@ -96,7 +146,7 @@ namespace WinForms.ViewModels
             }
             catch (Exception)
             {
-                Error = "No se ha iniciado la sesión.\nVerifique lo siguiente:\n1) Parámetros de la aplicación establecidos correctamente.\n2) API habilitada y permisos de la misma.";
+                Error = "No se ha iniciado la sesión.\nVerifique lo siguiente:\n1) Parámetros de ajuste establecidos correctamente.\n2) API habilitada y permisos de la misma.";
             }
         }
     }

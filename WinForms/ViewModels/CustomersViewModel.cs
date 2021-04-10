@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Windows.Input;
 using WinForms.Commands;
 using WinForms.Services;
+using WinForms.UIManagers;
 using WinForms.Views;
 
 namespace WinForms.ViewModels
@@ -130,7 +131,8 @@ namespace WinForms.ViewModels
                 })
             };
 
-            Messenger.Default.Send<UserControl>(view);
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private async void EditCustomer()
@@ -149,7 +151,9 @@ namespace WinForms.ViewModels
             };
 
             Loading = false;
-            Messenger.Default.Send<UserControl>(view);
+
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private async void RemoveCustomer(Func<string, string, DialogResult> showDialog)

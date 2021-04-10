@@ -9,6 +9,7 @@ using System.Windows.Input;
 using WinForms.Services;
 using WinForms.Commands;
 using WinForms.Views;
+using WinForms.UIManagers;
 
 namespace WinForms.ViewModels
 {
@@ -148,7 +149,8 @@ namespace WinForms.ViewModels
                 })
             };
 
-            Messenger.Default.Send<UserControl>(view);
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private async void EditOrder()
@@ -169,7 +171,9 @@ namespace WinForms.ViewModels
             };
 
             Loading = false;
-            Messenger.Default.Send<UserControl>(view);
+
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private void OpenOrder(MouseEventArgs args)
@@ -198,7 +202,9 @@ namespace WinForms.ViewModels
             };
 
             Loading = false;
-            Messenger.Default.Send<UserControl>(view);
+
+            PageManager.Instance.SwitchToMainPanel();
+            PageManager.Instance.NextPage(view);
         }
 
         private async void RemoveOrder(Func<string, string, DialogResult> showDialog)

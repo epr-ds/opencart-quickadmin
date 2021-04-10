@@ -1,4 +1,5 @@
 ﻿using Bindery;
+using MaterialSkin.Controls;
 using Models;
 using System;
 using System.Collections.Generic;
@@ -20,19 +21,22 @@ namespace WinForms.Views
             set
             {
                 viewModel = value;
-                Create.Binder(value)
+                Create.Binder(viewModel)
                     // List
                     .OnPropertyChanged(vm => vm.Customers)
-                        .Subscribe(OnCustomersChanged)
+                        .Subscribe(customers => OnListChanged(customers, lstVwCustomers, model => $"{model.ID},{model},{model.Email},{model.Telephone}".Split(',')))
                     .Control(lstVwCustomers)
                         .OnEvent<ListViewItemSelectionChangedEventArgs>("ItemSelectionChanged")
                         .Transform(o => o.Select(ctx => (CustomerModel)ctx.Args.Item.Tag))
                         .Set(vm => vm.Customer)
+                    .Control(lstVwCustomers)
+                        .OnEvent<MouseEventArgs>("MouseDoubleClick")
+                        .Execute(viewModel.EditCommand)
                     // Search
                     .Control(txtBxSearch)
                         .OnEvent<KeyEventArgs>("KeyUp")
                         .Transform(o => o.Select(ctx => ctx.Args.KeyCode))
-                        .Execute(value.SearchCommand)
+                        .Execute(viewModel.SearchCommand)
                     .Control(txtBxSearch)
                         .Property(txt => txt.Text)
                         .Set(vm => vm.SearchQuery)
@@ -45,43 +49,49 @@ namespace WinForms.Views
                         .Property(pic => pic.Visible)
                         .Get(vm => vm.Loading)
                     // Commands
-                    .Control(this)
-                        .OnEvent("Load")
-                        .Execute(value.LoadCommand)
                     .Control(btAddCustomer)
-                        .OnClick(value.AddCommand)
+                        .OnClick(viewModel.AddCommand)
                     .Control(btEditCustomer)
-                        .OnClick(value.EditCommand)
+                        .OnClick(viewModel.EditCommand)
                     .Control(btDeleteCustomer)
-                        .OnClick(value.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
+                        .OnClick(viewModel.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
                     .Control(btNext)
-                        .OnClick(value.NextCommand)
+                        .OnClick(viewModel.NextCommand)
                     .Control(btPrev)
-                        .OnClick(value.PrevCommand);
+                        .OnClick(viewModel.PrevCommand)
+                    // Context Menu
+                    .Target(addCustomerMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.AddCommand)
+                    .Target(editCustomerMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.EditCommand)
+                    .Target(deleteCustomerMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.RemoveCommand, new Func<string, string, DialogResult>(ShowDialog))
+                    .Target(reloadCustomersMenuItem)
+                        .OnEvent("Click")
+                        .Execute(viewModel.LoadCommand)
+                    .Target(loginMenuItemCustomer)
+                        .OnEvent("Click")
+                        .Execute(value.LoadCommand);
             }
         }
 
         private DialogResult ShowDialog(string title, string message)
             => MessageBox.Show(ParentForm, message, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-        private void OnCustomersChanged(IEnumerable<CustomerModel> customers)
+        private void OnListChanged<TModel>(IEnumerable<TModel> models, MaterialListView listView, Func<TModel, string[]> toArray)
         {
-            lstVwCustomers.Items.Clear();
-            foreach(CustomerModel customer in customers)
+            listView.Items.Clear();
+            foreach (TModel model in models)
             {
-                string[] row = new string[]
-                {
-                    customer.ID.ToString(),
-                    $"{ customer.Firstname } {customer.Lastname}",
-                    customer.Email,
-                    customer.Telephone
-                };
+                string[] row = toArray(model);
                 ListViewItem item = new ListViewItem(row)
                 {
-                    Tag = customer,
-                    Text = customer.ID.ToString()
+                    Tag = model,
                 };
-                lstVwCustomers.Items.Add(item);
+                listView.Items.Add(item);
             }
         }
     }

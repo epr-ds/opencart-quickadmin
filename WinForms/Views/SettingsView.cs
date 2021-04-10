@@ -16,19 +16,19 @@ namespace WinForms.Views
             set
             {
                 viewModel = value;
-                Create.Binder(value)
+                Create.Binder(viewModel)
                     // Cache
-                    .Control(chckBx_cache)
+                    .Control(chkBx_cache)
                         .Property(box => box.Checked)
                         .Bind(vm => vm.UseCache)
                     .Control(btAdd)
                         .Property(btn => btn.Enabled)
                         .Bind(vm => vm.UseCache)
-                        .OnClick(value.AddMinutesCommand)
+                        .OnClick(viewModel.AddMinutesCommand)
                     .Control(btSubtract)
                         .Property(btn => btn.Enabled)
                         .Bind(vm => vm.UseCache)
-                        .OnClick(value.SubtractMinutesCommand)
+                        .OnClick(viewModel.SubtractMinutesCommand)
                     .Control(prgrssBr_minutes)
                         .Property(bar => bar.Value)
                         .Bind(vm => vm.TimeCache.Minutes)
@@ -66,6 +66,8 @@ namespace WinForms.Views
                     .Control(txtBx_nItems)
                         .Property(txt => txt.Text)
                         .Bind(vm => vm.NumberOfItems)
+                    .Control(btnLogin)
+                        .OnClick(viewModel.LoginCommand)
                     // Server SMTP
                     .Control(txtBx_mailHost)
                         .Property(txt => txt.Text)
@@ -95,13 +97,11 @@ namespace WinForms.Views
                         .Get(vm => vm.Notification)
                     // Commands
                     .Control(btSave)
-                        .OnClick(value.SaveCommand)
+                        .OnClick(viewModel.SaveCommand)
                     .Control(btExport)
-                        .OnClick(value.ExportCommand, saveFileDialog)
+                        .OnClick(viewModel.ExportCommand, saveFileDialog)
                     .Control(btImport)
-                        .OnClick(value.ImportCommand, openFileDialog)
-                    .Control(btBackTo)
-                        .OnClick(value.BackToCommand, this);
+                        .OnClick(viewModel.ImportCommand, openFileDialog);
             }
         }
     }
